@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <!--
    Licensed to the Apache Software Foundation (ASF) under one or more
    contributor license agreements.  See the NOTICE file distributed with
@@ -26,23 +25,18 @@
   <artifactId>commons-math3</artifactId>
   <version>3.3-SNAPSHOT</version>
   <name>Apache Commons Math</name>
-
   <inceptionYear>2003</inceptionYear>
   <description>The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.</description>
-
   <url>http://commons.apache.org/proper/commons-math/</url>
-
   <issueManagement>
     <system>jira</system>
     <url>http://issues.apache.org/jira/browse/MATH</url>
   </issueManagement>
-
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/commons/proper/math/trunk</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/commons/proper/math/trunk</developerConnection>
     <url>http://svn.apache.org/viewvc/commons/proper/math/trunk</url>
   </scm>
-  
   <distributionManagement>
     <site>
       <id>people.apache.org</id>
@@ -50,7 +44,6 @@
       <url>scp://people.apache.org/www/commons.apache.org/math</url>
     </site>
   </distributionManagement>
-
   <developers>
     <developer>
       <name>Mikkel Meyer Andersen</name>
@@ -322,7 +315,6 @@
       <name>Xiaogang Zhang</name>
     </contributor>
   </contributors>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -331,7 +323,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
   <properties>
     <!-- Do not change: "math" is the name of the component even if the
          name of the base package evolves with major release numbers
@@ -344,13 +335,11 @@
     <commons.release.desc>(requires Java 1.5+)</commons.release.desc>
     <!-- <commons.rc.version>RC1</commons.rc.version> -->
     <commons.binary.suffix>-bin</commons.binary.suffix>
- 
     <commons.release.2.version>2.2</commons.release.2.version>
     <!-- override parent name, because 2.2 uses different artifactId -->
     <commons.release.2.name>commons-math-${commons.release.2.version}</commons.release.2.name>
     <commons.release.2.desc>(requires Java 1.5+)</commons.release.2.desc>
-    <commons.release.2.binary.suffix></commons.release.2.binary.suffix>
- 
+    <commons.release.2.binary.suffix/>
     <commons.jira.id>MATH</commons.jira.id>
     <commons.jira.pid>12310485</commons.jira.pid>
     <commons.encoding>UTF-8</commons.encoding>
@@ -361,63 +350,65 @@
     <math.checkstyle.version>2.9.1</math.checkstyle.version>
     <!-- Temporary downdate: 0.6.3 uses different tags and CP32 was not updated -->
     <commons.jacoco.version>0.6.2.201302030002</commons.jacoco.version>
-  </properties> 
-
+  </properties>
   <build>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-              <includes>
-                <include>**/*Test.java</include>
-                <include>**/*TestBinary.java</include>
-                <include>**/*TestPermutations.java</include>
-              </includes>
-              <excludes>
-                <exclude>**/*AbstractTest.java</exclude>
-              </excludes>
-          </configuration>
-        </plugin>
-        <plugin>
-          <artifactId>maven-assembly-plugin</artifactId>
-          <configuration>
-            <descriptors>
-              <descriptor>src/main/assembly/src.xml</descriptor>
-              <descriptor>src/main/assembly/bin.xml</descriptor>
-            </descriptors>
-            <!-- There are a lot of long file names. Suppress the warnings. -->
-            <tarLongFileMode>gnu</tarLongFileMode>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>clirr-maven-plugin</artifactId>
-          <version>${commons.clirr.version}</version>
-          <executions>
-            <execution>
-              <goals>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>**/*Test.java</include>
+            <include>**/*TestBinary.java</include>
+            <include>**/*TestPermutations.java</include>
+          </includes>
+          <excludes>
+            <exclude>**/*AbstractTest.java</exclude>
+            <exclude>**/*GraggBulirschStoerIntegratorTest.java</exclude>
+            <exclude>**/*GraggBulirschStoerIntegratorTest.java</exclude>
+            <exclude>**/*org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java</exclude>
+            <exclude>**/*org/apache/commons/math3/optimization/direct/BOBYQAOptimizerTest.java</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptors>
+            <descriptor>src/main/assembly/src.xml</descriptor>
+            <descriptor>src/main/assembly/bin.xml</descriptor>
+          </descriptors>
+          <!-- There are a lot of long file names. Suppress the warnings. -->
+          <tarLongFileMode>gnu</tarLongFileMode>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>clirr-maven-plugin</artifactId>
+        <version>${commons.clirr.version}</version>
+        <executions>
+          <execution>
+            <goals>
               </goals>
-            </execution>
-          </executions>
-        </plugin>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <artifactId>maven-pmd-plugin</artifactId>
         <version>${math.pmd.version}</version>
         <configuration>
-          <targetJdk>${maven.compiler.target}</targetJdk>  
+          <targetJdk>${maven.compiler.target}</targetJdk>
         </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-scm-publish-plugin</artifactId>
-          <configuration>
-            <ignorePathsToDelete>
-              <ignorePathToDelete>javadocs</ignorePathToDelete>
-            </ignorePathsToDelete>
-          </configuration>
-        </plugin>
-
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-publish-plugin</artifactId>
+        <configuration>
+          <ignorePathsToDelete>
+            <ignorePathToDelete>javadocs</ignorePathToDelete>
+          </ignorePathsToDelete>
+        </configuration>
+      </plugin>
       <plugin>
         <artifactId>maven-antrun-plugin</artifactId>
         <executions>
@@ -426,20 +417,19 @@
             <configuration>
               <target>
                 <jar destfile="target/commons-math3-tools-${project.version}.jar">
-                  <metainf dir="${basedir}" includes="NOTICE.txt,LICENSE.txt" />
+                  <metainf dir="${basedir}" includes="NOTICE.txt,LICENSE.txt"/>
                   <manifest>
-                    <attribute name="Extension-Name" value="org.apache.commons.net" />
-                    <attribute name="Specification-Title" value="${project.name}" />
-                    <attribute name="Implementation-Title" value="${project.name}" />
-                    <attribute name="Implementation-Vendor" value="${project.organization.name}" />
-                    <attribute name="Implementation-Version" value="${project.version}" />
-                    <attribute name="Implementation-Vendor-Id" value="org.apache" />
+                    <attribute name="Extension-Name" value="org.apache.commons.net"/>
+                    <attribute name="Specification-Title" value="${project.name}"/>
+                    <attribute name="Implementation-Title" value="${project.name}"/>
+                    <attribute name="Implementation-Vendor" value="${project.organization.name}"/>
+                    <attribute name="Implementation-Version" value="${project.version}"/>
+                    <attribute name="Implementation-Vendor-Id" value="org.apache"/>
                     <attribute name="Implementation-Build" value="${implementation.build}"/>
-                    <attribute name="X-Compile-Source-JDK" value="${maven.compiler.source}" />
-                    <attribute name="X-Compile-Target-JDK" value="${maven.compiler.target}" />
+                    <attribute name="X-Compile-Source-JDK" value="${maven.compiler.source}"/>
+                    <attribute name="X-Compile-Target-JDK" value="${maven.compiler.target}"/>
                   </manifest>
-                  <fileset dir="target/test-classes"
-                           includes="org/apache/commons/math3/PerfTestUtils*" />
+                  <fileset dir="target/test-classes" includes="org/apache/commons/math3/PerfTestUtils*"/>
                 </jar>
               </target>
             </configuration>
@@ -479,12 +469,11 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <additionalparam>-header &apos;&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;&apos;</additionalparam>
+          <additionalparam>-header '&lt;script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;&lt;/script&gt;'</additionalparam>
         </configuration>
       </plugin>
     </plugins>
   </build>
-
   <reporting>
     <plugins>
       <plugin>
@@ -523,10 +512,8 @@
         <version>${commons.rat.version}</version>
         <configuration>
           <excludes>
-
             <!-- MANIFEST files cannot have any comments, so we can't put license header -->
             <exclude>src/test/maxima/special/RealFunctionValidation/MANIFEST.txt</exclude>
-
             <!-- the following are test data files with specific syntax that cannot include
                  Apache header (and the contained data is public, it is not owned by Apache) -->
             <exclude>src/test/resources/org/apache/commons/math3/random/testData.txt</exclude>
@@ -540,13 +527,11 @@
             <exclude>src/test/resources/org/apache/commons/math3/stat/data/NumAcc4.txt</exclude>
             <exclude>src/test/resources/org/apache/commons/math3/stat/data/Michelso.txt</exclude>
             <exclude>src/test/resources/org/apache/commons/math3/stat/data/Mavro.txt</exclude>
-
             <!-- version 0.8 of apache-rat-plugin does not exclude properly
                  some default development tools files (see RAT-126) -->
             <exclude>bin/**</exclude>
             <exclude>.gitignore</exclude>
             <exclude>.git/**</exclude>
-
           </excludes>
         </configuration>
       </plugin>
@@ -558,7 +543,7 @@
           <threshold>Normal</threshold>
           <effort>Default</effort>
           <excludeFilterFile>${basedir}/findbugs-exclude-filter.xml</excludeFilterFile>
-       </configuration>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -583,13 +568,13 @@
         <version>${commons.clirr.version}</version>
         <configuration>
           <minSeverity>${minSeverity}</minSeverity>
-         </configuration>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-pmd-plugin</artifactId>
         <version>${math.pmd.version}</version>
         <configuration>
-          <targetJdk>${maven.compiler.target}</targetJdk>  
+          <targetJdk>${maven.compiler.target}</targetJdk>
         </configuration>
         <reportSets>
           <reportSet>
@@ -609,10 +594,9 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <additionalparam>-header &apos;&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;&apos;</additionalparam>
+          <additionalparam>-header '&lt;script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;&lt;/script&gt;'</additionalparam>
         </configuration>
       </plugin>
     </plugins>
   </reporting>
 </project>
-
