@@ -24,17 +24,23 @@ public class RegressionTest0 {
     public void test1() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test1");
-        org.apache.commons.math3.test test0 = new org.apache.commons.math3.test();
-        java.lang.Class<?> wildcardClass1 = test0.getClass();
-        org.junit.Assert.assertNotNull(wildcardClass1);
+        org.apache.commons.math3.geometry.euclidean.threed.Vector3D[] vector3DArray0 = new org.apache.commons.math3.geometry.euclidean.threed.Vector3D[] {};
+        java.util.ArrayList<org.apache.commons.math3.geometry.euclidean.threed.Vector3D> vector3DList1 = new java.util.ArrayList<org.apache.commons.math3.geometry.euclidean.threed.Vector3D>();
+        boolean boolean2 = java.util.Collections.addAll((java.util.Collection<org.apache.commons.math3.geometry.euclidean.threed.Vector3D>) vector3DList1, vector3DArray0);
+        org.apache.commons.math3.test.testAddOuterPointEffect((java.util.List<org.apache.commons.math3.geometry.euclidean.threed.Vector3D>) vector3DList1);
+        java.lang.Class<?> wildcardClass4 = vector3DList1.getClass();
+        org.junit.Assert.assertNotNull(vector3DArray0);
+        org.junit.Assert.assertArrayEquals(vector3DArray0, new org.apache.commons.math3.geometry.euclidean.threed.Vector3D[] {});
+        org.junit.Assert.assertTrue("'" + boolean2 + "' != '" + false + "'", boolean2 == false);
+        org.junit.Assert.assertNotNull(wildcardClass4);
     }
 
     @Test
     public void test2() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test2");
-        java.lang.Object obj0 = new java.lang.Object();
-        java.lang.Class<?> wildcardClass1 = obj0.getClass();
+        org.apache.commons.math3.test test0 = new org.apache.commons.math3.test();
+        java.lang.Class<?> wildcardClass1 = test0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
@@ -42,6 +48,15 @@ public class RegressionTest0 {
     public void test3() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test3");
+        java.lang.Object obj0 = new java.lang.Object();
+        java.lang.Class<?> wildcardClass1 = obj0.getClass();
+        org.junit.Assert.assertNotNull(wildcardClass1);
+    }
+
+    @Test
+    public void test4() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test4");
         java.util.List<org.apache.commons.math3.geometry.euclidean.threed.Vector3D> vector3DList0 = null;
         // The following exception was thrown during execution in test generation
         try {

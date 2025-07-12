@@ -19,8 +19,9 @@ public class test {
 
     /**
      * 以给定的点集为基础，测试添加一些外部点后包围球半径是否变大
+     *
      * @param originalPoints 原始点集
-     * @throws AssertionError 测试失败时抛出
+     * @throws AssertionError    测试失败时抛出
      * @throws MathInternalError 计算失败时抛出
      */
     public static void testAddOuterPointEffect(List<Vector3D> originalPoints) throws MathInternalError {
@@ -71,19 +72,19 @@ public class test {
         return center.add(dirVector.scalarMultiply(distance));
     }
 
-//    private List<Vector3D> generateRandomPointsInsideSphere(int count, double radius) {
-//        List<Vector3D> points = new ArrayList<>();
-//        Vector3D center = Vector3D.ZERO;
-//        for (int i = 0; i < count; i++) {
-//            points.add(randomPointInsideSphere(center, radius));
-//        }
-//        return points;
-//    }
+    private List<Vector3D> generateRandomPointsInsideSphere(int count, double radius) {
+        List<Vector3D> points = new ArrayList<>();
+        Vector3D center = Vector3D.ZERO;
+        for (int i = 0; i < count; i++) {
+            points.add(randomPointInsideSphere(center, radius));
+        }
+        return points;
+    }
 
-//    private Vector3D randomPointInsideSphere(Vector3D center, double radius) {
-//        double r = Math.cbrt(Math.random()) * radius;
-//        double[] direction = generator.nextVector();
-//        Vector3D dirVector = new Vector3D(direction);
-//        return center.add(dirVector.scalarMultiply(r));
-//    }
+    private Vector3D randomPointInsideSphere(Vector3D center, double radius) {
+        double r = Math.cbrt(Math.random()) * radius;
+        double[] direction = generator.nextVector();
+        Vector3D dirVector = new Vector3D(direction);
+        return center.add(dirVector.scalarMultiply(r));
+    }
 }
