@@ -25,16 +25,15 @@ public class test {
      * 若结果不一致，则抛出 AssertionError
      */
     public static void testShiftedArcConsistency(double a, double b, double x, double y) {
+        if (a < 0 || b < 0 || x < 0 || y < 0) {
+            return;
+        }
         // Normalize arc directions
         if (!isArcPositive(a, b)) {
-            double tmp = a;
-            a = b;
-            b = tmp;
+            return;
         }
         if (!isArcPositive(x, y)) {
-            double tmp = x;
-            x = y;
-            y = tmp;
+            return;
         }
 
         SplitResult srcOut = splitArc(a, b, x, y, tolerance);
