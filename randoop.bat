@@ -31,5 +31,7 @@ java -cp "target\classes;randoop-all-4.3.4.jar" ^
   --string-maxlen=5000 ^
   --checked-exception=ERROR ^
   --npe-on-non-null-input=ERROR ^
-  --cm-exception=ERROR
+  --cm-exception=ERROR ^
+  --literals-file=my_literals.txt
+
 

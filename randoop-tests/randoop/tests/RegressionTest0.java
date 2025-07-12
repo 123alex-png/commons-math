@@ -21,3507 +21,3506 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test001() throws Throwable {
+    public void test0001() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test001");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0001");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), 0.70710678d);
     }
 
     @Test
-    public void test002() throws Throwable {
+    public void test0002() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test002");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0002");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, (double) 100L);
     }
 
     @Test
-    public void test003() throws Throwable {
+    public void test0003() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test003");
+            System.out.format("%n%s%n", "RegressionTest0.test0003");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, (double) '#');
+    }
+
+    @Test
+    public void test0004() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0004");
         org.apache.commons.math3.test test0 = new org.apache.commons.math3.test();
         java.lang.Class<?> wildcardClass1 = test0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
     @Test
-    public void test004() throws Throwable {
+    public void test0005() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test004");
+            System.out.format("%n%s%n", "RegressionTest0.test0005");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, (double) (-1));
+    }
+
+    @Test
+    public void test0006() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0006");
         java.lang.Object obj0 = new java.lang.Object();
         java.lang.Class<?> wildcardClass1 = obj0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
     @Test
-    public void test005() throws Throwable {
+    public void test0007() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test005");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0007");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, 5.0d);
     }
 
     @Test
-    public void test006() throws Throwable {
+    public void test0008() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test006");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0008");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, 0.25d);
     }
 
     @Test
-    public void test007() throws Throwable {
+    public void test0009() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test007");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0009");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, (double) 100.0f);
     }
 
     @Test
-    public void test008() throws Throwable {
+    public void test0010() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test008");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0010");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, 0.25d);
     }
 
     @Test
-    public void test009() throws Throwable {
+    public void test0011() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test009");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0011");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, 1000000.0d);
     }
 
     @Test
-    public void test010() throws Throwable {
+    public void test0012() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test010");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0012");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.5d, 0.0d);
     }
 
     @Test
-    public void test011() throws Throwable {
+    public void test0013() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test011");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0013");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, 0.0d);
     }
 
     @Test
-    public void test012() throws Throwable {
+    public void test0014() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test012");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0014");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) (short) 0);
     }
 
     @Test
-    public void test013() throws Throwable {
+    public void test0015() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test013");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0015");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, 1.0E8d);
     }
 
     @Test
-    public void test014() throws Throwable {
+    public void test0016() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test014");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0016");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, 0.001d);
     }
 
     @Test
-    public void test015() throws Throwable {
+    public void test0017() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test015");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0017");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, (double) (-1));
     }
 
     @Test
-    public void test016() throws Throwable {
+    public void test0018() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test016");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0018");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), 0.70710678d);
     }
 
     @Test
-    public void test017() throws Throwable {
+    public void test0019() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test017");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0019");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 100.0d);
     }
 
     @Test
-    public void test018() throws Throwable {
+    public void test0020() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test018");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0020");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 0.0d);
     }
 
     @Test
-    public void test019() throws Throwable {
+    public void test0021() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test019");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0021");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), (double) (short) 100);
     }
 
     @Test
-    public void test020() throws Throwable {
+    public void test0022() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test020");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0022");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.01d, 1.0d);
     }
 
     @Test
-    public void test021() throws Throwable {
+    public void test0023() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test021");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0023");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, (double) 100);
     }
 
     @Test
-    public void test022() throws Throwable {
+    public void test0024() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test022");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0024");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), 0.0d);
     }
 
     @Test
-    public void test023() throws Throwable {
+    public void test0025() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test023");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0025");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1L, 42.0d);
     }
 
     @Test
-    public void test024() throws Throwable {
+    public void test0026() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test024");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0026");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) (byte) 10);
     }
 
     @Test
-    public void test025() throws Throwable {
+    public void test0027() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test025");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0027");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, (double) (-1L));
     }
 
     @Test
-    public void test026() throws Throwable {
+    public void test0028() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test026");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0028");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1.0f, 0.001d);
     }
 
     @Test
-    public void test027() throws Throwable {
+    public void test0029() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test027");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0029");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, 0.3333333d);
     }
 
     @Test
-    public void test028() throws Throwable {
+    public void test0030() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test028");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0030");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.01d, 512.0d);
     }
 
     @Test
-    public void test029() throws Throwable {
+    public void test0031() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test029");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0031");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', 0.0d);
     }
 
     @Test
-    public void test030() throws Throwable {
+    public void test0032() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test030");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0032");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), 1000000.0d);
     }
 
     @Test
-    public void test031() throws Throwable {
+    public void test0033() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test031");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0033");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), (double) 10);
     }
 
     @Test
-    public void test032() throws Throwable {
+    public void test0034() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test032");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0034");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, 0.0d);
     }
 
     @Test
-    public void test033() throws Throwable {
+    public void test0035() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test033");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0035");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, (double) 'a');
     }
 
     @Test
-    public void test034() throws Throwable {
+    public void test0036() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test034");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0036");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), (double) 0L);
     }
 
     @Test
-    public void test035() throws Throwable {
+    public void test0037() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test035");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0037");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, 0.0d);
     }
 
     @Test
-    public void test036() throws Throwable {
+    public void test0038() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test036");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0038");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, (double) (byte) 100);
     }
 
     @Test
-    public void test037() throws Throwable {
+    public void test0039() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test037");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0039");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, 0.9d);
     }
 
     @Test
-    public void test038() throws Throwable {
+    public void test0040() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test038");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0040");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, (double) 100);
     }
 
     @Test
-    public void test039() throws Throwable {
+    public void test0041() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test039");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0041");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', (double) (short) 10);
     }
 
     @Test
-    public void test040() throws Throwable {
+    public void test0042() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test040");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0042");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (double) '#');
     }
 
     @Test
-    public void test041() throws Throwable {
+    public void test0043() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test041");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0043");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, 0.0d);
     }
 
     @Test
-    public void test042() throws Throwable {
+    public void test0044() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test042");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0044");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, (double) (byte) 100);
     }
 
     @Test
-    public void test043() throws Throwable {
+    public void test0045() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test043");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0045");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 0.5d);
     }
 
     @Test
-    public void test044() throws Throwable {
+    public void test0046() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test044");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0046");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, (double) 0L);
     }
 
     @Test
-    public void test045() throws Throwable {
+    public void test0047() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test045");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0047");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, 1.0E-6d);
     }
 
     @Test
-    public void test046() throws Throwable {
+    public void test0048() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test046");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0048");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1.0f, (double) 1);
     }
 
     @Test
-    public void test047() throws Throwable {
+    public void test0049() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test047");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0049");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, (-0.0d));
     }
 
     @Test
-    public void test048() throws Throwable {
+    public void test0050() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test048");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0050");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, 2.0d);
     }
 
     @Test
-    public void test049() throws Throwable {
+    public void test0051() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test049");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0051");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-15d, 1.0d);
     }
 
     @Test
-    public void test050() throws Throwable {
+    public void test0052() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test050");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0052");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) 1L);
     }
 
     @Test
-    public void test051() throws Throwable {
+    public void test0053() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test051");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0053");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), (double) (byte) -1);
     }
 
     @Test
-    public void test052() throws Throwable {
+    public void test0054() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test052");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0054");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 0.9d);
     }
 
     @Test
-    public void test053() throws Throwable {
+    public void test0055() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test053");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0055");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, (double) (byte) 100);
     }
 
     @Test
-    public void test054() throws Throwable {
+    public void test0056() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test054");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0056");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) (short) 0);
     }
 
     @Test
-    public void test055() throws Throwable {
+    public void test0057() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test055");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0057");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, (double) 0L);
     }
 
     @Test
-    public void test056() throws Throwable {
+    public void test0058() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test056");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0058");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1.0f, (-0.0d));
     }
 
     @Test
-    public void test057() throws Throwable {
+    public void test0059() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test057");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0059");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 42.0d);
     }
 
     @Test
-    public void test058() throws Throwable {
+    public void test0060() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test058");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0060");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, (double) '4');
     }
 
     @Test
-    public void test059() throws Throwable {
+    public void test0061() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test059");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0061");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, (double) (byte) -1);
     }
 
     @Test
-    public void test060() throws Throwable {
+    public void test0062() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test060");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0062");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (-0.0d));
     }
 
     @Test
-    public void test061() throws Throwable {
+    public void test0063() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test061");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0063");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, (-10.0d));
     }
 
     @Test
-    public void test062() throws Throwable {
+    public void test0064() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test062");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0064");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), 5.0d);
     }
 
     @Test
-    public void test063() throws Throwable {
+    public void test0065() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test063");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0065");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (-100.0d));
     }
 
     @Test
-    public void test064() throws Throwable {
+    public void test0066() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test064");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0066");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) (short) 100);
     }
 
     @Test
-    public void test065() throws Throwable {
+    public void test0067() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test065");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0067");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-100.0d), (double) (byte) 10);
     }
 
     @Test
-    public void test066() throws Throwable {
+    public void test0068() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test066");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0068");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, (-1.0d));
     }
 
     @Test
-    public void test067() throws Throwable {
+    public void test0069() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test067");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0069");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, 1.0E-4d);
     }
 
     @Test
-    public void test068() throws Throwable {
+    public void test0070() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test068");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0070");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, 10.0d);
     }
 
     @Test
-    public void test069() throws Throwable {
+    public void test0071() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test069");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0071");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, 0.9d);
     }
 
     @Test
-    public void test070() throws Throwable {
+    public void test0072() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test070");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0072");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), (double) (short) 1);
     }
 
     @Test
-    public void test071() throws Throwable {
+    public void test0073() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test071");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0073");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, 10.0d);
     }
 
     @Test
-    public void test072() throws Throwable {
+    public void test0074() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test072");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0074");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test073() throws Throwable {
+    public void test0075() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test073");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0075");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-100.0d), 512.0d);
     }
 
     @Test
-    public void test074() throws Throwable {
+    public void test0076() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test074");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0076");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-100.0d), 0.0d);
     }
 
     @Test
-    public void test075() throws Throwable {
+    public void test0077() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test075");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0077");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, (double) (byte) -1);
     }
 
     @Test
-    public void test076() throws Throwable {
+    public void test0078() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test076");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0078");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (double) (-1));
     }
 
     @Test
-    public void test077() throws Throwable {
+    public void test0079() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test077");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0079");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) 100.0f);
     }
 
     @Test
-    public void test078() throws Throwable {
+    public void test0080() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test078");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0080");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) 100.0f);
     }
 
     @Test
-    public void test079() throws Throwable {
+    public void test0081() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test079");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0081");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, (double) (-1.0f));
     }
 
     @Test
-    public void test080() throws Throwable {
+    public void test0082() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test080");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0082");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 0.3333333d);
     }
 
     @Test
-    public void test081() throws Throwable {
+    public void test0083() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test081");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0083");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, (double) (byte) 1);
     }
 
     @Test
-    public void test082() throws Throwable {
+    public void test0084() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test082");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0084");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (double) (byte) -1);
     }
 
     @Test
-    public void test083() throws Throwable {
+    public void test0085() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test083");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0085");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, (double) 1);
     }
 
     @Test
-    public void test084() throws Throwable {
+    public void test0086() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test084");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0086");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, 1.0d);
     }
 
     @Test
-    public void test085() throws Throwable {
+    public void test0087() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test085");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0087");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 1.0E10d);
     }
 
     @Test
-    public void test086() throws Throwable {
+    public void test0088() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test086");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0088");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, (-1.0d));
     }
 
     @Test
-    public void test087() throws Throwable {
+    public void test0089() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test087");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0089");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 0.001d);
     }
 
     @Test
-    public void test088() throws Throwable {
+    public void test0090() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test088");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0090");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (double) 0L);
     }
 
     @Test
-    public void test089() throws Throwable {
+    public void test0091() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test089");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0091");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, 0.001d);
     }
 
     @Test
-    public void test090() throws Throwable {
+    public void test0092() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test090");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0092");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (-10.0d));
     }
 
     @Test
-    public void test091() throws Throwable {
+    public void test0093() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test091");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0093");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, 0.5d);
     }
 
     @Test
-    public void test092() throws Throwable {
+    public void test0094() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test092");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0094");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) -1, (-1.0d));
     }
 
     @Test
-    public void test093() throws Throwable {
+    public void test0095() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test093");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0095");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, (double) 0.0f);
     }
 
     @Test
-    public void test094() throws Throwable {
+    public void test0096() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test094");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0096");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), 0.0d);
     }
 
     @Test
-    public void test095() throws Throwable {
+    public void test0097() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test095");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0097");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, 42.0d);
     }
 
     @Test
-    public void test096() throws Throwable {
+    public void test0098() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test096");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0098");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, (double) (-1L));
     }
 
     @Test
-    public void test097() throws Throwable {
+    public void test0099() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test097");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0099");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, 0.25d);
     }
 
     @Test
-    public void test098() throws Throwable {
+    public void test0100() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test098");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0100");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 256.0d);
     }
 
     @Test
-    public void test099() throws Throwable {
+    public void test0101() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test099");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0101");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '#', 0.5d);
     }
 
     @Test
-    public void test100() throws Throwable {
+    public void test0102() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test100");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0102");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, (double) 1);
     }
 
     @Test
-    public void test101() throws Throwable {
+    public void test0103() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test101");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0103");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 5.0d);
     }
 
     @Test
-    public void test102() throws Throwable {
+    public void test0104() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test102");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0104");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) 100);
     }
 
     @Test
-    public void test103() throws Throwable {
+    public void test0105() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test103");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0105");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, 0.1d);
     }
 
     @Test
-    public void test104() throws Throwable {
+    public void test0106() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test104");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0106");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, (double) ' ');
     }
 
     @Test
-    public void test105() throws Throwable {
+    public void test0107() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test105");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0107");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, (double) '4');
     }
 
     @Test
-    public void test106() throws Throwable {
+    public void test0108() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test106");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0108");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, (-100.0d));
     }
 
     @Test
-    public void test107() throws Throwable {
+    public void test0109() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test107");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0109");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, (double) (byte) 100);
     }
 
     @Test
-    public void test108() throws Throwable {
+    public void test0110() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test108");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0110");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 100, (-10.0d));
     }
 
     @Test
-    public void test109() throws Throwable {
+    public void test0111() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test109");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0111");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (-1.0d));
     }
 
     @Test
-    public void test110() throws Throwable {
+    public void test0112() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test110");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0112");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, 1000000.0d);
     }
 
     @Test
-    public void test111() throws Throwable {
+    public void test0113() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test111");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0113");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, 10.0d);
     }
 
     @Test
-    public void test112() throws Throwable {
+    public void test0114() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test112");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0114");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, 2.0d);
     }
 
     @Test
-    public void test113() throws Throwable {
+    public void test0115() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test113");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0115");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, (-1.0d));
     }
 
     @Test
-    public void test114() throws Throwable {
+    public void test0116() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test114");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0116");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, (double) 1.0f);
     }
 
     @Test
-    public void test115() throws Throwable {
+    public void test0117() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test115");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0117");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-100.0d), 1000000.0d);
     }
 
     @Test
-    public void test116() throws Throwable {
+    public void test0118() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test116");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0118");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 100, 0.0d);
     }
 
     @Test
-    public void test117() throws Throwable {
+    public void test0119() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test117");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0119");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, (double) (byte) 0);
     }
 
     @Test
-    public void test118() throws Throwable {
+    public void test0120() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test118");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0120");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), (double) (byte) 10);
     }
 
     @Test
-    public void test119() throws Throwable {
+    public void test0121() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test119");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0121");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.5d, 1.0E10d);
     }
 
     @Test
-    public void test120() throws Throwable {
+    public void test0122() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test120");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0122");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-15d, (double) 10.0f);
     }
 
     @Test
-    public void test121() throws Throwable {
+    public void test0123() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test121");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0123");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1L, (double) 0);
     }
 
     @Test
-    public void test122() throws Throwable {
+    public void test0124() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test122");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0124");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', 0.3333333d);
     }
 
     @Test
-    public void test123() throws Throwable {
+    public void test0125() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test123");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0125");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, (double) 0L);
     }
 
     @Test
-    public void test124() throws Throwable {
+    public void test0126() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test124");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0126");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) 10L);
     }
 
     @Test
-    public void test125() throws Throwable {
+    public void test0127() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test125");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0127");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, 0.001d);
     }
 
     @Test
-    public void test126() throws Throwable {
+    public void test0128() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test126");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0128");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, (double) 100L);
     }
 
     @Test
-    public void test127() throws Throwable {
+    public void test0129() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test127");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0129");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, 0.25d);
     }
 
     @Test
-    public void test128() throws Throwable {
+    public void test0130() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test128");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0130");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) (short) 1);
     }
 
     @Test
-    public void test129() throws Throwable {
+    public void test0131() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test129");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0131");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, 0.01d);
     }
 
     @Test
-    public void test130() throws Throwable {
+    public void test0132() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test130");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0132");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (-1.0d));
     }
 
     @Test
-    public void test131() throws Throwable {
+    public void test0133() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test131");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0133");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), (double) '#');
     }
 
     @Test
-    public void test132() throws Throwable {
+    public void test0134() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test132");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0134");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.9d, 5.0d);
     }
 
     @Test
-    public void test133() throws Throwable {
+    public void test0135() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test133");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0135");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), 0.0d);
     }
 
     @Test
-    public void test134() throws Throwable {
+    public void test0136() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test134");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0136");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, (double) 0.0f);
     }
 
     @Test
-    public void test135() throws Throwable {
+    public void test0137() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test135");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0137");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (-1.0E10d));
     }
 
     @Test
-    public void test136() throws Throwable {
+    public void test0138() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test136");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0138");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', 42.0d);
     }
 
     @Test
-    public void test137() throws Throwable {
+    public void test0139() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test137");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0139");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, (double) (byte) 100);
     }
 
     @Test
-    public void test138() throws Throwable {
+    public void test0140() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test138");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0140");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) 100);
     }
 
     @Test
-    public void test139() throws Throwable {
+    public void test0141() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test139");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0141");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1.0f, 1.0E-6d);
     }
 
     @Test
-    public void test140() throws Throwable {
+    public void test0142() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test140");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0142");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, 0.25d);
     }
 
     @Test
-    public void test141() throws Throwable {
+    public void test0143() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test141");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0143");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 0.0d);
     }
 
     @Test
-    public void test142() throws Throwable {
+    public void test0144() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test142");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0144");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, 1.0E8d);
     }
 
     @Test
-    public void test143() throws Throwable {
+    public void test0145() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test143");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0145");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) 0L);
     }
 
     @Test
-    public void test144() throws Throwable {
+    public void test0146() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test144");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0146");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 10.0d);
     }
 
     @Test
-    public void test145() throws Throwable {
+    public void test0147() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test145");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0147");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, (double) 1);
     }
 
     @Test
-    public void test146() throws Throwable {
+    public void test0148() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test146");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0148");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, (double) ' ');
     }
 
     @Test
-    public void test147() throws Throwable {
+    public void test0149() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test147");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0149");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1.0f, (-10.0d));
     }
 
     @Test
-    public void test148() throws Throwable {
+    public void test0150() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test148");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0150");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, 2.0d);
     }
 
     @Test
-    public void test149() throws Throwable {
+    public void test0151() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test149");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0151");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 1.0d);
     }
 
     @Test
-    public void test150() throws Throwable {
+    public void test0152() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test150");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0152");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, 0.25d);
     }
 
     @Test
-    public void test151() throws Throwable {
+    public void test0153() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test151");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0153");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, 0.1d);
     }
 
     @Test
-    public void test152() throws Throwable {
+    public void test0154() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test152");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0154");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, (double) 1L);
     }
 
     @Test
-    public void test153() throws Throwable {
+    public void test0155() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test153");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0155");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, (double) (short) -1);
     }
 
     @Test
-    public void test154() throws Throwable {
+    public void test0156() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test154");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0156");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, 1.0d);
     }
 
     @Test
-    public void test155() throws Throwable {
+    public void test0157() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test155");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0157");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, (double) (-1L));
     }
 
     @Test
-    public void test156() throws Throwable {
+    public void test0158() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test156");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0158");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, 0.9d);
     }
 
     @Test
-    public void test157() throws Throwable {
+    public void test0159() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test157");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0159");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (-1.0d));
     }
 
     @Test
-    public void test158() throws Throwable {
+    public void test0160() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test158");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0160");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, 1.0E-4d);
     }
 
     @Test
-    public void test159() throws Throwable {
+    public void test0161() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test159");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0161");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 42.0d);
     }
 
     @Test
-    public void test160() throws Throwable {
+    public void test0162() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test160");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0162");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, (-100.0d));
     }
 
     @Test
-    public void test161() throws Throwable {
+    public void test0163() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test161");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0163");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, (-1.0E10d));
     }
 
     @Test
-    public void test162() throws Throwable {
+    public void test0164() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test162");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0164");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 100.0d);
     }
 
     @Test
-    public void test163() throws Throwable {
+    public void test0165() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test163");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0165");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) 100.0f);
     }
 
     @Test
-    public void test164() throws Throwable {
+    public void test0166() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test164");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0166");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, 10000.0d);
     }
 
     @Test
-    public void test165() throws Throwable {
+    public void test0167() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test165");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0167");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, (double) (short) 1);
     }
 
     @Test
-    public void test166() throws Throwable {
+    public void test0168() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test166");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0168");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1L, (double) 10.0f);
     }
 
     @Test
-    public void test167() throws Throwable {
+    public void test0169() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test167");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0169");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, 10000.0d);
     }
 
     @Test
-    public void test168() throws Throwable {
+    public void test0170() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test168");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0170");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, (double) 10);
     }
 
     @Test
-    public void test169() throws Throwable {
+    public void test0171() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test169");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0171");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, (double) (short) 100);
     }
 
     @Test
-    public void test170() throws Throwable {
+    public void test0172() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test170");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0172");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, (double) 100L);
     }
 
     @Test
-    public void test171() throws Throwable {
+    public void test0173() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test171");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0173");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, (double) (-1.0f));
     }
 
     @Test
-    public void test172() throws Throwable {
+    public void test0174() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test172");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0174");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 0.9d);
     }
 
     @Test
-    public void test173() throws Throwable {
+    public void test0175() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test173");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0175");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, (double) 10L);
     }
 
     @Test
-    public void test174() throws Throwable {
+    public void test0176() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test174");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0176");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 100, 1024.0d);
     }
 
     @Test
-    public void test175() throws Throwable {
+    public void test0177() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test175");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0177");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, (double) 10.0f);
     }
 
     @Test
-    public void test176() throws Throwable {
+    public void test0178() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test176");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0178");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 100, (double) '#');
     }
 
     @Test
-    public void test177() throws Throwable {
+    public void test0179() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test177");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0179");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, 0.0d);
     }
 
     @Test
-    public void test178() throws Throwable {
+    public void test0180() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test178");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0180");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, 0.5d);
     }
 
     @Test
-    public void test179() throws Throwable {
+    public void test0181() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test179");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0181");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, (double) (byte) 10);
     }
 
     @Test
-    public void test180() throws Throwable {
+    public void test0182() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test180");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0182");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', (double) (byte) 1);
     }
 
     @Test
-    public void test181() throws Throwable {
+    public void test0183() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test181");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0183");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', (double) 0.0f);
     }
 
     @Test
-    public void test182() throws Throwable {
+    public void test0184() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test182");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0184");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test183() throws Throwable {
+    public void test0185() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test183");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0185");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, 100.0d);
     }
 
     @Test
-    public void test184() throws Throwable {
+    public void test0186() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test184");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0186");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', 10.0d);
     }
 
     @Test
-    public void test185() throws Throwable {
+    public void test0187() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test185");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0187");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, 0.001d);
     }
 
     @Test
-    public void test186() throws Throwable {
+    public void test0188() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test186");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0188");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, 0.25d);
     }
 
     @Test
-    public void test187() throws Throwable {
+    public void test0189() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test187");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0189");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, 0.01d);
     }
 
     @Test
-    public void test188() throws Throwable {
+    public void test0190() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test188");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0190");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, (-1.0d));
     }
 
     @Test
-    public void test189() throws Throwable {
+    public void test0191() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test189");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0191");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, (double) (short) 0);
     }
 
     @Test
-    public void test190() throws Throwable {
+    public void test0192() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test190");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0192");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, (double) 1.0f);
     }
 
     @Test
-    public void test191() throws Throwable {
+    public void test0193() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test191");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0193");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, (double) 10.0f);
     }
 
     @Test
-    public void test192() throws Throwable {
+    public void test0194() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test192");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0194");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), (double) (short) 100);
     }
 
     @Test
-    public void test193() throws Throwable {
+    public void test0195() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test193");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0195");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, (double) (short) 1);
     }
 
     @Test
-    public void test194() throws Throwable {
+    public void test0196() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test194");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0196");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', 1.0d);
     }
 
     @Test
-    public void test195() throws Throwable {
+    public void test0197() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test195");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0197");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, (double) (short) -1);
     }
 
     @Test
-    public void test196() throws Throwable {
+    public void test0198() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test196");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0198");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1L, 0.0d);
     }
 
     @Test
-    public void test197() throws Throwable {
+    public void test0199() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test197");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0199");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.5d, 256.0d);
     }
 
     @Test
-    public void test198() throws Throwable {
+    public void test0200() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test198");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0200");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, 512.0d);
     }
 
     @Test
-    public void test199() throws Throwable {
+    public void test0201() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test199");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0201");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.25d, (-10.0d));
     }
 
     @Test
-    public void test200() throws Throwable {
+    public void test0202() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test200");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0202");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) '#');
     }
 
     @Test
-    public void test201() throws Throwable {
+    public void test0203() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test201");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0203");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, 42.0d);
     }
 
     @Test
-    public void test202() throws Throwable {
+    public void test0204() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test202");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0204");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, (double) 0.0f);
     }
 
     @Test
-    public void test203() throws Throwable {
+    public void test0205() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test203");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0205");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, (double) 1.0f);
     }
 
     @Test
-    public void test204() throws Throwable {
+    public void test0206() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test204");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0206");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), (double) (byte) 10);
     }
 
     @Test
-    public void test205() throws Throwable {
+    public void test0207() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test205");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0207");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), 1024.0d);
     }
 
     @Test
-    public void test206() throws Throwable {
+    public void test0208() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test206");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0208");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 10, (double) 10.0f);
     }
 
     @Test
-    public void test207() throws Throwable {
+    public void test0209() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test207");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0209");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, 1.0E-4d);
     }
 
     @Test
-    public void test208() throws Throwable {
+    public void test0210() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test208");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0210");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 0.5d);
     }
 
     @Test
-    public void test209() throws Throwable {
+    public void test0211() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test209");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0211");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, (double) 100L);
     }
 
     @Test
-    public void test210() throws Throwable {
+    public void test0212() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test210");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0212");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), 0.5d);
     }
 
     @Test
-    public void test211() throws Throwable {
+    public void test0213() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test211");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0213");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, 1024.0d);
     }
 
     @Test
-    public void test212() throws Throwable {
+    public void test0214() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test212");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0214");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, (double) (byte) 10);
     }
 
     @Test
-    public void test213() throws Throwable {
+    public void test0215() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test213");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0215");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, (double) 1);
     }
 
     @Test
-    public void test214() throws Throwable {
+    public void test0216() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test214");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0216");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, 0.01d);
     }
 
     @Test
-    public void test215() throws Throwable {
+    public void test0217() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test215");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0217");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), 1.0d);
     }
 
     @Test
-    public void test216() throws Throwable {
+    public void test0218() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test216");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0218");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-15d, (double) (byte) 10);
     }
 
     @Test
-    public void test217() throws Throwable {
+    public void test0219() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test217");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0219");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), (double) (-1.0f));
     }
 
     @Test
-    public void test218() throws Throwable {
+    public void test0220() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test218");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0220");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, (double) 1L);
     }
 
     @Test
-    public void test219() throws Throwable {
+    public void test0221() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test219");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0221");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', 1.0d);
     }
 
     @Test
-    public void test220() throws Throwable {
+    public void test0222() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test220");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0222");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 0.70710678d);
     }
 
     @Test
-    public void test221() throws Throwable {
+    public void test0223() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test221");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0223");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, 0.0d);
     }
 
     @Test
-    public void test222() throws Throwable {
+    public void test0224() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test222");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0224");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, (double) 1L);
     }
 
     @Test
-    public void test223() throws Throwable {
+    public void test0225() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test223");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0225");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), 1.0E-4d);
     }
 
     @Test
-    public void test224() throws Throwable {
+    public void test0226() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test224");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0226");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 0.0d);
     }
 
     @Test
-    public void test225() throws Throwable {
+    public void test0227() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test225");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0227");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, (-1.0d));
     }
 
     @Test
-    public void test226() throws Throwable {
+    public void test0228() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test226");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0228");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 100, (double) (short) 0);
     }
 
     @Test
-    public void test227() throws Throwable {
+    public void test0229() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test227");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0229");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) (short) 10);
     }
 
     @Test
-    public void test228() throws Throwable {
+    public void test0230() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test228");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0230");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, (double) 10);
     }
 
     @Test
-    public void test229() throws Throwable {
+    public void test0231() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test229");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0231");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test230() throws Throwable {
+    public void test0232() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test230");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0232");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, 0.0d);
     }
 
     @Test
-    public void test231() throws Throwable {
+    public void test0233() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test231");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0233");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (-100.0d));
     }
 
     @Test
-    public void test232() throws Throwable {
+    public void test0234() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test232");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0234");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, 1.0E10d);
     }
 
     @Test
-    public void test233() throws Throwable {
+    public void test0235() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test233");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0235");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) ' ');
     }
 
     @Test
-    public void test234() throws Throwable {
+    public void test0236() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test234");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0236");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test235() throws Throwable {
+    public void test0237() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test235");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0237");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, 100.0d);
     }
 
     @Test
-    public void test236() throws Throwable {
+    public void test0238() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test236");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0238");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, 1.0d);
     }
 
     @Test
-    public void test237() throws Throwable {
+    public void test0239() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test237");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0239");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) (-1.0f));
     }
 
     @Test
-    public void test238() throws Throwable {
+    public void test0240() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test238");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0240");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, (double) (-1L));
     }
 
     @Test
-    public void test239() throws Throwable {
+    public void test0241() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test239");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0241");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', 512.0d);
     }
 
     @Test
-    public void test240() throws Throwable {
+    public void test0242() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test240");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0242");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, 1.0E-8d);
     }
 
     @Test
-    public void test241() throws Throwable {
+    public void test0243() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test241");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0243");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', (double) 10);
     }
 
     @Test
-    public void test242() throws Throwable {
+    public void test0244() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test242");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0244");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), (double) 100.0f);
     }
 
     @Test
-    public void test243() throws Throwable {
+    public void test0245() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test243");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0245");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, 0.001d);
     }
 
     @Test
-    public void test244() throws Throwable {
+    public void test0246() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test244");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0246");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-15d, 0.0d);
     }
 
     @Test
-    public void test245() throws Throwable {
+    public void test0247() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test245");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0247");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, 1.0d);
     }
 
     @Test
-    public void test246() throws Throwable {
+    public void test0248() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test246");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0248");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, 1000000.0d);
     }
 
     @Test
-    public void test247() throws Throwable {
+    public void test0249() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test247");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0249");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 1024.0d);
     }
 
     @Test
-    public void test248() throws Throwable {
+    public void test0250() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test248");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0250");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 10000.0d);
     }
 
     @Test
-    public void test249() throws Throwable {
+    public void test0251() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test249");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0251");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 100, (double) 1.0f);
     }
 
     @Test
-    public void test250() throws Throwable {
+    public void test0252() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test250");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0252");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, 1.0E8d);
     }
 
     @Test
-    public void test251() throws Throwable {
+    public void test0253() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test251");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0253");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, 256.0d);
     }
 
     @Test
-    public void test252() throws Throwable {
+    public void test0254() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test252");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0254");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, (double) (short) 10);
     }
 
     @Test
-    public void test253() throws Throwable {
+    public void test0255() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test253");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0255");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) 1L);
     }
 
     @Test
-    public void test254() throws Throwable {
+    public void test0256() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test254");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0256");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 256.0d);
     }
 
     @Test
-    public void test255() throws Throwable {
+    public void test0257() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test255");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0257");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) 100L);
     }
 
     @Test
-    public void test256() throws Throwable {
+    public void test0258() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test256");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0258");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 0.0d);
     }
 
     @Test
-    public void test257() throws Throwable {
+    public void test0259() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test257");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0259");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) 0);
     }
 
     @Test
-    public void test258() throws Throwable {
+    public void test0260() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test258");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0260");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), (double) '#');
     }
 
     @Test
-    public void test259() throws Throwable {
+    public void test0261() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test259");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0261");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), 0.5d);
     }
 
     @Test
-    public void test260() throws Throwable {
+    public void test0262() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test260");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0262");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, (double) ' ');
     }
 
     @Test
-    public void test261() throws Throwable {
+    public void test0263() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test261");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0263");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, 1.0E8d);
     }
 
     @Test
-    public void test262() throws Throwable {
+    public void test0264() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test262");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0264");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, (double) (short) 10);
     }
 
     @Test
-    public void test263() throws Throwable {
+    public void test0265() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test263");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0265");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', (-1.0E10d));
     }
 
     @Test
-    public void test264() throws Throwable {
+    public void test0266() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test264");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0266");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 100, (double) 0.0f);
     }
 
     @Test
-    public void test265() throws Throwable {
+    public void test0267() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test265");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0267");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) (short) -1);
     }
 
     @Test
-    public void test266() throws Throwable {
+    public void test0268() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test266");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0268");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, (double) (-1.0f));
     }
 
     @Test
-    public void test267() throws Throwable {
+    public void test0269() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test267");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0269");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, (double) 0.0f);
     }
 
     @Test
-    public void test268() throws Throwable {
+    public void test0270() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test268");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0270");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (double) '4');
     }
 
     @Test
-    public void test269() throws Throwable {
+    public void test0271() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test269");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0271");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.01d, 0.0d);
     }
 
     @Test
-    public void test270() throws Throwable {
+    public void test0272() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test270");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0272");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, (double) 100L);
     }
 
     @Test
-    public void test271() throws Throwable {
+    public void test0273() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test271");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0273");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, 2.0d);
     }
 
     @Test
-    public void test272() throws Throwable {
+    public void test0274() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test272");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0274");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', 5.0d);
     }
 
     @Test
-    public void test273() throws Throwable {
+    public void test0275() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test273");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0275");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, (double) (short) -1);
     }
 
     @Test
-    public void test274() throws Throwable {
+    public void test0276() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test274");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0276");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), 0.1d);
     }
 
     @Test
-    public void test275() throws Throwable {
+    public void test0277() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test275");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0277");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), (double) 'a');
     }
 
     @Test
-    public void test276() throws Throwable {
+    public void test0278() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test276");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0278");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) '4');
     }
 
     @Test
-    public void test277() throws Throwable {
+    public void test0279() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test277");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0279");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, 0.9d);
     }
 
     @Test
-    public void test278() throws Throwable {
+    public void test0280() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test278");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0280");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 10, 10.0d);
     }
 
     @Test
-    public void test279() throws Throwable {
+    public void test0281() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test279");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0281");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '#', (double) 100);
     }
 
     @Test
-    public void test280() throws Throwable {
+    public void test0282() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test280");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0282");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '#', 0.01d);
     }
 
     @Test
-    public void test281() throws Throwable {
+    public void test0283() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test281");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0283");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, (double) (byte) 10);
     }
 
     @Test
-    public void test282() throws Throwable {
+    public void test0284() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test282");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0284");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, 42.0d);
     }
 
     @Test
-    public void test283() throws Throwable {
+    public void test0285() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test283");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0285");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, (double) 1.0f);
     }
 
     @Test
-    public void test284() throws Throwable {
+    public void test0286() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test284");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0286");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) -1, (double) (byte) 0);
     }
 
     @Test
-    public void test285() throws Throwable {
+    public void test0287() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test285");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0287");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, 1.0E-8d);
     }
 
     @Test
-    public void test286() throws Throwable {
+    public void test0288() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test286");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0288");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) (short) 100);
     }
 
     @Test
-    public void test287() throws Throwable {
+    public void test0289() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test287");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0289");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 10, 1.0E10d);
     }
 
     @Test
-    public void test288() throws Throwable {
+    public void test0290() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test288");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0290");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1.0f, (double) (short) 1);
     }
 
     @Test
-    public void test289() throws Throwable {
+    public void test0291() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test289");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0291");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), (-100.0d));
     }
 
     @Test
-    public void test290() throws Throwable {
+    public void test0292() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test290");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0292");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 0.25d);
     }
 
     @Test
-    public void test291() throws Throwable {
+    public void test0293() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test291");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0293");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), (double) 0.0f);
     }
 
     @Test
-    public void test292() throws Throwable {
+    public void test0294() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test292");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0294");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 100, 1.0E-6d);
     }
 
     @Test
-    public void test293() throws Throwable {
+    public void test0295() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test293");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0295");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, (double) 0L);
     }
 
     @Test
-    public void test294() throws Throwable {
+    public void test0296() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test294");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0296");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 0.70710678d);
     }
 
     @Test
-    public void test295() throws Throwable {
+    public void test0297() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test295");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0297");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 0.01d);
     }
 
     @Test
-    public void test296() throws Throwable {
+    public void test0298() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test296");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0298");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.25d, (double) 1.0f);
     }
 
     @Test
-    public void test297() throws Throwable {
+    public void test0299() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test297");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0299");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, (double) 100L);
     }
 
     @Test
-    public void test298() throws Throwable {
+    public void test0300() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test298");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0300");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, (double) 10);
     }
 
     @Test
-    public void test299() throws Throwable {
+    public void test0301() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test299");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0301");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, 0.01d);
     }
 
     @Test
-    public void test300() throws Throwable {
+    public void test0302() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test300");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0302");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), (double) 1);
     }
 
     @Test
-    public void test301() throws Throwable {
+    public void test0303() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test301");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0303");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, 42.0d);
     }
 
     @Test
-    public void test302() throws Throwable {
+    public void test0304() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test302");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0304");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '#', 0.25d);
     }
 
     @Test
-    public void test303() throws Throwable {
+    public void test0305() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test303");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0305");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, 1024.0d);
     }
 
     @Test
-    public void test304() throws Throwable {
+    public void test0306() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test304");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0306");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 10.0d);
     }
 
     @Test
-    public void test305() throws Throwable {
+    public void test0307() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test305");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0307");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', 0.25d);
     }
 
     @Test
-    public void test306() throws Throwable {
+    public void test0308() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test306");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0308");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, (double) (byte) 0);
     }
 
     @Test
-    public void test307() throws Throwable {
+    public void test0309() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test307");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0309");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, (double) '#');
     }
 
     @Test
-    public void test308() throws Throwable {
+    public void test0310() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test308");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0310");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 10, 0.0d);
     }
 
     @Test
-    public void test309() throws Throwable {
+    public void test0311() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test309");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0311");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) ' ', (-100.0d));
     }
 
     @Test
-    public void test310() throws Throwable {
+    public void test0312() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test310");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0312");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, 1024.0d);
     }
 
     @Test
-    public void test311() throws Throwable {
+    public void test0313() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test311");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0313");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, (double) '#');
     }
 
     @Test
-    public void test312() throws Throwable {
+    public void test0314() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test312");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0314");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) (byte) 100);
     }
 
     @Test
-    public void test313() throws Throwable {
+    public void test0315() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test313");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0315");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, (double) (byte) 10);
     }
 
     @Test
-    public void test314() throws Throwable {
+    public void test0316() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test314");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0316");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), (double) 1L);
     }
 
     @Test
-    public void test315() throws Throwable {
+    public void test0317() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test315");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0317");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), (-1.0E10d));
     }
 
     @Test
-    public void test316() throws Throwable {
+    public void test0318() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test316");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0318");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, (double) 10.0f);
     }
 
     @Test
-    public void test317() throws Throwable {
+    public void test0319() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test317");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0319");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.5d, 512.0d);
     }
 
     @Test
-    public void test318() throws Throwable {
+    public void test0320() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test318");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0320");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (double) (-1L));
     }
 
     @Test
-    public void test319() throws Throwable {
+    public void test0321() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test319");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0321");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, (-0.0d));
     }
 
     @Test
-    public void test320() throws Throwable {
+    public void test0322() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test320");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0322");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, 1.0E-15d);
     }
 
     @Test
-    public void test321() throws Throwable {
+    public void test0323() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test321");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0323");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, (-1.0E10d));
     }
 
     @Test
-    public void test322() throws Throwable {
+    public void test0324() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test322");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0324");
+// flaky "1) test0324(randoop.tests.RegressionTest0)":         org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 1.0E-6d);
     }
 
     @Test
-    public void test323() throws Throwable {
+    public void test0325() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test323");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0325");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), (-0.0d));
     }
 
     @Test
-    public void test324() throws Throwable {
+    public void test0326() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test324");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0326");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, (double) (byte) 1);
     }
 
     @Test
-    public void test325() throws Throwable {
+    public void test0327() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test325");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0327");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, 1.0E-4d);
     }
 
     @Test
-    public void test326() throws Throwable {
+    public void test0328() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test326");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0328");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 10.0d);
     }
 
     @Test
-    public void test327() throws Throwable {
+    public void test0329() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test327");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0329");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 0.01d);
     }
 
     @Test
-    public void test328() throws Throwable {
+    public void test0330() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test328");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0330");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, 100.0d);
     }
 
     @Test
-    public void test329() throws Throwable {
+    public void test0331() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test329");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0331");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 100, 100.0d);
     }
 
     @Test
-    public void test330() throws Throwable {
+    public void test0332() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test330");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0332");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, (double) (short) 100);
     }
 
     @Test
-    public void test331() throws Throwable {
+    public void test0333() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test331");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0333");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), (double) (short) 10);
     }
 
     @Test
-    public void test332() throws Throwable {
+    public void test0334() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test332");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0334");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), 0.0d);
     }
 
     @Test
-    public void test333() throws Throwable {
+    public void test0335() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test333");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0335");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, 0.0d);
     }
 
     @Test
-    public void test334() throws Throwable {
+    public void test0336() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test334");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0336");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, (-10.0d));
     }
 
     @Test
-    public void test335() throws Throwable {
+    public void test0337() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test335");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0337");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (-1.0E10d));
     }
 
     @Test
-    public void test336() throws Throwable {
+    public void test0338() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test336");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0338");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-100.0d), 1.0E10d);
     }
 
     @Test
-    public void test337() throws Throwable {
+    public void test0339() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test337");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0339");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 0.1d);
     }
 
     @Test
-    public void test338() throws Throwable {
+    public void test0340() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test338");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0340");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 512.0d);
     }
 
     @Test
-    public void test339() throws Throwable {
+    public void test0341() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test339");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0341");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (-100.0d));
     }
 
     @Test
-    public void test340() throws Throwable {
+    public void test0342() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test340");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0342");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, 0.0d);
     }
 
     @Test
-    public void test341() throws Throwable {
+    public void test0343() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test341");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0343");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, 512.0d);
     }
 
     @Test
-    public void test342() throws Throwable {
+    public void test0344() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test342");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0344");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, 1.0E8d);
     }
 
     @Test
-    public void test343() throws Throwable {
+    public void test0345() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test343");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0345");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, 100.0d);
     }
 
     @Test
-    public void test344() throws Throwable {
+    public void test0346() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test344");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0346");
+        org.apache.commons.math3.test.testVarianceMonotonicity(42.0d, (double) (short) 10);
     }
 
     @Test
-    public void test345() throws Throwable {
+    public void test0347() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test345");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0347");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, (double) 1);
     }
 
     @Test
-    public void test346() throws Throwable {
+    public void test0348() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test346");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0348");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.25d, (-0.0d));
     }
 
     @Test
-    public void test347() throws Throwable {
+    public void test0349() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test347");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0349");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) 10);
     }
 
     @Test
-    public void test348() throws Throwable {
+    public void test0350() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test348");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0350");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1), 0.1d);
     }
 
     @Test
-    public void test349() throws Throwable {
+    public void test0351() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test349");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0351");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, (-1.0E10d));
     }
 
     @Test
-    public void test350() throws Throwable {
+    public void test0352() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test350");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0352");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), 1.0E-4d);
     }
 
     @Test
-    public void test351() throws Throwable {
+    public void test0353() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test351");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0353");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 1024.0d);
     }
 
     @Test
-    public void test352() throws Throwable {
+    public void test0354() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test352");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0354");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), (double) 0);
     }
 
     @Test
-    public void test353() throws Throwable {
+    public void test0355() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test353");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0355");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '#', (-10.0d));
     }
 
     @Test
-    public void test354() throws Throwable {
+    public void test0356() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test354");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0356");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, 0.0d);
     }
 
     @Test
-    public void test355() throws Throwable {
+    public void test0357() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test355");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0357");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100L, (double) 10L);
     }
 
     @Test
-    public void test356() throws Throwable {
+    public void test0358() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test356");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0358");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '#', (double) 0L);
     }
 
     @Test
-    public void test357() throws Throwable {
+    public void test0359() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test357");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0359");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), 1.0E8d);
     }
 
     @Test
-    public void test358() throws Throwable {
+    public void test0360() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test358");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0360");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, 1.0d);
     }
 
     @Test
-    public void test359() throws Throwable {
+    public void test0361() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test359");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0361");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, 100.0d);
     }
 
     @Test
-    public void test360() throws Throwable {
+    public void test0362() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test360");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0362");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) 1);
     }
 
     @Test
-    public void test361() throws Throwable {
+    public void test0363() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test361");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0363");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, (double) (short) 10);
     }
 
     @Test
-    public void test362() throws Throwable {
+    public void test0364() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test362");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0364");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', (-1.0d));
     }
 
     @Test
-    public void test363() throws Throwable {
+    public void test0365() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test363");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0365");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, (double) 1L);
     }
 
     @Test
-    public void test364() throws Throwable {
+    public void test0366() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test364");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0366");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, (double) ' ');
     }
 
     @Test
-    public void test365() throws Throwable {
+    public void test0367() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test365");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0367");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) (short) 100);
     }
 
     @Test
-    public void test366() throws Throwable {
+    public void test0368() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test366");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0368");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), 1000000.0d);
     }
 
     @Test
-    public void test367() throws Throwable {
+    public void test0369() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test367");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0369");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 0.3333333d);
     }
 
     @Test
-    public void test368() throws Throwable {
+    public void test0370() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test368");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0370");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), 0.9d);
     }
 
     @Test
-    public void test369() throws Throwable {
+    public void test0371() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test369");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0371");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 1000000.0d);
     }
 
     @Test
-    public void test370() throws Throwable {
+    public void test0372() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test370");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0372");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), (double) 10.0f);
     }
 
     @Test
-    public void test371() throws Throwable {
+    public void test0373() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test371");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0373");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, (double) (-1.0f));
     }
 
     @Test
-    public void test372() throws Throwable {
+    public void test0374() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test372");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0374");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 0.0d);
     }
 
     @Test
-    public void test373() throws Throwable {
+    public void test0375() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test373");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0375");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10, 2.0d);
     }
 
     @Test
-    public void test374() throws Throwable {
+    public void test0376() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test374");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0376");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) ' ');
     }
 
     @Test
-    public void test375() throws Throwable {
+    public void test0377() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test375");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0377");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) 10.0f);
     }
 
     @Test
-    public void test376() throws Throwable {
+    public void test0378() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test376");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0378");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) (byte) -1);
     }
 
     @Test
-    public void test377() throws Throwable {
+    public void test0379() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test377");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0379");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, 0.1d);
     }
 
     @Test
-    public void test378() throws Throwable {
+    public void test0380() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test378");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0380");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, 1.0E8d);
     }
 
     @Test
-    public void test379() throws Throwable {
+    public void test0381() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test379");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0381");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, (-0.0d));
     }
 
     @Test
-    public void test380() throws Throwable {
+    public void test0382() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test380");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0382");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, (-1.0d));
     }
 
     @Test
-    public void test381() throws Throwable {
+    public void test0383() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test381");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0383");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, 0.9d);
     }
 
     @Test
-    public void test382() throws Throwable {
+    public void test0384() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test382");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0384");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, 1.0E-10d);
     }
 
     @Test
-    public void test383() throws Throwable {
+    public void test0385() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test383");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0385");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, (double) 1.0f);
     }
 
     @Test
-    public void test384() throws Throwable {
+    public void test0386() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test384");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0386");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, 1.0E10d);
     }
 
     @Test
-    public void test385() throws Throwable {
+    public void test0387() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test385");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0387");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), (double) (short) -1);
     }
 
     @Test
-    public void test386() throws Throwable {
+    public void test0388() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test386");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0388");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, 0.3333333d);
     }
 
     @Test
-    public void test387() throws Throwable {
+    public void test0389() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test387");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0389");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, 0.9d);
     }
 
     @Test
-    public void test388() throws Throwable {
+    public void test0390() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test388");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0390");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) 0.0f);
     }
 
     @Test
-    public void test389() throws Throwable {
+    public void test0391() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test389");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0391");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, (double) ' ');
     }
 
     @Test
-    public void test390() throws Throwable {
+    public void test0392() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test390");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0392");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 1.0d);
     }
 
     @Test
-    public void test391() throws Throwable {
+    public void test0393() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test391");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0393");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, (double) 10L);
     }
 
     @Test
-    public void test392() throws Throwable {
+    public void test0394() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test392");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0394");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 100.0d);
     }
 
     @Test
-    public void test393() throws Throwable {
+    public void test0395() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test393");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0395");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), (double) 10);
     }
 
     @Test
-    public void test394() throws Throwable {
+    public void test0396() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test394");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0396");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100, 0.0d);
     }
 
     @Test
-    public void test395() throws Throwable {
+    public void test0397() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test395");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0397");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, 1.0E-8d);
     }
 
     @Test
-    public void test396() throws Throwable {
+    public void test0398() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test396");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0398");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, 1024.0d);
     }
 
     @Test
-    public void test397() throws Throwable {
+    public void test0399() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test397");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0399");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, 1.0E-8d);
     }
 
     @Test
-    public void test398() throws Throwable {
+    public void test0400() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test398");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0400");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, 0.9d);
     }
 
     @Test
-    public void test399() throws Throwable {
+    public void test0401() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test399");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0401");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) (short) 10);
     }
 
     @Test
-    public void test400() throws Throwable {
+    public void test0402() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test400");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0402");
+        org.apache.commons.math3.test.testVarianceMonotonicity(2.0d, 0.70710678d);
     }
 
     @Test
-    public void test401() throws Throwable {
+    public void test0403() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test401");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0403");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1L, (double) (byte) -1);
     }
 
     @Test
-    public void test402() throws Throwable {
+    public void test0404() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test402");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0404");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, 0.1d);
     }
 
     @Test
-    public void test403() throws Throwable {
+    public void test0405() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test403");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0405");
+        org.apache.commons.math3.test.testVarianceMonotonicity(42.0d, 1.0E8d);
     }
 
     @Test
-    public void test404() throws Throwable {
+    public void test0406() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test404");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0406");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, (double) (byte) 100);
     }
 
     @Test
-    public void test405() throws Throwable {
+    public void test0407() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test405");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0407");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), 0.3333333d);
     }
 
     @Test
-    public void test406() throws Throwable {
+    public void test0408() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test406");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0408");
+        org.apache.commons.math3.test.testVarianceMonotonicity(512.0d, 1.0E8d);
     }
 
     @Test
-    public void test407() throws Throwable {
+    public void test0409() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test407");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0409");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, 100.0d);
     }
 
     @Test
-    public void test408() throws Throwable {
+    public void test0410() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test408");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0410");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), 256.0d);
     }
 
     @Test
-    public void test409() throws Throwable {
+    public void test0411() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test409");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0411");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (double) ' ');
     }
 
     @Test
-    public void test410() throws Throwable {
+    public void test0412() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test410");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0412");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, (double) (-1));
     }
 
     @Test
-    public void test411() throws Throwable {
+    public void test0413() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test411");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0413");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, 512.0d);
     }
 
     @Test
-    public void test412() throws Throwable {
+    public void test0414() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test412");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0414");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, 100.0d);
     }
 
     @Test
-    public void test413() throws Throwable {
+    public void test0415() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test413");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0415");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) (short) -1);
     }
 
     @Test
-    public void test414() throws Throwable {
+    public void test0416() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test414");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0416");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) 1);
     }
 
     @Test
-    public void test415() throws Throwable {
+    public void test0417() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test415");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0417");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, 0.0d);
     }
 
     @Test
-    public void test416() throws Throwable {
+    public void test0418() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test416");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0418");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, 0.01d);
     }
 
     @Test
-    public void test417() throws Throwable {
+    public void test0419() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test417");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0419");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, (double) 100);
     }
 
     @Test
-    public void test418() throws Throwable {
+    public void test0420() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test418");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0420");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, (double) (short) 1);
     }
 
     @Test
-    public void test419() throws Throwable {
+    public void test0421() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test419");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0421");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1, (double) (byte) -1);
     }
 
     @Test
-    public void test420() throws Throwable {
+    public void test0422() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test420");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 10, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0422");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), 42.0d);
     }
 
     @Test
-    public void test421() throws Throwable {
+    public void test0423() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test421");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0423");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-12d, 0.70710678d);
     }
 
     @Test
-    public void test422() throws Throwable {
+    public void test0424() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test422");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0424");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, (double) 1L);
     }
 
     @Test
-    public void test423() throws Throwable {
+    public void test0425() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test423");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '#', (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0425");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-15d, (-1.0d));
     }
 
     @Test
-    public void test424() throws Throwable {
+    public void test0426() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test424");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0426");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, 10000.0d);
     }
 
     @Test
-    public void test425() throws Throwable {
+    public void test0427() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test425");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0427");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10000.0d, (double) (short) 10);
     }
 
     @Test
-    public void test426() throws Throwable {
+    public void test0428() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test426");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0428");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 1.0E8d);
     }
 
     @Test
-    public void test427() throws Throwable {
+    public void test0429() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test427");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, 10.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0429");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, (double) (short) 1);
     }
 
     @Test
-    public void test428() throws Throwable {
+    public void test0430() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test428");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0430");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 0, (double) (byte) 1);
     }
 
     @Test
-    public void test429() throws Throwable {
+    public void test0431() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test429");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0431");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, (double) 100L);
     }
 
     @Test
-    public void test430() throws Throwable {
+    public void test0432() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test430");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0432");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 1.0d);
     }
 
     @Test
-    public void test431() throws Throwable {
+    public void test0433() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test431");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0433");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (double) 100);
     }
 
     @Test
-    public void test432() throws Throwable {
+    public void test0434() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test432");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0434");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1024.0d, 1.0E10d);
     }
 
     @Test
-    public void test433() throws Throwable {
+    public void test0435() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test433");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0435");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) 1.0f);
     }
 
     @Test
-    public void test434() throws Throwable {
+    public void test0436() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test434");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0436");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), (double) (byte) 100);
     }
 
     @Test
-    public void test435() throws Throwable {
+    public void test0437() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test435");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0437");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, (-1.0d));
     }
 
     @Test
-    public void test436() throws Throwable {
+    public void test0438() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test436");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0438");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.01d, (double) (short) 100);
     }
 
     @Test
-    public void test437() throws Throwable {
+    public void test0439() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test437");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0439");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), (double) 10L);
     }
 
     @Test
-    public void test438() throws Throwable {
+    public void test0440() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test438");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 100L);
+            System.out.format("%n%s%n", "RegressionTest0.test0440");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, (double) 'a');
     }
 
     @Test
-    public void test439() throws Throwable {
+    public void test0441() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test439");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0441");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 1.0d);
     }
 
     @Test
-    public void test440() throws Throwable {
+    public void test0442() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test440");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 1.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0442");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.1d, (double) (-1.0f));
     }
 
     @Test
-    public void test441() throws Throwable {
+    public void test0443() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test441");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0443");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, (double) 10L);
     }
 
     @Test
-    public void test442() throws Throwable {
+    public void test0444() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test442");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0444");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.5d, (-0.0d));
     }
 
     @Test
-    public void test443() throws Throwable {
+    public void test0445() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test443");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0445");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-4d, 0.01d);
     }
 
     @Test
-    public void test444() throws Throwable {
+    public void test0446() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test444");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0446");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10.0f, 0.01d);
     }
 
     @Test
-    public void test445() throws Throwable {
+    public void test0447() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test445");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0447");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, 0.01d);
     }
 
     @Test
-    public void test446() throws Throwable {
+    public void test0448() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test446");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) '#');
+            System.out.format("%n%s%n", "RegressionTest0.test0448");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0.0f, 1.0d);
     }
 
     @Test
-    public void test447() throws Throwable {
+    public void test0449() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test447");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(0.0d, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0449");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (-1.0E10d));
     }
 
     @Test
-    public void test448() throws Throwable {
+    public void test0450() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test448");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0450");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) ' ');
     }
 
     @Test
-    public void test449() throws Throwable {
+    public void test0451() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test449");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0451");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, 0.0d);
     }
 
     @Test
-    public void test450() throws Throwable {
+    public void test0452() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test450");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0452");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.001d, (double) (-1.0f));
     }
 
     @Test
-    public void test451() throws Throwable {
+    public void test0453() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test451");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0453");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.9d, 10.0d);
     }
 
     @Test
-    public void test452() throws Throwable {
+    public void test0454() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test452");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0454");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1.0f), (double) 100.0f);
     }
 
     @Test
-    public void test453() throws Throwable {
+    public void test0455() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test453");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 100, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0455");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (-1L), (double) 'a');
     }
 
     @Test
-    public void test454() throws Throwable {
+    public void test0456() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test454");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) -1, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0456");
+        org.apache.commons.math3.test.testVarianceMonotonicity(42.0d, (double) 1L);
     }
 
     @Test
-    public void test455() throws Throwable {
+    public void test0457() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test455");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0457");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, 1.0E10d);
     }
 
     @Test
-    public void test456() throws Throwable {
+    public void test0458() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test456");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0458");
+        org.apache.commons.math3.test.testVarianceMonotonicity(100.0d, 0.001d);
     }
 
     @Test
-    public void test457() throws Throwable {
+    public void test0459() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test457");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0459");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 10, 1024.0d);
     }
 
     @Test
-    public void test458() throws Throwable {
+    public void test0460() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test458");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0460");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), (double) (byte) 10);
     }
 
     @Test
-    public void test459() throws Throwable {
+    public void test0461() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test459");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0461");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, (double) (-1));
     }
 
     @Test
-    public void test460() throws Throwable {
+    public void test0462() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test460");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0462");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 10L, (double) (short) 1);
     }
 
     @Test
-    public void test461() throws Throwable {
+    public void test0463() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test461");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) ' ', (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0463");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, 0.001d);
     }
 
     @Test
-    public void test462() throws Throwable {
+    public void test0464() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test462");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((-1.0d), (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0464");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E10d, 0.5d);
     }
 
     @Test
-    public void test463() throws Throwable {
+    public void test0465() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test463");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0465");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (-0.0d));
     }
 
     @Test
-    public void test464() throws Throwable {
+    public void test0466() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test464");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 0, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0466");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, 0.0d);
     }
 
     @Test
-    public void test465() throws Throwable {
+    public void test0467() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test465");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) (byte) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0467");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E8d, 1.0d);
     }
 
     @Test
-    public void test466() throws Throwable {
+    public void test0468() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test466");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0468");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 1, 0.01d);
     }
 
     @Test
-    public void test467() throws Throwable {
+    public void test0469() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test467");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(1.0d, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0469");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) -1, (double) (short) -1);
     }
 
     @Test
-    public void test468() throws Throwable {
+    public void test0470() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test468");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0470");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), (-1.0E10d));
     }
 
     @Test
-    public void test469() throws Throwable {
+    public void test0471() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test469");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0471");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, 0.25d);
     }
 
     @Test
-    public void test470() throws Throwable {
+    public void test0472() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test470");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(10.0d, 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0472");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0E10d), (double) 100L);
     }
 
     @Test
-    public void test471() throws Throwable {
+    public void test0473() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test471");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0473");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0L, 0.0d);
     }
 
     @Test
-    public void test472() throws Throwable {
+    public void test0474() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test472");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0.0f, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0474");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-10.0d), 5.0d);
     }
 
     @Test
-    public void test473() throws Throwable {
+    public void test0475() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test473");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0475");
+        org.apache.commons.math3.test.testVarianceMonotonicity(5.0d, 0.0d);
     }
 
     @Test
-    public void test474() throws Throwable {
+    public void test0476() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test474");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) -1, (double) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0476");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 0, (double) 'a');
     }
 
     @Test
-    public void test475() throws Throwable {
+    public void test0477() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test475");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1L), (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0477");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', 1024.0d);
     }
 
     @Test
-    public void test476() throws Throwable {
+    public void test0478() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test476");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) '4', (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0478");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-0.0d), 100.0d);
     }
 
     @Test
-    public void test477() throws Throwable {
+    public void test0479() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test477");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) (byte) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0479");
+        org.apache.commons.math3.test.testVarianceMonotonicity(256.0d, 1.0E-4d);
     }
 
     @Test
-    public void test478() throws Throwable {
+    public void test0480() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test478");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 0, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0480");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 'a', (double) ' ');
     }
 
     @Test
-    public void test479() throws Throwable {
+    public void test0481() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test479");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0L, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0481");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 0.3333333d);
     }
 
     @Test
-    public void test480() throws Throwable {
+    public void test0482() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test480");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1.0f), (double) (byte) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0482");
+        org.apache.commons.math3.test.testVarianceMonotonicity(10.0d, (double) (-1L));
     }
 
     @Test
-    public void test481() throws Throwable {
+    public void test0483() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test481");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 100, (double) 10L);
+            System.out.format("%n%s%n", "RegressionTest0.test0483");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0d, 1.0E-6d);
     }
 
     @Test
-    public void test482() throws Throwable {
+    public void test0484() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test482");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1, (double) 100.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0484");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 100.0f, (double) 10);
     }
 
     @Test
-    public void test483() throws Throwable {
+    public void test0485() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test483");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100L, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0485");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-8d, (double) 'a');
     }
 
     @Test
-    public void test484() throws Throwable {
+    public void test0486() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test484");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1L, (double) 10.0f);
+            System.out.format("%n%s%n", "RegressionTest0.test0486");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-6d, 10000.0d);
     }
 
     @Test
-    public void test485() throws Throwable {
+    public void test0487() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test485");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0487");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) 1, 2.0d);
     }
 
     @Test
-    public void test486() throws Throwable {
+    public void test0488() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test486");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, (double) (short) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0488");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.25d, (double) 1L);
     }
 
     @Test
-    public void test487() throws Throwable {
+    public void test0489() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test487");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 100.0f, (double) (short) 10);
+            System.out.format("%n%s%n", "RegressionTest0.test0489");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-1.0d), 0.9d);
     }
 
     @Test
-    public void test488() throws Throwable {
+    public void test0490() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test488");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0490");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (byte) -1, (-1.0E10d));
     }
 
     @Test
-    public void test489() throws Throwable {
+    public void test0491() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test489");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 'a', (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0491");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1.0E-10d, (double) (byte) 100);
     }
 
     @Test
-    public void test490() throws Throwable {
+    public void test0492() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test490");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (-1), 100.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0492");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) (byte) 1);
     }
 
     @Test
-    public void test491() throws Throwable {
+    public void test0493() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test491");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) ' ');
+            System.out.format("%n%s%n", "RegressionTest0.test0493");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.3333333d, 5.0d);
     }
 
     @Test
-    public void test492() throws Throwable {
+    public void test0494() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test492");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 1.0f, 1.0d);
+            System.out.format("%n%s%n", "RegressionTest0.test0494");
+        org.apache.commons.math3.test.testVarianceMonotonicity(1000000.0d, (double) '#');
     }
 
     @Test
-    public void test493() throws Throwable {
+    public void test0495() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test493");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10, (double) '4');
+            System.out.format("%n%s%n", "RegressionTest0.test0495");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.70710678d, (double) '4');
     }
 
     @Test
-    public void test494() throws Throwable {
+    public void test0496() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test494");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape(100.0d, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0496");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) '4', (double) 10.0f);
     }
 
     @Test
-    public void test495() throws Throwable {
+    public void test0497() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test495");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 1, (double) 'a');
+            System.out.format("%n%s%n", "RegressionTest0.test0497");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) 1L, (double) 100.0f);
     }
 
     @Test
-    public void test496() throws Throwable {
+    public void test0498() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test496");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10L, (double) (short) 100);
+            System.out.format("%n%s%n", "RegressionTest0.test0498");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.25d, 0.0d);
     }
 
     @Test
-    public void test497() throws Throwable {
+    public void test0499() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test497");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (byte) 10, (double) 1);
+            System.out.format("%n%s%n", "RegressionTest0.test0499");
+        org.apache.commons.math3.test.testVarianceMonotonicity((-100.0d), (-100.0d));
     }
 
     @Test
-    public void test498() throws Throwable {
+    public void test0500() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test498");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) (short) 1, (double) 'a');
-    }
-
-    @Test
-    public void test499() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test499");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 10.0f, (double) (byte) 10);
-    }
-
-    @Test
-    public void test500() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test500");
-        org.apache.commons.math3.test.testVarianceIncreasesWithShape((double) 0, (double) 1L);
+            System.out.format("%n%s%n", "RegressionTest0.test0500");
+        org.apache.commons.math3.test.testVarianceMonotonicity((double) (short) 0, (-10.0d));
     }
 }
-

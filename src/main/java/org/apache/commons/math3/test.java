@@ -9,36 +9,44 @@ public class test {
     private static final int NUM_TESTS = 100_000;
     private static final double EPSILON = 1e-12;
     private static final Random random = new Random(42);
+//    public static void main(String[] args) {
+//        int passed = 0;
+//
+//        for (int i = 0; i < NUM_TESTS; i++) {
+//            double scale = 0.1 + 10.0 * random.nextDouble(); // ∈ [0.1, 10.1]
+//            double shape1 = 1e-10 + (2.0 - 1e-10) * random.nextDouble(); // ∈ (0, 2]
+//            double delta = 0.1 + 0.4 * random.nextDouble(); // ∈ [0.1, 0.5]
+//            double shape2 = shape1 * (1.0 + delta); // shape2 > shape1
+//
+//            try {
+//                testVarianceMonotonicity(scale, shape1, shape2);
+//                passed++;
+//            } catch (AssertionError e) {
+//                System.err.println("❌ Test failed on input:");
+//                System.err.printf("  scale = %.10f%n", scale);
+//                System.err.printf("  shape1 = %.10f, shape2 = %.10f%n", shape1, shape2);
+//                System.err.println("  " + e.getMessage());
+//                System.exit(1);
+//            }
+//        }
+//
+//        System.out.println("✅ All tests passed: " + passed + " cases.");
+//    }
 
     public static void main(String[] args) {
-        int passed = 0;
-
-        for (int i = 0; i < NUM_TESTS; i++) {
-            double scale = 0.1 + 10.0 * random.nextDouble(); // ∈ [0.1, 10.1]
-            double shape1 = 1e-10 + (2.0 - 1e-10) * random.nextDouble(); // ∈ (0, 2]
-            double delta = 0.1 + 0.4 * random.nextDouble(); // ∈ [0.1, 0.5]
-            double shape2 = shape1 * (1.0 + delta); // shape2 > shape1
-
-            try {
-                testVarianceMonotonicity(scale, shape1, shape2);
-                passed++;
-            } catch (AssertionError e) {
-                System.err.println("❌ Test failed on input:");
-                System.err.printf("  scale = %.10f%n", scale);
-                System.err.printf("  shape1 = %.10f, shape2 = %.10f%n", shape1, shape2);
-                System.err.println("  " + e.getMessage());
-                System.exit(1);
-            }
-        }
-
-        System.out.println("✅ All tests passed: " + passed + " cases.");
+        org.apache.commons.math3.test.testVarianceMonotonicity(0.0d, 1.0E-10d);
     }
 
     /**
      * 核心测试函数：
      * 若 shape 增大后，LogNormal 分布的方差没有严格增大，则抛出 AssertionError。
      */
-    public static void testVarianceMonotonicity(double scale, double shape1, double shape2) {
+    public static void testVarianceMonotonicity(double scale, double shape1) {
+        if (shape1 <= 0) {
+            return;
+        }
+        double delta = 0.1 + 0.4 * random.nextDouble(); // ∈ [0.1, 0.5]
+        double shape2 = shape1 * (1.0 + delta); // shape2 > shape1
         double var1 = getVariance(scale, shape1);
         double var2 = getVariance(scale, shape2);
 
