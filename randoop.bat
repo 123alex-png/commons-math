@@ -3,7 +3,7 @@ java -cp "target\classes;randoop-all-4.3.4.jar" ^
   randoop.main.Main gentests ^
   --testclass=org.apache.commons.math3.test ^
   --junit-output-dir=.\randoop-tests ^
-  --time-limit=60 ^
+  --time-limit=600 ^
   --generated-limit=100000 ^
   --output-limit=5000 ^
   --maxsize=1000 ^

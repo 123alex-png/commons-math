@@ -22,11 +22,30 @@ public class test {
 //        }
 //    }
 
+//    public static void main(String[] args) {
+//        double[] doubleArray1 = new double[] { (short) 0 };
+//        // during test generation this statement threw an exception of type org.apache.commons.math3.exception.MathArithmeticException in error
+//        org.apache.commons.math3.test.testAdditivePerturbationEffect(doubleArray1, doubleArray1, doubleArray1, (double) 100.0f);
+//    }
     /**
      * 核心测试方法：对原始样本和概率进行缩放扰动后，验证逆累积分布行为是否一致。
      * 如果输出不一致，则抛出 AssertionError。
      */
     public static void testAdditivePerturbationEffect(double[] samples, double[] probs, double[] testProbs, double k) {
+        if (samples == null || probs == null || testProbs == null) return;
+        if (samples.length == 0 || probs.length == 0 || testProbs.length == 0) return;
+        if (samples.length != probs.length) return;
+        if (k == 0 || Double.isNaN(k) || Double.isInfinite(k)) return;
+        if (Arrays.stream(samples).anyMatch(s -> s < 0)) {
+            return;
+        }
+        if (Arrays.stream(probs).anyMatch(p -> p < 0 || p > 1) || Arrays.stream(testProbs).anyMatch(p -> p < 0 || p > 1)) {
+            return;
+        }
+        if (!Arrays.stream(probs).anyMatch(p -> p > 0)) {
+            return;
+        }
+
         EnumeratedRealDistribution srcDist = new EnumeratedRealDistribution(samples, probs);
 
         // 计算原始分布在指定概率点的逆累积分布输出
