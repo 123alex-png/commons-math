@@ -57,8 +57,8 @@ public class WelzlEncloser<S extends Space, P extends Point<S>> implements Enclo
      * @param dimension dimension of the space
      * @param generator generator for balls on support
      */
-    protected WelzlEncloser(final double tolerance, final int dimension,
-                            final SupportBallGenerator<S, P> generator) {
+    public WelzlEncloser(final double tolerance, final int dimension,
+                         final SupportBallGenerator<S, P> generator) {
         this.tolerance = tolerance;
         this.max       = dimension + 1;
         this.generator = generator;
