@@ -12,10 +12,9 @@ import org.apache.commons.math4.geometry.euclidean.threed.SubPlane;
 import org.apache.commons.math4.geometry.euclidean.threed.Vector3D;
 import org.apache.commons.math4.geometry.euclidean.twod.PolygonsSet;
 import org.apache.commons.math4.geometry.euclidean.twod.Vector2D;
-import org.apache.commons.math4.geometry.partitioning.Region;
 import org.apache.commons.math4.geometry.partitioning.SubHyperplane;
 
-public class MetamorphicDirectionChangeTest {
+public class test {
 
     private static final double tol = 1e-8;
     private static final double TOL = 1e-8;

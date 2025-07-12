@@ -1,7 +1,7 @@
 @echo off
 java -cp "target\classes;randoop-all-4.3.4.jar" ^
   randoop.main.Main gentests ^
-  --testclass=org.apache.commons.math4.MetamorphicDirectionChangeTest ^
+  --testclass=org.apache.commons.math4.test ^
   --junit-output-dir=./randoop-tests ^
   --time-limit=10 ^
   --generated-limit=1000 ^
