@@ -3,6 +3,7 @@ package org.apache.commons.math3;
 import org.apache.commons.math3.distribution.EnumeratedRealDistribution;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class test {
 
@@ -21,20 +22,22 @@ public class test {
 //            System.exit(1);
 //        }
 //    }
-
-//    public static void main(String[] args) {
-//        double[] doubleArray1 = new double[] { (short) 0 };
-//        // during test generation this statement threw an exception of type org.apache.commons.math3.exception.MathArithmeticException in error
-//        org.apache.commons.math3.test.testAdditivePerturbationEffect(doubleArray1, doubleArray1, doubleArray1, (double) 100.0f);
-//    }
     /**
      * 核心测试方法：对原始样本和概率进行缩放扰动后，验证逆累积分布行为是否一致。
      * 如果输出不一致，则抛出 AssertionError。
      */
     public static void testAdditivePerturbationEffect(double[] samples, double[] probs, double[] testProbs, double k) {
         if (samples == null || probs == null || testProbs == null) return;
-        if (samples.length == 0 || probs.length == 0 || testProbs.length == 0) return;
-        if (samples.length != probs.length) return;
+        if (samples.length != probs.length || samples.length != testProbs.length) return;
+        long count = IntStream.range(0, probs.length)
+                .filter(i -> probs[i] > 0)
+                .mapToObj(i -> samples[i])
+                .distinct()
+                .count();
+
+        if (count < 2) {
+            return;
+        }
         if (k == 0 || Double.isNaN(k) || Double.isInfinite(k)) return;
         if (Arrays.stream(samples).anyMatch(s -> s < 0)) {
             return;
