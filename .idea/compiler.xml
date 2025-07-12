@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="commons-math4" />
+        <module name="commons-math3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
