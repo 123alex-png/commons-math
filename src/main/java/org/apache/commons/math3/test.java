@@ -10,21 +10,35 @@ import org.apache.commons.math3.random.UnitSphereRandomVectorGenerator;
 import org.apache.commons.math3.random.Well1024a;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class test {
 
     private static final Well1024a rng = new Well1024a();
     private static final UnitSphereRandomVectorGenerator generator = new UnitSphereRandomVectorGenerator(3, rng);
 
-    /**
-     * 以给定的点集为基础，测试添加一些外部点后包围球半径是否变大
-     *
-     * @param originalPoints 原始点集
-     * @throws AssertionError    测试失败时抛出
-     * @throws MathInternalError 计算失败时抛出
-     */
-    public static void testAddOuterPointEffect(List<Vector3D> originalPoints) throws MathInternalError {
+//    public static void main(String[] args) {
+//        double[] doubleArray2 = new double[] { 100L, 100 };
+//        // during test generation this statement threw an exception of type java.lang.AssertionError in error
+//        org.apache.commons.math3.test.testAddOuterPointEffect(doubleArray2, doubleArray2, doubleArray2);
+//    }
+
+    public static void testAddOuterPointEffect(double[] x, double[] y, double[] z) throws MathInternalError {
+        if (x == null || y == null || z == null || !(x.length == y.length) || !(x.length == z.length) || x.length == 0) {
+            return;
+        }
+        List<Vector3D> originalPoints = new ArrayList<>();
+        for (int i = 0; i < x.length; i++) {
+            originalPoints.add(new Vector3D(x[i], y[i], z[i]));
+        }
+        // 判断至少有4个不同的点
+        Set<Vector3D> distinctPoints = new HashSet<>(originalPoints);
+        if (distinctPoints.size() < 4) {
+            return;  // 不满足4个不同点，跳过
+        }
+
         WelzlEncloser<Euclidean3D, Vector3D> encloser = new WelzlEncloser<>(1e-10, 2, new SphereGenerator());
 
         EnclosingBall<Euclidean3D, Vector3D> ball1 = encloser.enclose(originalPoints);
@@ -50,7 +64,10 @@ public class test {
 //        for (int i = 0; i < testCount; i++) {
 //            try {
 //                List<Vector3D> pts = tester.generateRandomPointsInsideSphere(10, 10.0);
-//                tester.testAddOuterPointEffect(pts);
+//                double[] x = pts.stream().mapToDouble(Vector3D::getX).toArray();
+//                double[] y = pts.stream().mapToDouble(Vector3D::getY).toArray();
+//                double[] z = pts.stream().mapToDouble(Vector3D::getZ).toArray();
+//                tester.testAddOuterPointEffect(x, y, z);
 //            } catch (MathInternalError e) {
 //                // 这里直接跳过失败的内部计算异常
 //                System.out.println("第 " + i + " 次测试跳过，计算异常: " + e.getMessage());
