@@ -1,13 +1,16 @@
-package org.apache.commons.math4.distribution;
+package org.apache.commons.math4;
 
 import org.apache.commons.math4.distribution.NormalDistribution;
 
 import java.util.Random;
 
-public class SensitivityMain {
+public class test {
 
     private static final double EPSILON = 1e-5;
     public static void checkSensitivityToSigma(double mu, double sigma, double x) {
+        if (sigma <= 0) {
+            return;
+        }
         NormalDistribution src = new NormalDistribution(mu, sigma);
         NormalDistribution disturbed = new NormalDistribution(mu, sigma + EPSILON);
 
@@ -23,7 +26,9 @@ public class SensitivityMain {
             }
         }
     }
-
+    public static void main(String[] args) {
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, 5.0d, (double) 0L);
+    }
     private static double randomDouble(Random r, double min, double max) {
         return min + (max - min) * r.nextDouble();
     }

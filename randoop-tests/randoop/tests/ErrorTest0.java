@@ -21,4002 +21,4002 @@ public class ErrorTest0 {
     }
 
     @Test
-    public void test0001() throws Throwable {
+    public void test001() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0001");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 0.0f, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test001");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1L), 0.70710678d, (double) '#');
     }
 
     @Test
-    public void test0002() throws Throwable {
+    public void test002() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0002");
+            System.out.format("%n%s%n", "ErrorTest0.test002");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) ' ', 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10.0f, 5.0d, (-10.0d));
     }
 
     @Test
-    public void test0003() throws Throwable {
+    public void test003() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0003");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (byte) -1, (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test003");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.1d, (double) (short) 1, 10.0d);
     }
 
     @Test
-    public void test0004() throws Throwable {
+    public void test004() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0004");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) 0L, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test004");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) (short) 10, (double) 'a');
     }
 
     @Test
-    public void test0005() throws Throwable {
+    public void test005() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0005");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) (-1L), (double) 0L);
+            System.out.format("%n%s%n", "ErrorTest0.test005");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 1.0E-10d, 0.9d);
     }
 
     @Test
-    public void test0006() throws Throwable {
+    public void test006() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0006");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test006");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 1.0E-15d, (double) 1);
     }
 
     @Test
-    public void test0007() throws Throwable {
+    public void test007() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0007");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((-1.0d), 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test007");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, (double) 10L, 0.25d);
     }
 
     @Test
-    public void test0008() throws Throwable {
+    public void test008() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0008");
+            System.out.format("%n%s%n", "ErrorTest0.test008");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 1.0d, (double) (short) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, (double) 100, 0.5d);
     }
 
     @Test
-    public void test0009() throws Throwable {
+    public void test009() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0009");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, 0.0d, (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test009");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) '#', (double) (-1.0f));
     }
 
     @Test
-    public void test0010() throws Throwable {
+    public void test010() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0010");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test010");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 1.0E10d, (-1.0d));
     }
 
     @Test
-    public void test0011() throws Throwable {
+    public void test011() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0011");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', 0.0d, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test011");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) -1, (double) 10.0f, (double) (byte) 100);
     }
 
     @Test
-    public void test0012() throws Throwable {
+    public void test012() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0012");
+            System.out.format("%n%s%n", "ErrorTest0.test012");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) (byte) 100, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 1.0E-12d, 0.0d);
     }
 
     @Test
-    public void test0013() throws Throwable {
+    public void test013() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0013");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) (short) -1, (double) 'a');
+            System.out.format("%n%s%n", "ErrorTest0.test013");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, 5.0d, (double) 0L);
     }
 
     @Test
-    public void test0014() throws Throwable {
+    public void test014() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0014");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) 0, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test014");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, (double) 100, (-1.0d));
     }
 
     @Test
-    public void test0015() throws Throwable {
+    public void test015() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0015");
+            System.out.format("%n%s%n", "ErrorTest0.test015");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 1.0f, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, 0.001d, 1.0E-6d);
     }
 
     @Test
-    public void test0016() throws Throwable {
+    public void test016() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0016");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((-1.0d), (double) 0L, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test016");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0d, (double) 100.0f);
     }
 
     @Test
-    public void test0017() throws Throwable {
+    public void test017() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0017");
+            System.out.format("%n%s%n", "ErrorTest0.test017");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) 10.0f, (double) (short) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) (byte) 10, (double) 1L);
     }
 
     @Test
-    public void test0018() throws Throwable {
+    public void test018() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0018");
+            System.out.format("%n%s%n", "ErrorTest0.test018");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) (short) 1, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 0.3333333d, (double) 10.0f);
     }
 
     @Test
-    public void test0019() throws Throwable {
+    public void test019() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0019");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, 0.0d, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test019");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) 10, 512.0d);
     }
 
     @Test
-    public void test0020() throws Throwable {
+    public void test020() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0020");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (-1), (double) 10L);
+            System.out.format("%n%s%n", "ErrorTest0.test020");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-10.0d), 0.25d, (double) (short) 1);
     }
 
     @Test
-    public void test0021() throws Throwable {
+    public void test021() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0021");
+            System.out.format("%n%s%n", "ErrorTest0.test021");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) 10.0f, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, 1.0E-10d, (-1.0E10d));
     }
 
     @Test
-    public void test0022() throws Throwable {
+    public void test022() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0022");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) 0.0f, (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test022");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) (byte) 100, (double) 10);
     }
 
     @Test
-    public void test0023() throws Throwable {
+    public void test023() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0023");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) (byte) 0, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test023");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, (double) (short) 100, (double) 'a');
     }
 
     @Test
-    public void test0024() throws Throwable {
+    public void test024() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0024");
+            System.out.format("%n%s%n", "ErrorTest0.test024");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, 10.0d, (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, 5.0d, (double) (short) -1);
     }
 
     @Test
-    public void test0025() throws Throwable {
+    public void test025() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0025");
+            System.out.format("%n%s%n", "ErrorTest0.test025");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (byte) 100, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 100, 0.1d, 0.3333333d);
     }
 
     @Test
-    public void test0026() throws Throwable {
+    public void test026() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0026");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, 0.0d, (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test026");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 256.0d, 1.0E-8d);
     }
 
     @Test
-    public void test0027() throws Throwable {
+    public void test027() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0027");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 0.0f, (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test027");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 10000.0d, 0.9d);
     }
 
     @Test
-    public void test0028() throws Throwable {
+    public void test028() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0028");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) (short) 0, (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test028");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-100.0d), 0.70710678d, 1000000.0d);
     }
 
     @Test
-    public void test0029() throws Throwable {
+    public void test029() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0029");
+            System.out.format("%n%s%n", "ErrorTest0.test029");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (short) 1, (-1.0d));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 0, 0.001d, 10000.0d);
     }
 
     @Test
-    public void test0030() throws Throwable {
+    public void test030() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0030");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (-1.0f), (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test030");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 1.0E10d, 42.0d);
     }
 
     @Test
-    public void test0031() throws Throwable {
+    public void test031() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0031");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) (-1L), (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test031");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.01d, (double) 10, (double) (-1));
     }
 
     @Test
-    public void test0032() throws Throwable {
+    public void test032() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0032");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 0.0f, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test032");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, (double) 10.0f, (double) (byte) 0);
     }
 
     @Test
-    public void test0033() throws Throwable {
+    public void test033() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0033");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, (double) 0L, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test033");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1L), 0.3333333d, 1.0E8d);
     }
 
     @Test
-    public void test0034() throws Throwable {
+    public void test034() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0034");
+            System.out.format("%n%s%n", "ErrorTest0.test034");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (byte) 10, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) (byte) 10, (-1.0d));
     }
 
     @Test
-    public void test0035() throws Throwable {
+    public void test035() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0035");
+            System.out.format("%n%s%n", "ErrorTest0.test035");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (short) 10, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 0.5d, (-10.0d));
     }
 
     @Test
-    public void test0036() throws Throwable {
+    public void test036() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0036");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) (short) -1, (double) 'a');
+            System.out.format("%n%s%n", "ErrorTest0.test036");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 1.0E10d, (double) (-1));
     }
 
     @Test
-    public void test0037() throws Throwable {
+    public void test037() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0037");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (-1.0f), (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test037");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0L, 512.0d, 10000.0d);
     }
 
     @Test
-    public void test0038() throws Throwable {
+    public void test038() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0038");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (short) 0, (double) 100L);
+            System.out.format("%n%s%n", "ErrorTest0.test038");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.3333333d, 1.0E8d, (double) (byte) 0);
     }
 
     @Test
-    public void test0039() throws Throwable {
+    public void test039() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0039");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, 0.0d, (double) (byte) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test039");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, 100.0d, (-100.0d));
     }
 
     @Test
-    public void test0040() throws Throwable {
+    public void test040() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0040");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (-1), (double) 'a');
+            System.out.format("%n%s%n", "ErrorTest0.test040");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, 1.0E8d, 2.0d);
     }
 
     @Test
-    public void test0041() throws Throwable {
+    public void test041() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0041");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (-1.0d), (double) (short) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test041");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) (byte) 10, (double) 10L);
     }
 
     @Test
-    public void test0042() throws Throwable {
+    public void test042() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0042");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, 0.0d, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test042");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, 0.5d, (double) ' ');
     }
 
     @Test
-    public void test0043() throws Throwable {
+    public void test043() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0043");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 0.0f, 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test043");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) -1, (double) 10L, (double) 'a');
     }
 
     @Test
-    public void test0044() throws Throwable {
+    public void test044() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0044");
+            System.out.format("%n%s%n", "ErrorTest0.test044");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) 10L, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) -1, 1.0E-8d, (double) (short) 0);
     }
 
     @Test
-    public void test0045() throws Throwable {
+    public void test045() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0045");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1L), (double) (short) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test045");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 1.0E8d, 5.0d);
     }
 
     @Test
-    public void test0046() throws Throwable {
+    public void test046() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0046");
+            System.out.format("%n%s%n", "ErrorTest0.test046");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) (short) 1, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-100.0d), 1.0E8d, (-10.0d));
     }
 
     @Test
-    public void test0047() throws Throwable {
+    public void test047() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0047");
+            System.out.format("%n%s%n", "ErrorTest0.test047");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 1, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, 1.0E-4d, 0.70710678d);
     }
 
     @Test
-    public void test0048() throws Throwable {
+    public void test048() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0048");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) (-1.0f), 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test048");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0, 1.0E-15d, (double) ' ');
     }
 
     @Test
-    public void test0049() throws Throwable {
+    public void test049() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0049");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) (short) -1, (double) 0L);
+            System.out.format("%n%s%n", "ErrorTest0.test049");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 256.0d, 42.0d);
     }
 
     @Test
-    public void test0050() throws Throwable {
+    public void test050() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0050");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, 0.0d, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test050");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 1.0E-8d, 1.0E-4d);
     }
 
     @Test
-    public void test0051() throws Throwable {
+    public void test051() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0051");
+            System.out.format("%n%s%n", "ErrorTest0.test051");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (byte) 10, (-1.0d));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', (double) 100L, 1.0d);
     }
 
     @Test
-    public void test0052() throws Throwable {
+    public void test052() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0052");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (byte) 0, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test052");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, (double) 1, 0.0d);
     }
 
     @Test
-    public void test0053() throws Throwable {
+    public void test053() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0053");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 0.0f, (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test053");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 1.0E-10d, 0.9d);
     }
 
     @Test
-    public void test0054() throws Throwable {
+    public void test054() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0054");
+            System.out.format("%n%s%n", "ErrorTest0.test054");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, 10.0d, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', (double) 1.0f, (-1.0d));
     }
 
     @Test
-    public void test0055() throws Throwable {
+    public void test055() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0055");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test055");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 1.0d, 1024.0d);
     }
 
     @Test
-    public void test0056() throws Throwable {
+    public void test056() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0056");
+            System.out.format("%n%s%n", "ErrorTest0.test056");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) 100L, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 0, 1000000.0d, (-100.0d));
     }
 
     @Test
-    public void test0057() throws Throwable {
+    public void test057() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0057");
+            System.out.format("%n%s%n", "ErrorTest0.test057");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) ' ', (double) (short) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, 1.0E-4d, (double) 0);
     }
 
     @Test
-    public void test0058() throws Throwable {
+    public void test058() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0058");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (-1L), (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test058");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-15d, 1.0d, 100.0d);
     }
 
     @Test
-    public void test0059() throws Throwable {
+    public void test059() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0059");
+            System.out.format("%n%s%n", "ErrorTest0.test059");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, 1.0d, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, 256.0d, 0.70710678d);
     }
 
     @Test
-    public void test0060() throws Throwable {
+    public void test060() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0060");
+            System.out.format("%n%s%n", "ErrorTest0.test060");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) (byte) 1, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, (double) 10, 1.0E-15d);
     }
 
     @Test
-    public void test0061() throws Throwable {
+    public void test061() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0061");
+            System.out.format("%n%s%n", "ErrorTest0.test061");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', 1.0d, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, (double) 10.0f, (double) 1L);
     }
 
     @Test
-    public void test0062() throws Throwable {
+    public void test062() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0062");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) 0.0f, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test062");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, 10000.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test0063() throws Throwable {
+    public void test063() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0063");
+            System.out.format("%n%s%n", "ErrorTest0.test063");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, 1.0d, (double) 10.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, (double) 10, 100.0d);
     }
 
     @Test
-    public void test0064() throws Throwable {
+    public void test064() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0064");
+            System.out.format("%n%s%n", "ErrorTest0.test064");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 10L, (double) 0.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) (short) 100, 1.0E-10d);
     }
 
     @Test
-    public void test0065() throws Throwable {
+    public void test065() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0065");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (byte) -1, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test065");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 1000000.0d, 0.01d);
     }
 
     @Test
-    public void test0066() throws Throwable {
+    public void test066() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0066");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) (byte) -1, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test066");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), 0.01d, (double) (byte) 100);
     }
 
     @Test
-    public void test0067() throws Throwable {
+    public void test067() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0067");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) (-1L), (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test067");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.3333333d, (double) 10, (double) (byte) 100);
     }
 
     @Test
-    public void test0068() throws Throwable {
+    public void test068() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0068");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) 0, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test068");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-12d, 1.0E8d, 0.1d);
     }
 
     @Test
-    public void test0069() throws Throwable {
+    public void test069() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0069");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (-1.0d), (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test069");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, 0.25d, 0.1d);
     }
 
     @Test
-    public void test0070() throws Throwable {
+    public void test070() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0070");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 0L, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test070");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, 0.9d, (double) 1);
     }
 
     @Test
-    public void test0071() throws Throwable {
+    public void test071() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0071");
+            System.out.format("%n%s%n", "ErrorTest0.test071");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) (short) 1, (double) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 0.001d, (double) 100.0f);
     }
 
     @Test
-    public void test0072() throws Throwable {
+    public void test072() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0072");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (-1), (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test072");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, 0.1d, (double) 0);
     }
 
     @Test
-    public void test0073() throws Throwable {
+    public void test073() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0073");
+            System.out.format("%n%s%n", "ErrorTest0.test073");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 1, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) (byte) 100, (double) (short) 0);
     }
 
     @Test
-    public void test0074() throws Throwable {
+    public void test074() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0074");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((-1.0d), (double) (short) 0, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test074");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 1.0d, 1.0E10d);
     }
 
     @Test
-    public void test0075() throws Throwable {
+    public void test075() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0075");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) 0L, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test075");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-12d, (double) 100.0f);
     }
 
     @Test
-    public void test0076() throws Throwable {
+    public void test076() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0076");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 0, (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test076");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 0.001d, (double) ' ');
     }
 
     @Test
-    public void test0077() throws Throwable {
+    public void test077() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0077");
+            System.out.format("%n%s%n", "ErrorTest0.test077");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 1.0f, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 1.0E8d, 1.0E-10d);
     }
 
     @Test
-    public void test0078() throws Throwable {
+    public void test078() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0078");
+            System.out.format("%n%s%n", "ErrorTest0.test078");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, 1.0d, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 512.0d, 1.0E-15d);
     }
 
     @Test
-    public void test0079() throws Throwable {
+    public void test079() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0079");
+            System.out.format("%n%s%n", "ErrorTest0.test079");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) 1.0f, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, (double) 100L, (-1.0d));
     }
 
     @Test
-    public void test0080() throws Throwable {
+    public void test080() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0080");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test080");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 0.5d, 1.0E-4d);
     }
 
     @Test
-    public void test0081() throws Throwable {
+    public void test081() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0081");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (-1.0d), (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test081");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 0.1d, 1.0E-12d);
     }
 
     @Test
-    public void test0082() throws Throwable {
+    public void test082() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0082");
+            System.out.format("%n%s%n", "ErrorTest0.test082");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (short) 1, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 10.0d, (double) 'a');
     }
 
     @Test
-    public void test0083() throws Throwable {
+    public void test083() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0083");
+            System.out.format("%n%s%n", "ErrorTest0.test083");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) (short) 1, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, 1.0E-6d, (-10.0d));
     }
 
     @Test
-    public void test0084() throws Throwable {
+    public void test084() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0084");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (byte) -1, 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test084");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, (double) 1, 1.0E-4d);
     }
 
     @Test
-    public void test0085() throws Throwable {
+    public void test085() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0085");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, 0.0d, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test085");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) 10.0f, 100.0d);
     }
 
     @Test
-    public void test0086() throws Throwable {
+    public void test086() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0086");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, 0.0d, (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test086");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, (double) 100.0f, 5.0d);
     }
 
     @Test
-    public void test0087() throws Throwable {
+    public void test087() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0087");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) 0, (double) (byte) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test087");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, 0.001d, 1.0E-4d);
     }
 
     @Test
-    public void test0088() throws Throwable {
+    public void test088() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0088");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) (short) 0, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test088");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0.0f, (double) 1, (double) 100);
     }
 
     @Test
-    public void test0089() throws Throwable {
+    public void test089() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0089");
+            System.out.format("%n%s%n", "ErrorTest0.test089");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) (byte) 100, (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) ' ', (double) 1, (double) 100.0f);
     }
 
     @Test
-    public void test0090() throws Throwable {
+    public void test090() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0090");
+            System.out.format("%n%s%n", "ErrorTest0.test090");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, 1.0d, (double) 10L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10.0f, 1.0E-10d, 2.0d);
     }
 
     @Test
-    public void test0091() throws Throwable {
+    public void test091() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0091");
+            System.out.format("%n%s%n", "ErrorTest0.test091");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 10L, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) 10.0f, 1.0E8d);
     }
 
     @Test
-    public void test0092() throws Throwable {
+    public void test092() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0092");
+            System.out.format("%n%s%n", "ErrorTest0.test092");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, 10.0d, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, 10.0d, (double) (-1));
     }
 
     @Test
-    public void test0093() throws Throwable {
+    public void test093() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0093");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (-1.0f), (double) 100L);
+            System.out.format("%n%s%n", "ErrorTest0.test093");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, 1024.0d, 10000.0d);
     }
 
     @Test
-    public void test0094() throws Throwable {
+    public void test094() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0094");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', 0.0d, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test094");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.01d, 100.0d, 1.0E-10d);
     }
 
     @Test
-    public void test0095() throws Throwable {
+    public void test095() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0095");
+            System.out.format("%n%s%n", "ErrorTest0.test095");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, 100.0d, 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', (double) 10.0f, (double) (-1L));
     }
 
     @Test
-    public void test0096() throws Throwable {
+    public void test096() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0096");
+            System.out.format("%n%s%n", "ErrorTest0.test096");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (byte) 1, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 1.0E-12d, (double) (-1));
     }
 
     @Test
-    public void test0097() throws Throwable {
+    public void test097() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0097");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 0.0f, (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test097");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, 100.0d, 1.0E-8d);
     }
 
     @Test
-    public void test0098() throws Throwable {
+    public void test098() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0098");
+            System.out.format("%n%s%n", "ErrorTest0.test098");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) 100L, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, 1.0E10d, (double) 1.0f);
     }
 
     @Test
-    public void test0099() throws Throwable {
+    public void test099() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0099");
+            System.out.format("%n%s%n", "ErrorTest0.test099");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) (byte) 1, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 1.0E-10d, (-1.0d));
     }
 
     @Test
-    public void test0100() throws Throwable {
+    public void test100() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0100");
+            System.out.format("%n%s%n", "ErrorTest0.test100");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 1.0f, 10.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, (double) (byte) 10, (double) (-1.0f));
     }
 
     @Test
-    public void test0101() throws Throwable {
+    public void test101() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0101");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test101");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, (double) (byte) 1, 1.0E-8d);
     }
 
     @Test
-    public void test0102() throws Throwable {
+    public void test102() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0102");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1L), (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test102");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, 10000.0d, (double) (short) 1);
     }
 
     @Test
-    public void test0103() throws Throwable {
+    public void test103() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0103");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (-1.0d), (double) (-1L));
+            System.out.format("%n%s%n", "ErrorTest0.test103");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 1.0d, (double) ' ');
     }
 
     @Test
-    public void test0104() throws Throwable {
+    public void test104() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0104");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, (double) (-1), (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test104");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 0.9d, (-100.0d));
     }
 
     @Test
-    public void test0105() throws Throwable {
+    public void test105() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0105");
+            System.out.format("%n%s%n", "ErrorTest0.test105");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) (short) 10, (double) (short) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 0.25d, 2.0d);
     }
 
     @Test
-    public void test0106() throws Throwable {
+    public void test106() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0106");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', 0.0d, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test106");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 10.0d, (-10.0d));
     }
 
     @Test
-    public void test0107() throws Throwable {
+    public void test107() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0107");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (-1.0f), (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test107");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0, 1024.0d, (-1.0E10d));
     }
 
     @Test
-    public void test0108() throws Throwable {
+    public void test108() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0108");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) (short) 0, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test108");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0L, 1.0E-15d, (double) (byte) -1);
     }
 
     @Test
-    public void test0109() throws Throwable {
+    public void test109() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0109");
+            System.out.format("%n%s%n", "ErrorTest0.test109");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (short) 10, (double) 0.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-4d, (double) 10);
     }
 
     @Test
-    public void test0110() throws Throwable {
+    public void test110() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0110");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (-1), 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test110");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 100.0d, 0.0d);
     }
 
     @Test
-    public void test0111() throws Throwable {
+    public void test111() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0111");
+            System.out.format("%n%s%n", "ErrorTest0.test111");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 100L, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 0.001d, (double) (byte) 0);
     }
 
     @Test
-    public void test0112() throws Throwable {
+    public void test112() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0112");
+            System.out.format("%n%s%n", "ErrorTest0.test112");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) 1L, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, 1.0d, (double) (short) 100);
     }
 
     @Test
-    public void test0113() throws Throwable {
+    public void test113() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0113");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, 0.0d, (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test113");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.3333333d, (double) (short) 1, (-1.0d));
     }
 
     @Test
-    public void test0114() throws Throwable {
+    public void test114() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0114");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (short) 0, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test114");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, (double) '#', (double) 0.0f);
     }
 
     @Test
-    public void test0115() throws Throwable {
+    public void test115() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0115");
+            System.out.format("%n%s%n", "ErrorTest0.test115");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 1, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 1.0E-6d, (double) 1.0f);
     }
 
     @Test
-    public void test0116() throws Throwable {
+    public void test116() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0116");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) (short) -1, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test116");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 1000000.0d, 0.0d);
     }
 
     @Test
-    public void test0117() throws Throwable {
+    public void test117() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0117");
+            System.out.format("%n%s%n", "ErrorTest0.test117");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 1, (double) 10.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.3333333d, 1.0E10d, (double) 0);
     }
 
     @Test
-    public void test0118() throws Throwable {
+    public void test118() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0118");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, 0.0d, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test118");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, (double) 1.0f, (double) (short) 10);
     }
 
     @Test
-    public void test0119() throws Throwable {
+    public void test119() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0119");
+            System.out.format("%n%s%n", "ErrorTest0.test119");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 10L, (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1.0f), 0.1d, (double) 100.0f);
     }
 
     @Test
-    public void test0120() throws Throwable {
+    public void test120() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0120");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (-1.0d), (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test120");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) ' ', 0.3333333d, (double) '4');
     }
 
     @Test
-    public void test0121() throws Throwable {
+    public void test121() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0121");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (short) 0, (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test121");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, (double) 1.0f, (double) 100);
     }
 
     @Test
-    public void test0122() throws Throwable {
+    public void test122() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0122");
+            System.out.format("%n%s%n", "ErrorTest0.test122");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) (byte) 1, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, (double) ' ', (-1.0E10d));
     }
 
     @Test
-    public void test0123() throws Throwable {
+    public void test123() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0123");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (short) 0, (double) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test123");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 10000.0d, (double) 0.0f);
     }
 
     @Test
-    public void test0124() throws Throwable {
+    public void test124() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0124");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (-1L), (double) 10.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test124");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 5.0d, (-0.0d));
     }
 
     @Test
-    public void test0125() throws Throwable {
+    public void test125() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0125");
+            System.out.format("%n%s%n", "ErrorTest0.test125");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 1, 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, (double) (byte) 1, 5.0d);
     }
 
     @Test
-    public void test0126() throws Throwable {
+    public void test126() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0126");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, 0.0d, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test126");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-100.0d), 0.5d, 512.0d);
     }
 
     @Test
-    public void test0127() throws Throwable {
+    public void test127() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0127");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test127");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 0.01d, (double) (byte) -1);
     }
 
     @Test
-    public void test0128() throws Throwable {
+    public void test128() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0128");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (-1.0d), (double) (-1L));
+            System.out.format("%n%s%n", "ErrorTest0.test128");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, 0.01d, (double) (short) -1);
     }
 
     @Test
-    public void test0129() throws Throwable {
+    public void test129() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0129");
+            System.out.format("%n%s%n", "ErrorTest0.test129");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 1, (double) (short) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 1.0E8d, 0.5d);
     }
 
     @Test
-    public void test0130() throws Throwable {
+    public void test130() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0130");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (byte) -1, (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test130");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 1.0E-6d, 1.0E-8d);
     }
 
     @Test
-    public void test0131() throws Throwable {
+    public void test131() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0131");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, 0.0d, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test131");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, (double) 10, (double) (-1.0f));
     }
 
     @Test
-    public void test0132() throws Throwable {
+    public void test132() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0132");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (short) -1, (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test132");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 0.25d, 1.0E-6d);
     }
 
     @Test
-    public void test0133() throws Throwable {
+    public void test133() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0133");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (-1L), (double) (short) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test133");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, 0.70710678d, 42.0d);
     }
 
     @Test
-    public void test0134() throws Throwable {
+    public void test134() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0134");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1L), (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test134");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 42.0d, (-1.0E10d));
     }
 
     @Test
-    public void test0135() throws Throwable {
+    public void test135() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0135");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) (byte) 0, (double) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test135");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10.0f, 1.0E-10d, 0.0d);
     }
 
     @Test
-    public void test0136() throws Throwable {
+    public void test136() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0136");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, 0.0d, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test136");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, (double) 1.0f, (-1.0d));
     }
 
     @Test
-    public void test0137() throws Throwable {
+    public void test137() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0137");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) (byte) 0, (double) 0L);
+            System.out.format("%n%s%n", "ErrorTest0.test137");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10.0f, 1.0d, (-0.0d));
     }
 
     @Test
-    public void test0138() throws Throwable {
+    public void test138() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0138");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) (byte) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test138");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) 1, 42.0d);
     }
 
     @Test
-    public void test0139() throws Throwable {
+    public void test139() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0139");
+            System.out.format("%n%s%n", "ErrorTest0.test139");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) 1, (double) '4');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0L, 0.01d, 1.0E8d);
     }
 
     @Test
-    public void test0140() throws Throwable {
+    public void test140() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0140");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, 0.0d, (double) (byte) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test140");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) '#', 0.01d);
     }
 
     @Test
-    public void test0141() throws Throwable {
+    public void test141() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0141");
+            System.out.format("%n%s%n", "ErrorTest0.test141");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) 1.0f, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 0.01d, 0.0d);
     }
 
     @Test
-    public void test0142() throws Throwable {
+    public void test142() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0142");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) (-1.0f), (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test142");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, 0.001d, (double) ' ');
     }
 
     @Test
-    public void test0143() throws Throwable {
+    public void test143() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0143");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, 0.0d, (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test143");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, 2.0d, 2.0d);
     }
 
     @Test
-    public void test0144() throws Throwable {
+    public void test144() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0144");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, 0.0d, (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test144");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, 1.0E-4d, 0.01d);
     }
 
     @Test
-    public void test0145() throws Throwable {
+    public void test145() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0145");
+            System.out.format("%n%s%n", "ErrorTest0.test145");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 100, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, 1.0E-8d, 0.3333333d);
     }
 
     @Test
-    public void test0146() throws Throwable {
+    public void test146() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0146");
+            System.out.format("%n%s%n", "ErrorTest0.test146");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 100.0f, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, (double) 1L, 42.0d);
     }
 
     @Test
-    public void test0147() throws Throwable {
+    public void test147() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0147");
+            System.out.format("%n%s%n", "ErrorTest0.test147");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) 10L, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 10000.0d, (double) ' ');
     }
 
     @Test
-    public void test0148() throws Throwable {
+    public void test148() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0148");
+            System.out.format("%n%s%n", "ErrorTest0.test148");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 'a', (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, 1.0E-10d, (double) (byte) 100);
     }
 
     @Test
-    public void test0149() throws Throwable {
+    public void test149() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0149");
+            System.out.format("%n%s%n", "ErrorTest0.test149");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 10, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 0.1d, (double) 10);
     }
 
     @Test
-    public void test0150() throws Throwable {
+    public void test150() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0150");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', 0.0d, (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test150");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-15d, (double) 100L, (-10.0d));
     }
 
     @Test
-    public void test0151() throws Throwable {
+    public void test151() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0151");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (-1L), (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test151");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, 1.0E-10d, 10.0d);
     }
 
     @Test
-    public void test0152() throws Throwable {
+    public void test152() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0152");
+            System.out.format("%n%s%n", "ErrorTest0.test152");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) ' ', (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) (short) 10, 1024.0d);
     }
 
     @Test
-    public void test0153() throws Throwable {
+    public void test153() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0153");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) (-1.0f), (double) (byte) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test153");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, (double) 1.0f, (double) 100.0f);
     }
 
     @Test
-    public void test0154() throws Throwable {
+    public void test154() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0154");
+            System.out.format("%n%s%n", "ErrorTest0.test154");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) '4', (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), 1.0E-15d, (-1.0d));
     }
 
     @Test
-    public void test0155() throws Throwable {
+    public void test155() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0155");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) (byte) -1, (double) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test155");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0, 1.0E10d, 0.1d);
     }
 
     @Test
-    public void test0156() throws Throwable {
+    public void test156() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0156");
+            System.out.format("%n%s%n", "ErrorTest0.test156");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, 1.0d, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 0.01d, (double) 10L);
     }
 
     @Test
-    public void test0157() throws Throwable {
+    public void test157() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0157");
+            System.out.format("%n%s%n", "ErrorTest0.test157");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) ' ', (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 0.001d, 1.0E10d);
     }
 
     @Test
-    public void test0158() throws Throwable {
+    public void test158() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0158");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (byte) -1, (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test158");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, (double) 'a', 1.0E-8d);
     }
 
     @Test
-    public void test0159() throws Throwable {
+    public void test159() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0159");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 0.0d, (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test159");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 1.0E-15d, (double) 10.0f);
     }
 
     @Test
-    public void test0160() throws Throwable {
+    public void test160() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0160");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) (byte) -1, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test160");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0.0f, 1.0E-15d, (double) (short) 100);
     }
 
     @Test
-    public void test0161() throws Throwable {
+    public void test161() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0161");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (-1.0d), (double) (short) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test161");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) (short) 1, 1.0E-4d);
     }
 
     @Test
-    public void test0162() throws Throwable {
+    public void test162() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0162");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 0.0f, 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test162");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-12d, (double) 10);
     }
 
     @Test
-    public void test0163() throws Throwable {
+    public void test163() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0163");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1.0f), (double) 0, (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test163");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, (double) (byte) 100, (-10.0d));
     }
 
     @Test
-    public void test0164() throws Throwable {
+    public void test164() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0164");
+            System.out.format("%n%s%n", "ErrorTest0.test164");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) 10L, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', (double) 1L, (double) 1L);
     }
 
     @Test
-    public void test0165() throws Throwable {
+    public void test165() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0165");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) 0, (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test165");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 1.0E-8d, 2.0d);
     }
 
     @Test
-    public void test0166() throws Throwable {
+    public void test166() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0166");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (-1.0f), (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test166");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-6d, 1.0E-12d, 0.9d);
     }
 
     @Test
-    public void test0167() throws Throwable {
+    public void test167() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0167");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, 0.0d, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test167");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, 0.1d, (double) (short) -1);
     }
 
     @Test
-    public void test0168() throws Throwable {
+    public void test168() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0168");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, 0.0d, (double) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test168");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 1000000.0d, 1.0E-10d);
     }
 
     @Test
-    public void test0169() throws Throwable {
+    public void test169() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0169");
+            System.out.format("%n%s%n", "ErrorTest0.test169");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 10.0f, 100.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 1.0E-4d, (double) (byte) 0);
     }
 
     @Test
-    public void test0170() throws Throwable {
+    public void test170() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0170");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 0.0d, (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test170");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 0.25d, 42.0d);
     }
 
     @Test
-    public void test0171() throws Throwable {
+    public void test171() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0171");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (byte) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test171");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 5.0d, (double) (-1.0f));
     }
 
     @Test
-    public void test0172() throws Throwable {
+    public void test172() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0172");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) 0.0f, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test172");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, 1024.0d, (double) 10L);
     }
 
     @Test
-    public void test0173() throws Throwable {
+    public void test173() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0173");
+            System.out.format("%n%s%n", "ErrorTest0.test173");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 100L, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, (double) 100L, (double) 10L);
     }
 
     @Test
-    public void test0174() throws Throwable {
+    public void test174() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0174");
+            System.out.format("%n%s%n", "ErrorTest0.test174");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 1L, (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, (double) 100.0f, 1000000.0d);
     }
 
     @Test
-    public void test0175() throws Throwable {
+    public void test175() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0175");
+            System.out.format("%n%s%n", "ErrorTest0.test175");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, 10.0d, 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), 0.25d, (-100.0d));
     }
 
     @Test
-    public void test0176() throws Throwable {
+    public void test176() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0176");
+            System.out.format("%n%s%n", "ErrorTest0.test176");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) (short) 1, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 1000000.0d, 1.0E8d);
     }
 
     @Test
-    public void test0177() throws Throwable {
+    public void test177() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0177");
+            System.out.format("%n%s%n", "ErrorTest0.test177");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 100, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 512.0d, 1.0E8d);
     }
 
     @Test
-    public void test0178() throws Throwable {
+    public void test178() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0178");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) (-1.0f), (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test178");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 1.0E-8d, 0.0d);
     }
 
     @Test
-    public void test0179() throws Throwable {
+    public void test179() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0179");
+            System.out.format("%n%s%n", "ErrorTest0.test179");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) 10.0f, (double) (short) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, (double) ' ', (double) 'a');
     }
 
     @Test
-    public void test0180() throws Throwable {
+    public void test180() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0180");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) (short) -1, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test180");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, (double) 'a', (-1.0E10d));
     }
 
     @Test
-    public void test0181() throws Throwable {
+    public void test181() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0181");
+            System.out.format("%n%s%n", "ErrorTest0.test181");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 1, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-15d, 1.0E-8d, (-1.0d));
     }
 
     @Test
-    public void test0182() throws Throwable {
+    public void test182() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0182");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) 0.0f, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test182");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1.0f), (double) 100, 1.0E8d);
     }
 
     @Test
-    public void test0183() throws Throwable {
+    public void test183() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0183");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (-1.0d), 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test183");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, 1.0d, 100.0d);
     }
 
     @Test
-    public void test0184() throws Throwable {
+    public void test184() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0184");
+            System.out.format("%n%s%n", "ErrorTest0.test184");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) '#', (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) (short) 1, (double) ' ');
     }
 
     @Test
-    public void test0185() throws Throwable {
+    public void test185() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0185");
+            System.out.format("%n%s%n", "ErrorTest0.test185");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) 100.0f, (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1.0f), 100.0d, 1.0E8d);
     }
 
     @Test
-    public void test0186() throws Throwable {
+    public void test186() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0186");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) 0L, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test186");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, (double) 10, (double) (byte) 1);
     }
 
     @Test
-    public void test0187() throws Throwable {
+    public void test187() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0187");
+            System.out.format("%n%s%n", "ErrorTest0.test187");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 1, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, (double) (short) 10, (-1.0d));
     }
 
     @Test
-    public void test0188() throws Throwable {
+    public void test188() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0188");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, 0.0d, (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test188");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.001d, 0.1d, (double) 1L);
     }
 
     @Test
-    public void test0189() throws Throwable {
+    public void test189() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0189");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) (short) 0, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test189");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, (double) 100L, 1.0E8d);
     }
 
     @Test
-    public void test0190() throws Throwable {
+    public void test190() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0190");
+            System.out.format("%n%s%n", "ErrorTest0.test190");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (byte) 10, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 42.0d, 0.0d);
     }
 
     @Test
-    public void test0191() throws Throwable {
+    public void test191() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0191");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, 0.0d, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test191");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, (double) (short) 100, 1.0E10d);
     }
 
     @Test
-    public void test0192() throws Throwable {
+    public void test192() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0192");
+            System.out.format("%n%s%n", "ErrorTest0.test192");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) ' ', 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 10.0d, (double) (byte) 0);
     }
 
     @Test
-    public void test0193() throws Throwable {
+    public void test193() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0193");
+            System.out.format("%n%s%n", "ErrorTest0.test193");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) (byte) 1, (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), (double) 100.0f, (-100.0d));
     }
 
     @Test
-    public void test0194() throws Throwable {
+    public void test194() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0194");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 0, 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test194");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, (double) (short) 1, (double) '4');
     }
 
     @Test
-    public void test0195() throws Throwable {
+    public void test195() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0195");
+            System.out.format("%n%s%n", "ErrorTest0.test195");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) (byte) 1, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 100, 1.0E-10d, (-1.0d));
     }
 
     @Test
-    public void test0196() throws Throwable {
+    public void test196() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0196");
+            System.out.format("%n%s%n", "ErrorTest0.test196");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 10L, (double) '4');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, (double) 100L, (double) 1.0f);
     }
 
     @Test
-    public void test0197() throws Throwable {
+    public void test197() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0197");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) (-1L), (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test197");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, (double) (short) 1, 100.0d);
     }
 
     @Test
-    public void test0198() throws Throwable {
+    public void test198() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0198");
+            System.out.format("%n%s%n", "ErrorTest0.test198");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 1L, (double) 0.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.3333333d, 0.70710678d, (double) (short) -1);
     }
 
     @Test
-    public void test0199() throws Throwable {
+    public void test199() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0199");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, 0.0d, (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test199");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 42.0d, 1.0d);
     }
 
     @Test
-    public void test0200() throws Throwable {
+    public void test200() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0200");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, 0.0d, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test200");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) -1, 0.01d, (double) (byte) 1);
     }
 
     @Test
-    public void test0201() throws Throwable {
+    public void test201() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0201");
+            System.out.format("%n%s%n", "ErrorTest0.test201");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) (byte) 100, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 1.0E-10d, (double) (byte) 0);
     }
 
     @Test
-    public void test0202() throws Throwable {
+    public void test202() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0202");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (byte) -1, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test202");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 2.0d, 0.0d);
     }
 
     @Test
-    public void test0203() throws Throwable {
+    public void test203() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0203");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) 0L, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test203");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, 42.0d, (double) 0L);
     }
 
     @Test
-    public void test0204() throws Throwable {
+    public void test204() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0204");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) (short) 0, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test204");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.1d, 1.0E-4d, (double) (byte) 10);
     }
 
     @Test
-    public void test0205() throws Throwable {
+    public void test205() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0205");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) (-1), (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test205");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 0.70710678d, 0.9d);
     }
 
     @Test
-    public void test0206() throws Throwable {
+    public void test206() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0206");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) 0L, (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test206");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 0.3333333d, (double) (short) 1);
     }
 
     @Test
-    public void test0207() throws Throwable {
+    public void test207() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0207");
+            System.out.format("%n%s%n", "ErrorTest0.test207");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (byte) 1, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, 1.0E-8d, (double) (byte) 100);
     }
 
     @Test
-    public void test0208() throws Throwable {
+    public void test208() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0208");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1.0f), (double) 0L, (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test208");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 0.9d, 1.0E10d);
     }
 
     @Test
-    public void test0209() throws Throwable {
+    public void test209() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0209");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, 0.0d, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test209");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-10.0d), 1.0E-6d, 2.0d);
     }
 
     @Test
-    public void test0210() throws Throwable {
+    public void test210() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0210");
+            System.out.format("%n%s%n", "ErrorTest0.test210");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) (byte) 100, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 100.0d, 0.0d);
     }
 
     @Test
-    public void test0211() throws Throwable {
+    public void test211() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0211");
+            System.out.format("%n%s%n", "ErrorTest0.test211");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) 1, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, 1.0E8d, 0.0d);
     }
 
     @Test
-    public void test0212() throws Throwable {
+    public void test212() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0212");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (-1L), (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test212");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, (double) 'a', (double) 'a');
     }
 
     @Test
-    public void test0213() throws Throwable {
+    public void test213() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0213");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, 0.0d, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test213");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, (double) 10, 0.0d);
     }
 
     @Test
-    public void test0214() throws Throwable {
+    public void test214() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0214");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (-1), (double) (-1L));
+            System.out.format("%n%s%n", "ErrorTest0.test214");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), (double) (short) 100, 1.0d);
     }
 
     @Test
-    public void test0215() throws Throwable {
+    public void test215() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0215");
+            System.out.format("%n%s%n", "ErrorTest0.test215");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) 1.0f, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, (double) 100.0f, (double) (byte) -1);
     }
 
     @Test
-    public void test0216() throws Throwable {
+    public void test216() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0216");
+            System.out.format("%n%s%n", "ErrorTest0.test216");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, 10.0d, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0E-15d, 0.0d);
     }
 
     @Test
-    public void test0217() throws Throwable {
+    public void test217() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0217");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (byte) 0, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test217");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, (double) 1L, 0.0d);
     }
 
     @Test
-    public void test0218() throws Throwable {
+    public void test218() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0218");
+            System.out.format("%n%s%n", "ErrorTest0.test218");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, 1.0d, (double) (short) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, (double) 100L, 0.0d);
     }
 
     @Test
-    public void test0219() throws Throwable {
+    public void test219() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0219");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) -1, (double) 0, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test219");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, 1.0E-8d, 0.25d);
     }
 
     @Test
-    public void test0220() throws Throwable {
+    public void test220() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0220");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (-1L), (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test220");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-6d, 100.0d);
     }
 
     @Test
-    public void test0221() throws Throwable {
+    public void test221() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0221");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 0, (double) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test221");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 10.0d, (double) 1.0f);
     }
 
     @Test
-    public void test0222() throws Throwable {
+    public void test222() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0222");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (-1L), (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test222");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-8d, (double) (byte) 100);
     }
 
     @Test
-    public void test0223() throws Throwable {
+    public void test223() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0223");
+            System.out.format("%n%s%n", "ErrorTest0.test223");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (short) 1, 10.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 0.001d, (-0.0d));
     }
 
     @Test
-    public void test0224() throws Throwable {
+    public void test224() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0224");
+            System.out.format("%n%s%n", "ErrorTest0.test224");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) (byte) 10, (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 512.0d, 0.01d);
     }
 
     @Test
-    public void test0225() throws Throwable {
+    public void test225() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0225");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1L), (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test225");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 100.0d, 0.001d);
     }
 
     @Test
-    public void test0226() throws Throwable {
+    public void test226() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0226");
+            System.out.format("%n%s%n", "ErrorTest0.test226");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (byte) 1, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-10d, 1.0E-8d, 1.0E10d);
     }
 
     @Test
-    public void test0227() throws Throwable {
+    public void test227() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0227");
+            System.out.format("%n%s%n", "ErrorTest0.test227");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) (byte) 100, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 0.25d, (double) (-1));
     }
 
     @Test
-    public void test0228() throws Throwable {
+    public void test228() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0228");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 0L, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test228");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 0.25d, (-0.0d));
     }
 
     @Test
-    public void test0229() throws Throwable {
+    public void test229() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0229");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) 0.0f, (double) 100L);
+            System.out.format("%n%s%n", "ErrorTest0.test229");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 0.001d, 1.0E-8d);
     }
 
     @Test
-    public void test0230() throws Throwable {
+    public void test230() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0230");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) (-1L), (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test230");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 0.1d, 42.0d);
     }
 
     @Test
-    public void test0231() throws Throwable {
+    public void test231() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0231");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 0.0d, (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test231");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, (double) 1.0f, (double) 10L);
     }
 
     @Test
-    public void test0232() throws Throwable {
+    public void test232() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0232");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, 0.0d, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test232");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, 1.0d, 1.0E-15d);
     }
 
     @Test
-    public void test0233() throws Throwable {
+    public void test233() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0233");
+            System.out.format("%n%s%n", "ErrorTest0.test233");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 100, (double) 1.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 1024.0d, 1.0E-6d);
     }
 
     @Test
-    public void test0234() throws Throwable {
+    public void test234() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0234");
+            System.out.format("%n%s%n", "ErrorTest0.test234");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, 1.0d, (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 1.0E-6d, (double) (byte) -1);
     }
 
     @Test
-    public void test0235() throws Throwable {
+    public void test235() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0235");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, 0.0d, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test235");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, (double) 10L, (-1.0d));
     }
 
     @Test
-    public void test0236() throws Throwable {
+    public void test236() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0236");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, 0.0d, (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test236");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0, 1.0E-6d, 0.70710678d);
     }
 
     @Test
-    public void test0237() throws Throwable {
+    public void test237() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0237");
+            System.out.format("%n%s%n", "ErrorTest0.test237");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 10L, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-4d, 1.0d, (double) 10);
     }
 
     @Test
-    public void test0238() throws Throwable {
+    public void test238() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0238");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (-1.0f), (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test238");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) 10L, 0.5d);
     }
 
     @Test
-    public void test0239() throws Throwable {
+    public void test239() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0239");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', 0.0d, (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test239");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-6d, 42.0d, 10000.0d);
     }
 
     @Test
-    public void test0240() throws Throwable {
+    public void test240() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0240");
+            System.out.format("%n%s%n", "ErrorTest0.test240");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 10.0f, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), (double) 100, (double) 1L);
     }
 
     @Test
-    public void test0241() throws Throwable {
+    public void test241() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0241");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, 0.0d, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test241");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), 0.9d, (double) (byte) 100);
     }
 
     @Test
-    public void test0242() throws Throwable {
+    public void test242() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0242");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1.0f), 0.0d, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test242");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, (double) 100.0f, 1024.0d);
     }
 
     @Test
-    public void test0243() throws Throwable {
+    public void test243() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0243");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (-1), (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test243");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, 1.0E-4d, (double) (-1.0f));
     }
 
     @Test
-    public void test0244() throws Throwable {
+    public void test244() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0244");
+            System.out.format("%n%s%n", "ErrorTest0.test244");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 10, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-10.0d), (double) 'a', 10000.0d);
     }
 
     @Test
-    public void test0245() throws Throwable {
+    public void test245() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0245");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (short) -1, 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test245");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, 0.001d, (double) ' ');
     }
 
     @Test
-    public void test0246() throws Throwable {
+    public void test246() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0246");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1), 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test246");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 0.001d, (double) 100.0f);
     }
 
     @Test
-    public void test0247() throws Throwable {
+    public void test247() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0247");
+            System.out.format("%n%s%n", "ErrorTest0.test247");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 100L, (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 0.70710678d, 0.1d);
     }
 
     @Test
-    public void test0248() throws Throwable {
+    public void test248() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0248");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (byte) -1, (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test248");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, (double) (byte) 100, 0.0d);
     }
 
     @Test
-    public void test0249() throws Throwable {
+    public void test249() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0249");
+            System.out.format("%n%s%n", "ErrorTest0.test249");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((-1.0d), 1.0d, 10.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, (double) 100, (double) (byte) 0);
     }
 
     @Test
-    public void test0250() throws Throwable {
+    public void test250() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0250");
+            System.out.format("%n%s%n", "ErrorTest0.test250");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) 10, (double) (short) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) (short) 10, (double) (-1));
     }
 
     @Test
-    public void test0251() throws Throwable {
+    public void test251() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0251");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (byte) 0, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test251");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 1.0d, 0.3333333d);
     }
 
     @Test
-    public void test0252() throws Throwable {
+    public void test252() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0252");
+            System.out.format("%n%s%n", "ErrorTest0.test252");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (byte) 10, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0E-10d, (-1.0E10d));
     }
 
     @Test
-    public void test0253() throws Throwable {
+    public void test253() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0253");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (-1.0d), 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test253");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 100.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test0254() throws Throwable {
+    public void test254() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0254");
+            System.out.format("%n%s%n", "ErrorTest0.test254");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) (byte) 1, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, (double) (short) 1, 10000.0d);
     }
 
     @Test
-    public void test0255() throws Throwable {
+    public void test255() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0255");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1.0f), (-1.0d), (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test255");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, (double) (short) 1, 0.70710678d);
     }
 
     @Test
-    public void test0256() throws Throwable {
+    public void test256() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0256");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), (double) 0L, (double) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test256");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, (double) '4', 1.0E-6d);
     }
 
     @Test
-    public void test0257() throws Throwable {
+    public void test257() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0257");
+            System.out.format("%n%s%n", "ErrorTest0.test257");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (short) 1, 10.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1000000.0d, 0.3333333d);
     }
 
     @Test
-    public void test0258() throws Throwable {
+    public void test258() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0258");
+            System.out.format("%n%s%n", "ErrorTest0.test258");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) 100, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 256.0d, 1.0E-4d);
     }
 
     @Test
-    public void test0259() throws Throwable {
+    public void test259() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0259");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (-1.0d), 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test259");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 0.70710678d, 0.0d);
     }
 
     @Test
-    public void test0260() throws Throwable {
+    public void test260() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0260");
+            System.out.format("%n%s%n", "ErrorTest0.test260");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 10, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 1000000.0d, 0.0d);
     }
 
     @Test
-    public void test0261() throws Throwable {
+    public void test261() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0261");
+            System.out.format("%n%s%n", "ErrorTest0.test261");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (short) 1, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0, 5.0d, 1.0E8d);
     }
 
     @Test
-    public void test0262() throws Throwable {
+    public void test262() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0262");
+            System.out.format("%n%s%n", "ErrorTest0.test262");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (short) 1, (double) (-1.0f));
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, (double) (byte) 1, (double) 100L);
     }
 
     @Test
-    public void test0263() throws Throwable {
+    public void test263() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0263");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (-1), 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test263");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, 0.25d, (-0.0d));
     }
 
     @Test
-    public void test0264() throws Throwable {
+    public void test264() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0264");
+            System.out.format("%n%s%n", "ErrorTest0.test264");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 100.0f, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1L, 0.5d, (-1.0d));
     }
 
     @Test
-    public void test0265() throws Throwable {
+    public void test265() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0265");
+            System.out.format("%n%s%n", "ErrorTest0.test265");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) 100.0f, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 1.0E10d, (double) 100.0f);
     }
 
     @Test
-    public void test0266() throws Throwable {
+    public void test266() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0266");
+            System.out.format("%n%s%n", "ErrorTest0.test266");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) 10.0f, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', (double) 10, (-100.0d));
     }
 
     @Test
-    public void test0267() throws Throwable {
+    public void test267() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0267");
+            System.out.format("%n%s%n", "ErrorTest0.test267");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 10, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), (double) 10.0f, 0.9d);
     }
 
     @Test
-    public void test0268() throws Throwable {
+    public void test268() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0268");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) 0L, (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test268");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 10.0d, (double) (-1.0f));
     }
 
     @Test
-    public void test0269() throws Throwable {
+    public void test269() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0269");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (-1), (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test269");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, (double) '4', 0.70710678d);
     }
 
     @Test
-    public void test0270() throws Throwable {
+    public void test270() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0270");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1.0f), (double) 0.0f, (double) (byte) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test270");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, 256.0d, (-1.0E10d));
     }
 
     @Test
-    public void test0271() throws Throwable {
+    public void test271() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0271");
+            System.out.format("%n%s%n", "ErrorTest0.test271");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) 100.0f, (double) 1.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, 42.0d, 0.0d);
     }
 
     @Test
-    public void test0272() throws Throwable {
+    public void test272() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0272");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (-1.0f), (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test272");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 10.0d, 0.70710678d);
     }
 
     @Test
-    public void test0273() throws Throwable {
+    public void test273() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0273");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) 0L, (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test273");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0d, 1024.0d);
     }
 
     @Test
-    public void test0274() throws Throwable {
+    public void test274() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0274");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, 0.0d, (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test274");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 0, 10000.0d, (double) (-1.0f));
     }
 
     @Test
-    public void test0275() throws Throwable {
+    public void test275() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0275");
+            System.out.format("%n%s%n", "ErrorTest0.test275");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 100.0f, (double) (short) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 1.0E-12d, (double) 'a');
     }
 
     @Test
-    public void test0276() throws Throwable {
+    public void test276() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0276");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test276");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 0.25d, 0.0d);
     }
 
     @Test
-    public void test0277() throws Throwable {
+    public void test277() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0277");
+            System.out.format("%n%s%n", "ErrorTest0.test277");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) 1L, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', (double) (byte) 1, 1.0d);
     }
 
     @Test
-    public void test0278() throws Throwable {
+    public void test278() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0278");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 0.0f, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test278");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-6d, 5.0d, 10000.0d);
     }
 
     @Test
-    public void test0279() throws Throwable {
+    public void test279() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0279");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 0, (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test279");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 10.0d, (double) (short) 100);
     }
 
     @Test
-    public void test0280() throws Throwable {
+    public void test280() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0280");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (-1.0f), (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test280");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 100.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test0281() throws Throwable {
+    public void test281() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0281");
+            System.out.format("%n%s%n", "ErrorTest0.test281");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, 1.0d, (double) (byte) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-12d, 1.0E-4d, 10.0d);
     }
 
     @Test
-    public void test0282() throws Throwable {
+    public void test282() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0282");
+            System.out.format("%n%s%n", "ErrorTest0.test282");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) ' ', (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', (double) 100.0f, (-10.0d));
     }
 
     @Test
-    public void test0283() throws Throwable {
+    public void test283() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0283");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 0L, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test283");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-4d, 0.1d, (-1.0d));
     }
 
     @Test
-    public void test0284() throws Throwable {
+    public void test284() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0284");
+            System.out.format("%n%s%n", "ErrorTest0.test284");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) 1.0f, 10.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, (double) 'a', 0.0d);
     }
 
     @Test
-    public void test0285() throws Throwable {
+    public void test285() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0285");
+            System.out.format("%n%s%n", "ErrorTest0.test285");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) 1L, (double) 10.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 0.70710678d, (double) (byte) 10);
     }
 
     @Test
-    public void test0286() throws Throwable {
+    public void test286() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0286");
+            System.out.format("%n%s%n", "ErrorTest0.test286");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, 10.0d, 100.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, (double) '#', (double) (-1.0f));
     }
 
     @Test
-    public void test0287() throws Throwable {
+    public void test287() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0287");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (short) -1, (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test287");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 0.25d, 0.1d);
     }
 
     @Test
-    public void test0288() throws Throwable {
+    public void test288() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0288");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', 0.0d, (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test288");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', (double) (byte) 10, (double) (short) -1);
     }
 
     @Test
-    public void test0289() throws Throwable {
+    public void test289() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0289");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) (-1L), 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test289");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, 1.0E8d, 1.0E-8d);
     }
 
     @Test
-    public void test0290() throws Throwable {
+    public void test290() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0290");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (byte) -1, (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test290");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-12d, 0.9d, 10.0d);
     }
 
     @Test
-    public void test0291() throws Throwable {
+    public void test291() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0291");
+            System.out.format("%n%s%n", "ErrorTest0.test291");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, 100.0d, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 0.01d, 0.9d);
     }
 
     @Test
-    public void test0292() throws Throwable {
+    public void test292() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0292");
+            System.out.format("%n%s%n", "ErrorTest0.test292");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 10.0f, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 0.9d, 42.0d);
     }
 
     @Test
-    public void test0293() throws Throwable {
+    public void test293() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0293");
+            System.out.format("%n%s%n", "ErrorTest0.test293");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) (byte) 10, (double) (short) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-10d, 1.0E-15d, 1.0E8d);
     }
 
     @Test
-    public void test0294() throws Throwable {
+    public void test294() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0294");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) -1, (double) 0, (double) 10.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test294");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 2.0d, (-100.0d));
     }
 
     @Test
-    public void test0295() throws Throwable {
+    public void test295() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0295");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) (-1), 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test295");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 2.0d, (-1.0d));
     }
 
     @Test
-    public void test0296() throws Throwable {
+    public void test296() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0296");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 0.0d, (double) 10L);
+            System.out.format("%n%s%n", "ErrorTest0.test296");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.1d, 2.0d, 0.0d);
     }
 
     @Test
-    public void test0297() throws Throwable {
+    public void test297() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0297");
+            System.out.format("%n%s%n", "ErrorTest0.test297");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, (double) 1L, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', (double) 10L, 0.0d);
     }
 
     @Test
-    public void test0298() throws Throwable {
+    public void test298() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0298");
+            System.out.format("%n%s%n", "ErrorTest0.test298");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 1L, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, 0.9d, (double) (byte) -1);
     }
 
     @Test
-    public void test0299() throws Throwable {
+    public void test299() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0299");
+            System.out.format("%n%s%n", "ErrorTest0.test299");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 100, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, (double) ' ', 0.0d);
     }
 
     @Test
-    public void test0300() throws Throwable {
+    public void test300() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0300");
+            System.out.format("%n%s%n", "ErrorTest0.test300");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) 1L, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, (double) (short) 100, (double) (-1.0f));
     }
 
     @Test
-    public void test0301() throws Throwable {
+    public void test301() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0301");
+            System.out.format("%n%s%n", "ErrorTest0.test301");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) (byte) 1, (double) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, (double) 1L, 5.0d);
     }
 
     @Test
-    public void test0302() throws Throwable {
+    public void test302() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0302");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', 0.0d, (double) 10L);
+            System.out.format("%n%s%n", "ErrorTest0.test302");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, (double) 100, (double) 1);
     }
 
     @Test
-    public void test0303() throws Throwable {
+    public void test303() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0303");
+            System.out.format("%n%s%n", "ErrorTest0.test303");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) '#', (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 1.0E-12d, 0.70710678d);
     }
 
     @Test
-    public void test0304() throws Throwable {
+    public void test304() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0304");
+            System.out.format("%n%s%n", "ErrorTest0.test304");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) 1L, 10.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, (double) (byte) 1, 0.5d);
     }
 
     @Test
-    public void test0305() throws Throwable {
+    public void test305() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0305");
+            System.out.format("%n%s%n", "ErrorTest0.test305");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 100L, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, 0.1d, (double) '#');
     }
 
     @Test
-    public void test0306() throws Throwable {
+    public void test306() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0306");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) (-1.0f), 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test306");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, (double) (short) 1, (double) (-1));
     }
 
     @Test
-    public void test0307() throws Throwable {
+    public void test307() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0307");
+            System.out.format("%n%s%n", "ErrorTest0.test307");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 10L, (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 1.0E-4d, (-10.0d));
     }
 
     @Test
-    public void test0308() throws Throwable {
+    public void test308() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0308");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) 0, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test308");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 100.0d, (double) (short) 0);
     }
 
     @Test
-    public void test0309() throws Throwable {
+    public void test309() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0309");
+            System.out.format("%n%s%n", "ErrorTest0.test309");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) 100, (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0E-6d, (double) 100.0f);
     }
 
     @Test
-    public void test0310() throws Throwable {
+    public void test310() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0310");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, 0.0d, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test310");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0L, 10.0d, 1.0E8d);
     }
 
     @Test
-    public void test0311() throws Throwable {
+    public void test311() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0311");
+            System.out.format("%n%s%n", "ErrorTest0.test311");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 1L, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 256.0d, 1.0E10d);
     }
 
     @Test
-    public void test0312() throws Throwable {
+    public void test312() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0312");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (byte) -1, (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test312");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) ' ', 10000.0d, 1.0E-10d);
     }
 
     @Test
-    public void test0313() throws Throwable {
+    public void test313() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0313");
+            System.out.format("%n%s%n", "ErrorTest0.test313");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (short) 1, (double) (byte) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 1.0E-4d, 0.1d);
     }
 
     @Test
-    public void test0314() throws Throwable {
+    public void test314() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0314");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (byte) 0, (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test314");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-6d, 256.0d);
     }
 
     @Test
-    public void test0315() throws Throwable {
+    public void test315() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0315");
+            System.out.format("%n%s%n", "ErrorTest0.test315");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, (double) 100.0f, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 0.001d, (double) (-1));
     }
 
     @Test
-    public void test0316() throws Throwable {
+    public void test316() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0316");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (byte) -1, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test316");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 10.0d, 0.0d);
     }
 
     @Test
-    public void test0317() throws Throwable {
+    public void test317() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0317");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) 0, (double) (byte) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test317");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) 10L, 0.0d);
     }
 
     @Test
-    public void test0318() throws Throwable {
+    public void test318() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0318");
+            System.out.format("%n%s%n", "ErrorTest0.test318");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 1.0f, (double) (short) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, 1.0E8d, (double) (byte) -1);
     }
 
     @Test
-    public void test0319() throws Throwable {
+    public void test319() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0319");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1), (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test319");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-4d, (double) 10.0f, 10000.0d);
     }
 
     @Test
-    public void test0320() throws Throwable {
+    public void test320() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0320");
+            System.out.format("%n%s%n", "ErrorTest0.test320");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (short) 1, (double) (short) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, (double) (short) 100, (double) (byte) -1);
     }
 
     @Test
-    public void test0321() throws Throwable {
+    public void test321() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0321");
+            System.out.format("%n%s%n", "ErrorTest0.test321");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 1.0f, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, 0.001d, (double) (-1));
     }
 
     @Test
-    public void test0322() throws Throwable {
+    public void test322() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0322");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) (-1), 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test322");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 100.0d, (double) 100.0f);
     }
 
     @Test
-    public void test0323() throws Throwable {
+    public void test323() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0323");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 0, (double) 10L);
+            System.out.format("%n%s%n", "ErrorTest0.test323");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) 1L, (double) '4');
     }
 
     @Test
-    public void test0324() throws Throwable {
+    public void test324() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0324");
+            System.out.format("%n%s%n", "ErrorTest0.test324");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) 'a', 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 512.0d, 0.3333333d);
     }
 
     @Test
-    public void test0325() throws Throwable {
+    public void test325() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0325");
+            System.out.format("%n%s%n", "ErrorTest0.test325");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) 10L, (double) '4');
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, (double) (byte) 10, 1.0E-6d);
     }
 
     @Test
-    public void test0326() throws Throwable {
+    public void test326() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0326");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) 0.0f, (double) 100L);
+            System.out.format("%n%s%n", "ErrorTest0.test326");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, 1.0E-8d, (double) 10L);
     }
 
     @Test
-    public void test0327() throws Throwable {
+    public void test327() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0327");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, 0.0d, (double) (byte) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test327");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, (double) (byte) 1, 0.25d);
     }
 
     @Test
-    public void test0328() throws Throwable {
+    public void test328() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0328");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, 0.0d, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test328");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0E-4d, 0.0d);
     }
 
     @Test
-    public void test0329() throws Throwable {
+    public void test329() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0329");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) (byte) -1, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test329");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 42.0d, (double) 1L);
     }
 
     @Test
-    public void test0330() throws Throwable {
+    public void test330() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0330");
+            System.out.format("%n%s%n", "ErrorTest0.test330");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (byte) 100, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, 0.001d, (double) (byte) 1);
     }
 
     @Test
-    public void test0331() throws Throwable {
+    public void test331() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0331");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 0.0f, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test331");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), (double) 10.0f, 1000000.0d);
     }
 
     @Test
-    public void test0332() throws Throwable {
+    public void test332() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0332");
+            System.out.format("%n%s%n", "ErrorTest0.test332");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, 100.0d, (double) 10L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 1000000.0d, 0.0d);
     }
 
     @Test
-    public void test0333() throws Throwable {
+    public void test333() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0333");
+            System.out.format("%n%s%n", "ErrorTest0.test333");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 100, (double) (-1.0f));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 100, (double) 100, (double) (short) -1);
     }
 
     @Test
-    public void test0334() throws Throwable {
+    public void test334() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0334");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) (-1L), 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test334");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 100.0d, (-1.0E10d));
     }
 
     @Test
-    public void test0335() throws Throwable {
+    public void test335() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0335");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) (short) -1, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test335");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, 1.0E-4d, (double) (-1.0f));
     }
 
     @Test
-    public void test0336() throws Throwable {
+    public void test336() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0336");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) 0L, (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test336");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) -1, 0.01d, (double) (byte) 1);
     }
 
     @Test
-    public void test0337() throws Throwable {
+    public void test337() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0337");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (-1.0d), (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test337");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 100.0d, 1000000.0d);
     }
 
     @Test
-    public void test0338() throws Throwable {
+    public void test338() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0338");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, 0.0d, (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test338");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) 100L, 1.0E10d);
     }
 
     @Test
-    public void test0339() throws Throwable {
+    public void test339() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0339");
+            System.out.format("%n%s%n", "ErrorTest0.test339");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 10, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0.0f, 0.1d, (-1.0E10d));
     }
 
     @Test
-    public void test0340() throws Throwable {
+    public void test340() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0340");
+            System.out.format("%n%s%n", "ErrorTest0.test340");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (byte) 10, (double) 0.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) ' ', 1.0E-4d);
     }
 
     @Test
-    public void test0341() throws Throwable {
+    public void test341() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0341");
+            System.out.format("%n%s%n", "ErrorTest0.test341");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 'a', (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, 1.0E8d, 0.0d);
     }
 
     @Test
-    public void test0342() throws Throwable {
+    public void test342() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0342");
+            System.out.format("%n%s%n", "ErrorTest0.test342");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, 1.0d, (double) (-1.0f));
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 0.001d, (double) (short) 10);
     }
 
     @Test
-    public void test0343() throws Throwable {
+    public void test343() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0343");
+            System.out.format("%n%s%n", "ErrorTest0.test343");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) 10, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-10.0d), (double) 1L, (double) 100L);
     }
 
     @Test
-    public void test0344() throws Throwable {
+    public void test344() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0344");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (-1.0d), (double) 10L);
+            System.out.format("%n%s%n", "ErrorTest0.test344");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, (double) (short) 100, 0.0d);
     }
 
     @Test
-    public void test0345() throws Throwable {
+    public void test345() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0345");
+            System.out.format("%n%s%n", "ErrorTest0.test345");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) 1.0f, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, (double) (short) 1, (-1.0d));
     }
 
     @Test
-    public void test0346() throws Throwable {
+    public void test346() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0346");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (-1L), 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test346");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10.0d, (double) 1.0f, 1.0E-4d);
     }
 
     @Test
-    public void test0347() throws Throwable {
+    public void test347() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0347");
+            System.out.format("%n%s%n", "ErrorTest0.test347");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, 1.0d, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0L, (double) 1, (-1.0E10d));
     }
 
     @Test
-    public void test0348() throws Throwable {
+    public void test348() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0348");
+            System.out.format("%n%s%n", "ErrorTest0.test348");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', 1.0d, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, 1.0E-4d, 1.0E-4d);
     }
 
     @Test
-    public void test0349() throws Throwable {
+    public void test349() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0349");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) (byte) 0, (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test349");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1L, 1.0d, (double) (short) 0);
     }
 
     @Test
-    public void test0350() throws Throwable {
+    public void test350() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0350");
+            System.out.format("%n%s%n", "ErrorTest0.test350");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, 1.0d, (double) '4');
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 1.0E10d, (double) ' ');
     }
 
     @Test
-    public void test0351() throws Throwable {
+    public void test351() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0351");
+            System.out.format("%n%s%n", "ErrorTest0.test351");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', 10.0d, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 0, 0.001d, (-100.0d));
     }
 
     @Test
-    public void test0352() throws Throwable {
+    public void test352() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0352");
+            System.out.format("%n%s%n", "ErrorTest0.test352");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (byte) 1, (double) (-1.0f));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, (double) 100L, (-1.0d));
     }
 
     @Test
-    public void test0353() throws Throwable {
+    public void test353() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0353");
+            System.out.format("%n%s%n", "ErrorTest0.test353");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) ' ', (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, 0.25d, (-100.0d));
     }
 
     @Test
-    public void test0354() throws Throwable {
+    public void test354() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0354");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) -1, (double) 0, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test354");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, (double) 1L, (double) ' ');
     }
 
     @Test
-    public void test0355() throws Throwable {
+    public void test355() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0355");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) (-1.0f), 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test355");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, (double) 1L, 1.0E-12d);
     }
 
     @Test
-    public void test0356() throws Throwable {
+    public void test356() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0356");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 0.0f, (double) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test356");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 512.0d, (-1.0d));
     }
 
     @Test
-    public void test0357() throws Throwable {
+    public void test357() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0357");
+            System.out.format("%n%s%n", "ErrorTest0.test357");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', 10.0d, (double) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) 100.0f, 0.1d);
     }
 
     @Test
-    public void test0358() throws Throwable {
+    public void test358() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0358");
+            System.out.format("%n%s%n", "ErrorTest0.test358");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (short) 1, (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 0.01d, (double) 10L);
     }
 
     @Test
-    public void test0359() throws Throwable {
+    public void test359() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0359");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (short) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test359");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0L, 0.001d, (double) 100L);
     }
 
     @Test
-    public void test0360() throws Throwable {
+    public void test360() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0360");
+            System.out.format("%n%s%n", "ErrorTest0.test360");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 1, (double) 1.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, (double) '4', (double) 0);
     }
 
     @Test
-    public void test0361() throws Throwable {
+    public void test361() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0361");
+            System.out.format("%n%s%n", "ErrorTest0.test361");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) 100.0f, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0d), 1.0E-4d, 0.1d);
     }
 
     @Test
-    public void test0362() throws Throwable {
+    public void test362() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0362");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (-1.0d), (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test362");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, (double) 100, (double) (-1.0f));
     }
 
     @Test
-    public void test0363() throws Throwable {
+    public void test363() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0363");
+            System.out.format("%n%s%n", "ErrorTest0.test363");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) (byte) 1, (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, (double) (byte) 1, 1.0d);
     }
 
     @Test
-    public void test0364() throws Throwable {
+    public void test364() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0364");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (short) 0, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test364");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 10000.0d, (double) (byte) 100);
     }
 
     @Test
-    public void test0365() throws Throwable {
+    public void test365() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0365");
+            System.out.format("%n%s%n", "ErrorTest0.test365");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 10, (double) 0.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, (double) 100L, (-100.0d));
     }
 
     @Test
-    public void test0366() throws Throwable {
+    public void test366() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0366");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) (-1.0f), (double) (short) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test366");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 0.001d, (double) 100.0f);
     }
 
     @Test
-    public void test0367() throws Throwable {
+    public void test367() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0367");
+            System.out.format("%n%s%n", "ErrorTest0.test367");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 10, 1.0d, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((-100.0d), 0.25d, 0.70710678d);
     }
 
     @Test
-    public void test0368() throws Throwable {
+    public void test368() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0368");
+            System.out.format("%n%s%n", "ErrorTest0.test368");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) '#', (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 1024.0d, 1000000.0d);
     }
 
     @Test
-    public void test0369() throws Throwable {
+    public void test369() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0369");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) 0L, (double) 'a');
+            System.out.format("%n%s%n", "ErrorTest0.test369");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, 0.001d, 1000000.0d);
     }
 
     @Test
-    public void test0370() throws Throwable {
+    public void test370() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0370");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (-1.0f), 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test370");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 5.0d, (double) (byte) 0);
     }
 
     @Test
-    public void test0371() throws Throwable {
+    public void test371() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0371");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, 0.0d, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test371");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 10.0d, (-0.0d));
     }
 
     @Test
-    public void test0372() throws Throwable {
+    public void test372() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0372");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (byte) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test372");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 1.0E-10d, 0.3333333d);
     }
 
     @Test
-    public void test0373() throws Throwable {
+    public void test373() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0373");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (short) -1, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test373");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, (double) 1L, (double) '#');
     }
 
     @Test
-    public void test0374() throws Throwable {
+    public void test374() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0374");
+            System.out.format("%n%s%n", "ErrorTest0.test374");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 100, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, (double) (byte) 100, (-1.0E10d));
     }
 
     @Test
-    public void test0375() throws Throwable {
+    public void test375() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0375");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, (-1.0d), (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test375");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, 1.0E-15d, (double) 100);
     }
 
     @Test
-    public void test0376() throws Throwable {
+    public void test376() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0376");
+            System.out.format("%n%s%n", "ErrorTest0.test376");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) 1L, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1L, 0.25d, 0.25d);
     }
 
     @Test
-    public void test0377() throws Throwable {
+    public void test377() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0377");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, 0.0d, (double) (short) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test377");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 1024.0d, (double) 0L);
     }
 
     @Test
-    public void test0378() throws Throwable {
+    public void test378() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0378");
+            System.out.format("%n%s%n", "ErrorTest0.test378");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 10, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) 1, (double) 1L);
     }
 
     @Test
-    public void test0379() throws Throwable {
+    public void test379() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0379");
+            System.out.format("%n%s%n", "ErrorTest0.test379");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (byte) 10, (double) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 1.0E-6d, (double) 100);
     }
 
     @Test
-    public void test0380() throws Throwable {
+    public void test380() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0380");
+            System.out.format("%n%s%n", "ErrorTest0.test380");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 1L, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 0.70710678d, 2.0d);
     }
 
     @Test
-    public void test0381() throws Throwable {
+    public void test381() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0381");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 0.0f, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test381");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1L), 1.0E-15d, (double) 10.0f);
     }
 
     @Test
-    public void test0382() throws Throwable {
+    public void test382() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0382");
+            System.out.format("%n%s%n", "ErrorTest0.test382");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) (short) 10, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0E-15d, (double) 100L);
     }
 
     @Test
-    public void test0383() throws Throwable {
+    public void test383() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0383");
+            System.out.format("%n%s%n", "ErrorTest0.test383");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) '4', (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 2.0d, 1.0E-12d);
     }
 
     @Test
-    public void test0384() throws Throwable {
+    public void test384() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0384");
+            System.out.format("%n%s%n", "ErrorTest0.test384");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (byte) 10, (double) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, 0.001d, 2.0d);
     }
 
     @Test
-    public void test0385() throws Throwable {
+    public void test385() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0385");
+            System.out.format("%n%s%n", "ErrorTest0.test385");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) (byte) 10, (double) 0.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, (double) (short) 1, (double) (short) 10);
     }
 
     @Test
-    public void test0386() throws Throwable {
+    public void test386() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0386");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1.0f), (double) 100L);
+            System.out.format("%n%s%n", "ErrorTest0.test386");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.01d, (double) '4', 1.0E-15d);
     }
 
     @Test
-    public void test0387() throws Throwable {
+    public void test387() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0387");
+            System.out.format("%n%s%n", "ErrorTest0.test387");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) (byte) 1, (double) (byte) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, 1.0E-6d, 0.0d);
     }
 
     @Test
-    public void test0388() throws Throwable {
+    public void test388() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0388");
+            System.out.format("%n%s%n", "ErrorTest0.test388");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, 10.0d, (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 10, (double) (short) 100, 0.3333333d);
     }
 
     @Test
-    public void test0389() throws Throwable {
+    public void test389() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0389");
+            System.out.format("%n%s%n", "ErrorTest0.test389");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) 1.0f, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-6d, 1.0E-10d, 0.9d);
     }
 
     @Test
-    public void test0390() throws Throwable {
+    public void test390() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0390");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) (-1), (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test390");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.9d, 256.0d, (double) 0.0f);
     }
 
     @Test
-    public void test0391() throws Throwable {
+    public void test391() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0391");
+            System.out.format("%n%s%n", "ErrorTest0.test391");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) ' ', (double) (short) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, 0.5d, (double) 10L);
     }
 
     @Test
-    public void test0392() throws Throwable {
+    public void test392() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0392");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', 0.0d, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test392");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, 1.0E-8d, (double) (byte) -1);
     }
 
     @Test
-    public void test0393() throws Throwable {
+    public void test393() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0393");
+            System.out.format("%n%s%n", "ErrorTest0.test393");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 1.0f, (double) 100.0f);
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) 1, 0.1d);
     }
 
     @Test
-    public void test0394() throws Throwable {
+    public void test394() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0394");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (-1L), 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test394");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-10d, 10.0d, 1.0E10d);
     }
 
     @Test
-    public void test0395() throws Throwable {
+    public void test395() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0395");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 0, (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test395");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.1d, 0.001d, 10.0d);
     }
 
     @Test
-    public void test0396() throws Throwable {
+    public void test396() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0396");
+            System.out.format("%n%s%n", "ErrorTest0.test396");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) 10.0f, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, 0.25d, (double) '#');
     }
 
     @Test
-    public void test0397() throws Throwable {
+    public void test397() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0397");
+            System.out.format("%n%s%n", "ErrorTest0.test397");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) 1.0f, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 1.0E-10d, 1.0E8d);
     }
 
     @Test
-    public void test0398() throws Throwable {
+    public void test398() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0398");
+            System.out.format("%n%s%n", "ErrorTest0.test398");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) '4', 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 1000000.0d, (double) 0.0f);
     }
 
     @Test
-    public void test0399() throws Throwable {
+    public void test399() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0399");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, (double) (short) -1, (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test399");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1L, 1.0E-4d, (double) 100.0f);
     }
 
     @Test
-    public void test0400() throws Throwable {
+    public void test400() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0400");
+            System.out.format("%n%s%n", "ErrorTest0.test400");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (short) 1, (double) (short) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) -1, 1.0E-12d, (-0.0d));
     }
 
     @Test
-    public void test0401() throws Throwable {
+    public void test401() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0401");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0, (double) (short) -1, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test401");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 100, (double) (byte) 10, (double) 1.0f);
     }
 
     @Test
-    public void test0402() throws Throwable {
+    public void test402() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0402");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, (double) 0L, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test402");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.1d, 256.0d, (double) (-1.0f));
     }
 
     @Test
-    public void test0403() throws Throwable {
+    public void test403() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0403");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (byte) 0, (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test403");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 0.1d, (double) (short) 0);
     }
 
     @Test
-    public void test0404() throws Throwable {
+    public void test404() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0404");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, 0.0d, (double) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test404");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (-1), 1.0E-8d, (-100.0d));
     }
 
     @Test
-    public void test0405() throws Throwable {
+    public void test405() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0405");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) (short) 0, (double) (byte) 0);
+            System.out.format("%n%s%n", "ErrorTest0.test405");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, (double) 10, (double) (short) -1);
     }
 
     @Test
-    public void test0406() throws Throwable {
+    public void test406() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0406");
+            System.out.format("%n%s%n", "ErrorTest0.test406");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) 10, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, (double) ' ', 0.25d);
     }
 
     @Test
-    public void test0407() throws Throwable {
+    public void test407() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0407");
+            System.out.format("%n%s%n", "ErrorTest0.test407");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) (byte) 100, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) ' ', (double) (short) 1, (double) (byte) 1);
     }
 
     @Test
-    public void test0408() throws Throwable {
+    public void test408() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0408");
+            System.out.format("%n%s%n", "ErrorTest0.test408");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(1.0d, (double) 1L, (double) '#');
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, (double) 10.0f, 0.3333333d);
     }
 
     @Test
-    public void test0409() throws Throwable {
+    public void test409() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0409");
+            System.out.format("%n%s%n", "ErrorTest0.test409");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (short) 10, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, 0.01d, (double) (-1.0f));
     }
 
     @Test
-    public void test0410() throws Throwable {
+    public void test410() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0410");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (short) -1, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test410");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 10.0d, (double) 10L);
     }
 
     @Test
-    public void test0411() throws Throwable {
+    public void test411() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0411");
+            System.out.format("%n%s%n", "ErrorTest0.test411");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (byte) 1, (double) (byte) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 100.0d, 1.0E8d);
     }
 
     @Test
-    public void test0412() throws Throwable {
+    public void test412() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0412");
+            System.out.format("%n%s%n", "ErrorTest0.test412");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) 1L, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', (double) 100.0f, 1024.0d);
     }
 
     @Test
-    public void test0413() throws Throwable {
+    public void test413() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0413");
+            System.out.format("%n%s%n", "ErrorTest0.test413");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) '4', 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 0.01d, 1.0E-12d);
     }
 
     @Test
-    public void test0414() throws Throwable {
+    public void test414() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0414");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (-1.0d), 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test414");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10.0f, 0.25d, (double) '#');
     }
 
     @Test
-    public void test0415() throws Throwable {
+    public void test415() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0415");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, 0.0d, (double) 'a');
+            System.out.format("%n%s%n", "ErrorTest0.test415");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0d), 1024.0d, 1000000.0d);
     }
 
     @Test
-    public void test0416() throws Throwable {
+    public void test416() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0416");
+            System.out.format("%n%s%n", "ErrorTest0.test416");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', 1.0d, (double) 0L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.25d, 1.0d, (double) '4');
     }
 
     @Test
-    public void test0417() throws Throwable {
+    public void test417() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0417");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) (byte) -1, (double) '4');
+            System.out.format("%n%s%n", "ErrorTest0.test417");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.01d, 100.0d, (double) 0L);
     }
 
     @Test
-    public void test0418() throws Throwable {
+    public void test418() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0418");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, 0.0d, (double) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test418");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 0.3333333d, (-1.0E10d));
     }
 
     @Test
-    public void test0419() throws Throwable {
+    public void test419() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0419");
+            System.out.format("%n%s%n", "ErrorTest0.test419");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) (byte) 1, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.01d, (double) (short) 1, 1.0E-15d);
     }
 
     @Test
-    public void test0420() throws Throwable {
+    public void test420() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0420");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (-1L), (double) 10L);
+            System.out.format("%n%s%n", "ErrorTest0.test420");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, (double) (byte) 10, (double) 100);
     }
 
     @Test
-    public void test0421() throws Throwable {
+    public void test421() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0421");
+            System.out.format("%n%s%n", "ErrorTest0.test421");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, (double) 1L, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) -1, 1.0E-8d, 0.0d);
     }
 
     @Test
-    public void test0422() throws Throwable {
+    public void test422() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0422");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, 0.0d, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test422");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 1.0d, (double) '#');
     }
 
     @Test
-    public void test0423() throws Throwable {
+    public void test423() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0423");
+            System.out.format("%n%s%n", "ErrorTest0.test423");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 1L, (-1.0d));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10.0f, 10.0d, (-10.0d));
     }
 
     @Test
-    public void test0424() throws Throwable {
+    public void test424() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0424");
+            System.out.format("%n%s%n", "ErrorTest0.test424");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) 10L, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((-100.0d), (double) (byte) 10, (double) 10);
     }
 
     @Test
-    public void test0425() throws Throwable {
+    public void test425() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0425");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) -1, (double) (short) 0, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test425");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.5d, 100.0d, 0.01d);
     }
 
     @Test
-    public void test0426() throws Throwable {
+    public void test426() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0426");
+            System.out.format("%n%s%n", "ErrorTest0.test426");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (short) 10, (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, (double) (short) 10, (double) 1);
     }
 
     @Test
-    public void test0427() throws Throwable {
+    public void test427() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0427");
+            System.out.format("%n%s%n", "ErrorTest0.test427");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, 10.0d, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 10, (double) (byte) 10, 0.0d);
     }
 
     @Test
-    public void test0428() throws Throwable {
+    public void test428() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0428");
+            System.out.format("%n%s%n", "ErrorTest0.test428");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) '#', (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-8d, 1.0E-8d, (double) (byte) -1);
     }
 
     @Test
-    public void test0429() throws Throwable {
+    public void test429() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0429");
+            System.out.format("%n%s%n", "ErrorTest0.test429");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 1, 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '4', 1.0E-8d, (double) 100L);
     }
 
     @Test
-    public void test0430() throws Throwable {
+    public void test430() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0430");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (short) -1, (double) (byte) -1);
+            System.out.format("%n%s%n", "ErrorTest0.test430");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) 'a', (double) 0L);
     }
 
     @Test
-    public void test0431() throws Throwable {
+    public void test431() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0431");
+            System.out.format("%n%s%n", "ErrorTest0.test431");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 10L, (double) (short) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 5.0d, (double) 0);
     }
 
     @Test
-    public void test0432() throws Throwable {
+    public void test432() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0432");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (-1.0d), (double) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test432");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, (double) 10L, 0.70710678d);
     }
 
     @Test
-    public void test0433() throws Throwable {
+    public void test433() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0433");
+            System.out.format("%n%s%n", "ErrorTest0.test433");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (byte) 1, (double) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 0.01d, (double) 100);
     }
 
     @Test
-    public void test0434() throws Throwable {
+    public void test434() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0434");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) (-1), (double) (byte) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test434");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, 42.0d, 0.0d);
     }
 
     @Test
-    public void test0435() throws Throwable {
+    public void test435() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0435");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1), (double) (short) 0, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test435");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) 1, 0.5d);
     }
 
     @Test
-    public void test0436() throws Throwable {
+    public void test436() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0436");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((-1.0d), 0.0d, (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test436");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 0.3333333d, (double) (short) 1);
     }
 
     @Test
-    public void test0437() throws Throwable {
+    public void test437() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0437");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) 0L, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test437");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.70710678d, 1.0E-10d, (double) (short) 1);
     }
 
     @Test
-    public void test0438() throws Throwable {
+    public void test438() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0438");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) (byte) 0, (double) 100L);
+            System.out.format("%n%s%n", "ErrorTest0.test438");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, (double) (byte) 10, (double) (byte) -1);
     }
 
     @Test
-    public void test0439() throws Throwable {
+    public void test439() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0439");
+            System.out.format("%n%s%n", "ErrorTest0.test439");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) 1, 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, (double) 1, 1.0E8d);
     }
 
     @Test
-    public void test0440() throws Throwable {
+    public void test440() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0440");
+            System.out.format("%n%s%n", "ErrorTest0.test440");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, 1.0d, (double) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) 10.0f, (double) (short) 0);
     }
 
     @Test
-    public void test0441() throws Throwable {
+    public void test441() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0441");
+            System.out.format("%n%s%n", "ErrorTest0.test441");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', (double) (byte) 1, (double) 1L);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', 1.0d, 1000000.0d);
     }
 
     @Test
-    public void test0442() throws Throwable {
+    public void test442() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0442");
+            System.out.format("%n%s%n", "ErrorTest0.test442");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (short) 1, (double) (byte) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, (double) 100L, (double) (short) -1);
     }
 
     @Test
-    public void test0443() throws Throwable {
+    public void test443() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0443");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '4', (double) (-1L), (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test443");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 0, 1.0d, 10.0d);
     }
 
     @Test
-    public void test0444() throws Throwable {
+    public void test444() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0444");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10.0f, 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test444");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 100.0d, (double) (short) 0);
     }
 
     @Test
-    public void test0445() throws Throwable {
+    public void test445() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0445");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (byte) -1, (double) (-1));
+            System.out.format("%n%s%n", "ErrorTest0.test445");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1024.0d, 1.0E-12d, 100.0d);
     }
 
     @Test
-    public void test0446() throws Throwable {
+    public void test446() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0446");
+            System.out.format("%n%s%n", "ErrorTest0.test446");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, 1.0d, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, (double) (byte) 10, (double) (-1L));
     }
 
     @Test
-    public void test0447() throws Throwable {
+    public void test447() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0447");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (short) 0, (double) 100.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test447");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-0.0d), 0.3333333d, (double) (short) 10);
     }
 
     @Test
-    public void test0448() throws Throwable {
+    public void test448() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0448");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, 0.0d, 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test448");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.001d, 10.0d, 10000.0d);
     }
 
     @Test
-    public void test0449() throws Throwable {
+    public void test449() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0449");
+            System.out.format("%n%s%n", "ErrorTest0.test449");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) '#', (double) (short) 1);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 1, (double) (short) 10, 0.0d);
     }
 
     @Test
-    public void test0450() throws Throwable {
+    public void test450() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0450");
+            System.out.format("%n%s%n", "ErrorTest0.test450");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) 10L, (double) (byte) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 1.0E8d, 1.0E-15d);
     }
 
     @Test
-    public void test0451() throws Throwable {
+    public void test451() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0451");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 0, 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test451");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1, (double) (short) 100, (double) (byte) -1);
     }
 
     @Test
-    public void test0452() throws Throwable {
+    public void test452() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0452");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) (-1.0f), (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test452");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(10000.0d, 10.0d, (double) (short) 100);
     }
 
     @Test
-    public void test0453() throws Throwable {
+    public void test453() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0453");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) 0L, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test453");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 2.0d, 10.0d);
     }
 
     @Test
-    public void test0454() throws Throwable {
+    public void test454() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0454");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (-1), 10.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test454");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(512.0d, 0.1d, (double) (short) 10);
     }
 
     @Test
-    public void test0455() throws Throwable {
+    public void test455() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0455");
+            System.out.format("%n%s%n", "ErrorTest0.test455");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) 'a', (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-10d, 0.3333333d, (-1.0E10d));
     }
 
     @Test
-    public void test0456() throws Throwable {
+    public void test456() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0456");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) (byte) -1, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test456");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, 0.001d, 0.001d);
     }
 
     @Test
-    public void test0457() throws Throwable {
+    public void test457() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0457");
+            System.out.format("%n%s%n", "ErrorTest0.test457");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 1, (double) (short) 100, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 0.70710678d, (double) (short) -1);
     }
 
     @Test
-    public void test0458() throws Throwable {
+    public void test458() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0458");
+            System.out.format("%n%s%n", "ErrorTest0.test458");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 10L, (double) (byte) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-15d, 0.3333333d, (double) 'a');
     }
 
     @Test
-    public void test0459() throws Throwable {
+    public void test459() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0459");
+            System.out.format("%n%s%n", "ErrorTest0.test459");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (short) 100, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 1000000.0d, 0.3333333d);
     }
 
     @Test
-    public void test0460() throws Throwable {
+    public void test460() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0460");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, (double) (short) -1, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test460");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.0d, 42.0d, (double) (byte) -1);
     }
 
     @Test
-    public void test0461() throws Throwable {
+    public void test461() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0461");
+            System.out.format("%n%s%n", "ErrorTest0.test461");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (double) 1, (double) (byte) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (short) 0, 1.0E8d, (double) 1L);
     }
 
     @Test
-    public void test0462() throws Throwable {
+    public void test462() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0462");
+            System.out.format("%n%s%n", "ErrorTest0.test462");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) ' ', 1.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100L, 512.0d, 0.01d);
     }
 
     @Test
-    public void test0463() throws Throwable {
+    public void test463() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0463");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100.0f, (double) 0, (double) 1L);
+            System.out.format("%n%s%n", "ErrorTest0.test463");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 2.0d, (double) 0.0f);
     }
 
     @Test
-    public void test0464() throws Throwable {
+    public void test464() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0464");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) (short) 0, (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test464");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 0.3333333d, 0.01d);
     }
 
     @Test
-    public void test0465() throws Throwable {
+    public void test465() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0465");
+            System.out.format("%n%s%n", "ErrorTest0.test465");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 1.0f, (double) (byte) 10);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) -1, 0.1d, 0.1d);
     }
 
     @Test
-    public void test0466() throws Throwable {
+    public void test466() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0466");
+            System.out.format("%n%s%n", "ErrorTest0.test466");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, (double) (byte) 10, (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10, 1000000.0d, 0.3333333d);
     }
 
     @Test
-    public void test0467() throws Throwable {
+    public void test467() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0467");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) -1, (double) (-1), (double) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test467");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E8d, 1.0E-12d, (double) (byte) 1);
     }
 
     @Test
-    public void test0468() throws Throwable {
+    public void test468() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0468");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0L, (double) (-1.0f), (double) ' ');
+            System.out.format("%n%s%n", "ErrorTest0.test468");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, 0.5d, (double) (byte) 0);
     }
 
     @Test
-    public void test0469() throws Throwable {
+    public void test469() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0469");
+            System.out.format("%n%s%n", "ErrorTest0.test469");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100L, (double) '#', (double) (-1L));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 1, (double) (byte) 1, 0.3333333d);
     }
 
     @Test
-    public void test0470() throws Throwable {
+    public void test470() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0470");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', 0.0d, (double) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test470");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) '#', (double) '4', 1.0E8d);
     }
 
     @Test
-    public void test0471() throws Throwable {
+    public void test471() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0471");
+            System.out.format("%n%s%n", "ErrorTest0.test471");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1, (double) (byte) 10, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) ' ', (double) '4', (double) 0.0f);
     }
 
     @Test
-    public void test0472() throws Throwable {
+    public void test472() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0472");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, 0.0d, (-1.0d));
+            System.out.format("%n%s%n", "ErrorTest0.test472");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100.0f, 1.0E8d, 256.0d);
     }
 
     @Test
-    public void test0473() throws Throwable {
+    public void test473() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0473");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (-1L), 0.0d, 0.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test473");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 100, 1.0E-6d, (double) 0);
     }
 
     @Test
-    public void test0474() throws Throwable {
+    public void test474() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0474");
+            System.out.format("%n%s%n", "ErrorTest0.test474");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) 10, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, (double) (short) 100, (double) (short) 10);
     }
 
     @Test
-    public void test0475() throws Throwable {
+    public void test475() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0475");
+            System.out.format("%n%s%n", "ErrorTest0.test475");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) '#', (double) (short) 1, (double) (byte) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, 1.0d, (-0.0d));
     }
 
     @Test
-    public void test0476() throws Throwable {
+    public void test476() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0476");
+            System.out.format("%n%s%n", "ErrorTest0.test476");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 100, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 0.5d, (double) (byte) -1);
     }
 
     @Test
-    public void test0477() throws Throwable {
+    public void test477() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0477");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1L, 0.0d, (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test477");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(100.0d, 1.0E-4d, 1.0d);
     }
 
     @Test
-    public void test0478() throws Throwable {
+    public void test478() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0478");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 1, (double) (byte) -1, (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test478");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.01d, 0.001d, (double) 100L);
     }
 
     @Test
-    public void test0479() throws Throwable {
+    public void test479() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0479");
+            System.out.format("%n%s%n", "ErrorTest0.test479");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 10L, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 1.0d, 0.25d);
     }
 
     @Test
-    public void test0480() throws Throwable {
+    public void test480() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0480");
+            System.out.format("%n%s%n", "ErrorTest0.test480");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) 'a', (double) (short) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-12d, 1.0E-8d, (double) 10L);
     }
 
     @Test
-    public void test0481() throws Throwable {
+    public void test481() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0481");
+            System.out.format("%n%s%n", "ErrorTest0.test481");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10, (double) 10L, (double) 100L);
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E10d, 1.0d, 0.0d);
     }
 
     @Test
-    public void test0482() throws Throwable {
+    public void test482() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0482");
+            System.out.format("%n%s%n", "ErrorTest0.test482");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (short) 1, (double) (-1));
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) (byte) 100, 256.0d, 1.0E-4d);
     }
 
     @Test
-    public void test0483() throws Throwable {
+    public void test483() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0483");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) -1, (double) (-1), (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test483");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, (double) 10.0f, (double) (byte) 0);
     }
 
     @Test
-    public void test0484() throws Throwable {
+    public void test484() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0484");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 100, (double) (byte) 0, (double) 1.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test484");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(256.0d, 1.0E-15d, (double) (byte) 10);
     }
 
     @Test
-    public void test0485() throws Throwable {
+    public void test485() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0485");
+            System.out.format("%n%s%n", "ErrorTest0.test485");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 0.0f, (double) (byte) 10, (double) (short) 100);
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, 0.70710678d, 1.0E-10d);
     }
 
     @Test
-    public void test0486() throws Throwable {
+    public void test486() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0486");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 10L, (-1.0d), (double) (-1L));
+            System.out.format("%n%s%n", "ErrorTest0.test486");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0E-6d, 0.5d, (-100.0d));
     }
 
     @Test
-    public void test0487() throws Throwable {
+    public void test487() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0487");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) (-1), (double) '#');
+            System.out.format("%n%s%n", "ErrorTest0.test487");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(2.0d, 42.0d, 0.1d);
     }
 
     @Test
-    public void test0488() throws Throwable {
+    public void test488() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0488");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) ' ', (double) (-1.0f), (double) 0.0f);
+            System.out.format("%n%s%n", "ErrorTest0.test488");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0d), 1.0E8d, (double) (byte) 10);
     }
 
     @Test
-    public void test0489() throws Throwable {
+    public void test489() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0489");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (byte) 0, 0.0d, 1.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test489");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0d), (double) 1, 1024.0d);
     }
 
     @Test
-    public void test0490() throws Throwable {
+    public void test490() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0490");
+            System.out.format("%n%s%n", "ErrorTest0.test490");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 0, (double) 10.0f, (double) (byte) -1);
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, (double) 10.0f, (double) (byte) 100);
     }
 
     @Test
-    public void test0491() throws Throwable {
+    public void test491() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0491");
+            System.out.format("%n%s%n", "ErrorTest0.test491");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) 10, (double) 0);
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 'a', 1.0E-6d, 1.0d);
     }
 
     @Test
-    public void test0492() throws Throwable {
+    public void test492() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0492");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) 0L, (double) (-1.0f));
+            System.out.format("%n%s%n", "ErrorTest0.test492");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 1.0f, 5.0d, 1.0E-12d);
     }
 
     @Test
-    public void test0493() throws Throwable {
+    public void test493() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0493");
+            System.out.format("%n%s%n", "ErrorTest0.test493");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 100, (double) '#', (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 10L, 100.0d, 1.0E-4d);
     }
 
     @Test
-    public void test0494() throws Throwable {
+    public void test494() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0494");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(100.0d, 0.0d, 100.0d);
+            System.out.format("%n%s%n", "ErrorTest0.test494");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((-1.0E10d), 42.0d, 0.01d);
     }
 
     @Test
-    public void test0495() throws Throwable {
+    public void test495() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0495");
+            System.out.format("%n%s%n", "ErrorTest0.test495");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(0.0d, (double) (byte) 1, (double) ' ');
+        org.apache.commons.math4.test.checkSensitivityToSigma(1.0d, 1.0d, 0.25d);
     }
 
     @Test
-    public void test0496() throws Throwable {
+    public void test496() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0496");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 1.0f, (double) (-1L), (double) (short) 1);
+            System.out.format("%n%s%n", "ErrorTest0.test496");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(5.0d, 0.9d, 0.0d);
     }
 
     @Test
-    public void test0497() throws Throwable {
+    public void test497() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0497");
+            System.out.format("%n%s%n", "ErrorTest0.test497");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 100, (double) 100L, (double) (-1.0f));
+        org.apache.commons.math4.test.checkSensitivityToSigma(1000000.0d, 1.0E-8d, (double) 100);
     }
 
     @Test
-    public void test0498() throws Throwable {
+    public void test498() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0498");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) 'a', 0.0d, (double) (short) 10);
+            System.out.format("%n%s%n", "ErrorTest0.test498");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma((double) 0.0f, 1.0E-10d, (double) 10);
     }
 
     @Test
-    public void test0499() throws Throwable {
+    public void test499() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0499");
-        // during test generation this statement threw an exception of type org.apache.commons.math4.exception.NotStrictlyPositiveException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma(10.0d, (double) (short) 0, (double) (short) 100);
+            System.out.format("%n%s%n", "ErrorTest0.test499");
+        // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
+        org.apache.commons.math4.test.checkSensitivityToSigma(42.0d, 100.0d, 1.0E-12d);
     }
 
     @Test
-    public void test0500() throws Throwable {
+    public void test500() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test0500");
+            System.out.format("%n%s%n", "ErrorTest0.test500");
         // during test generation this statement threw an exception of type java.lang.IllegalStateException in error
-        org.apache.commons.math4.distribution.SensitivityMain.checkSensitivityToSigma((double) (short) 10, (double) 10.0f, 0.0d);
+        org.apache.commons.math4.test.checkSensitivityToSigma(0.3333333d, 1.0d, (double) '#');
     }
 }
