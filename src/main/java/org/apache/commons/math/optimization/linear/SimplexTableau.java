@@ -75,16 +75,16 @@ class SimplexTableau implements Serializable {
     private final boolean restrictToNonNegative;
 
     /** Simple tableau. */
-    private transient RealMatrix tableau;
+    public transient RealMatrix tableau;
 
     /** Number of decision variables. */
-    private final int numDecisionVariables;
+    public final int numDecisionVariables;
 
     /** Number of slack variables. */
-    private final int numSlackVariables;
+    public final int numSlackVariables;
 
     /** Number of artificial variables. */
-    private int numArtificialVariables;
+    public int numArtificialVariables;
 
     /** Amount of error to accept in floating point comparisons. */
     private final double epsilon;
