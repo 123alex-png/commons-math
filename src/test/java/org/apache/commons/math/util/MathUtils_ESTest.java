@@ -305,7 +305,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertEquals(9223372036854775807L, long0);
   }
 
-  @Test(timeout = 4000)
+  @Test(timeout = 4000)//this test is wrong by evosuite
   public void test030()  throws Throwable  {
       long long0 = MathUtils.subAndCheck((long) (-9), 9223372036854775807L);
       assertEquals(9223372036854775800L, long0);
