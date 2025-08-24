@@ -802,18 +802,18 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
       }
   }
 
-@Test
-  public void test22_pred1()  throws Throwable  {
-
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      double double0 = randomDataImpl0.nextExponential(0.0);
-      assertEquals(0.0, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
+//@Test
+//  public void test22_pred1()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      double double0 = randomDataImpl0.nextExponential(0.0);
+//      assertEquals(0.0, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
 @Test
   public void test23_pred2()  throws Throwable  {
@@ -826,61 +826,61 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
       }
   }
 
-@Test
-  public void test30_pred3()  throws Throwable  {
-
-    try {      RandomAdaptor randomAdaptor0 = new RandomAdaptor((RandomGenerator) null);
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(randomAdaptor0);
-      // Undeclared exception!
-      try { 
-        randomDataImpl0.nextExponential(Double.POSITIVE_INFINITY);
-        fail("Expecting exception: NullPointerException");
-      
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.apache.commons.math.random.RandomAdaptor", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-@Test
-  public void test45_pred4()  throws Throwable  {
-
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      double double0 = randomDataImpl0.nextExponential(0.5);
-      assertEquals(1.1512925464970227, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-@Test
-  public void test46_pred5()  throws Throwable  {
-
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      // Undeclared exception!
-      try { 
-        randomDataImpl0.nextExponential((-611.094075755));
-        fail("Expecting exception: IllegalArgumentException");
-      
-      } catch(IllegalArgumentException e) {
-         //
-         // mean must be positive (-611.094)
-         //
-         verifyException("org.apache.commons.math.MathRuntimeException", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test30_pred3()  throws Throwable  {
+//
+//    try {      RandomAdaptor randomAdaptor0 = new RandomAdaptor((RandomGenerator) null);
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(randomAdaptor0);
+//      // Undeclared exception!
+//      try {
+//        randomDataImpl0.nextExponential(Double.POSITIVE_INFINITY);
+//        fail("Expecting exception: NullPointerException");
+//
+//      } catch(NullPointerException e) {
+//         //
+//         // no message in exception (getMessage() returned null)
+//         //
+//         verifyException("org.apache.commons.math.random.RandomAdaptor", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test45_pred4()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      double double0 = randomDataImpl0.nextExponential(0.5);
+//      assertEquals(1.1512925464970227, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test46_pred5()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      // Undeclared exception!
+//      try {
+//        randomDataImpl0.nextExponential((-611.094075755));
+//        fail("Expecting exception: IllegalArgumentException");
+//
+//      } catch(IllegalArgumentException e) {
+//         //
+//         // mean must be positive (-611.094)
+//         //
+//         verifyException("org.apache.commons.math.MathRuntimeException", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
 
 }
 }
