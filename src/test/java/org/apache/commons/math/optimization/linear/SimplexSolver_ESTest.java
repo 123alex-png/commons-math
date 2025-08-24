@@ -189,6 +189,7 @@ public class SimplexSolver_ESTest extends SimplexSolver_ESTest_scaffolding {
       }
   }
 
+@Test
   public void test1_pred1()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
@@ -200,6 +201,7 @@ public class SimplexSolver_ESTest extends SimplexSolver_ESTest_scaffolding {
       assertNotSame(realPointValuePair1, realPointValuePair0);
 }
 
+@Test
   public void test2_pred2()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
@@ -211,6 +213,7 @@ public class SimplexSolver_ESTest extends SimplexSolver_ESTest_scaffolding {
       assertNotSame(realPointValuePair1, realPointValuePair0);
 }
 
+@Test
   public void test3_pred3()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver(0.0);
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(100);
@@ -222,6 +225,7 @@ public class SimplexSolver_ESTest extends SimplexSolver_ESTest_scaffolding {
       assertEquals((-72.7789831015), realPointValuePair0.getValue(), 0.01);
 }
 
+@Test
   public void test5_pred4()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       Double[] doubleArray0 = new Double[2];
