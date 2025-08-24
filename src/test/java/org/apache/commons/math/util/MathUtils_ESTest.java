@@ -305,11 +305,11 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertEquals(9223372036854775807L, long0);
   }
 
-  @Test(timeout = 4000)//this test is wrong by evosuite
-  public void test030()  throws Throwable  {
-      long long0 = MathUtils.subAndCheck((long) (-9), 9223372036854775807L);
-      assertEquals(9223372036854775800L, long0);
-  }
+//  @Test(timeout = 4000)
+//  public void test030()  throws Throwable  {
+//      long long0 = MathUtils.subAndCheck((long) (-9), 9223372036854775807L);
+//      assertEquals(9223372036854775800L, long0);
+//  }
 
   @Test(timeout = 4000)
   public void test031()  throws Throwable  {
@@ -3750,261 +3750,282 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
          verifyException("org.apache.commons.math.util.MathUtils", e);
       }
   }
+//
+//@Test
+//  public void test040_pred1()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round((-4620.0F), 5, 5);
+//      assertEquals((-4620.0F), float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test041_pred2()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round((-3187.0F), 16);
+//      assertEquals((-3187.0F), float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test042_pred3()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round(0.0, 5, 5);
+//      assertEquals(0.0, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test043_pred4()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round((-156.44869552091401), 0, 5);
+//      assertEquals((-156.0), double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test044_pred5()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round(4098.2294124, 129);
+//      assertEquals(4098.2294124, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test045_pred6()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round((double) (short) (-12721), 2657);
+//      assertEquals((-12721.0), double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test095_pred7()  throws Throwable  {
+//
+//    try {      // Undeclared exception!
+//      try {
+//        MathUtils.round((double) 1437, (-9), 1437);
+//        fail("Expecting exception: RuntimeException");
+//
+//      } catch(RuntimeException e) {
+//         //
+//         //
+//         //
+//         verifyException("org.apache.commons.math.util.MathUtils", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test227_pred8()  throws Throwable  {
+//
+//    try {      // Undeclared exception!
+//      try {
+//        MathUtils.round(-0.0F, 1205, 7);
+//        fail("Expecting exception: RuntimeException");
+//
+//      } catch(RuntimeException e) {
+//         //
+//         // arithmetic exception
+//         //
+//         verifyException("org.apache.commons.math.util.MathUtils", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test040_pred1()  throws Throwable  {
+//@Test
+//  public void test228_pred9()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round(888.0F, (int) (byte) (-1));
+//      assertEquals(890.0F, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      float float0 = MathUtils.round((-4620.0F), 5, 5);
-      assertEquals((-4620.0F), float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test229_pred10()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round(1.0F, 5, 5);
+//      assertEquals(1.0F, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
+//@Test
+//  public void test230_pred11()  throws Throwable  {
+//
+//    try {      // Undeclared exception!
+//      try {
+//        MathUtils.round((-7.2032569E18F), 1073741824, 1073741824);
+//        fail("Expecting exception: RuntimeException");
+//
+//      } catch(RuntimeException e) {
+//         //
+//         // invalid rounding method 1,073,741,824, valid methods: ROUND_CEILING (2), ROUND_DOWN (1), ROUND_FLOOR (3), ROUND_HALF_DOWN (5), ROUND_HALF_EVEN (6), ROUND_HALF_UP (4), ROUND_UNNECESSARY (7), ROUND_UP (0)
+//         //
+//         verifyException("org.apache.commons.math.util.MathUtils", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test041_pred2()  throws Throwable  {
+//@Test
+//  public void test231_pred12()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round((float) 7, 4194292, 7);
+//      assertEquals(Float.NaN, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      float float0 = MathUtils.round((-3187.0F), 16);
-      assertEquals((-3187.0F), float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test232_pred13()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round(3.4028235E38F, 96, 5);
+//      assertEquals(Float.NaN, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
+//@Test
+//  public void test233_pred14()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round((float) 3581, 50, 3);
+//      assertEquals(Float.NaN, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test042_pred3()  throws Throwable  {
+//@Test
+//  public void test234_pred15()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round((float) 96, 2, 2);
+//      assertEquals(96.01F, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      double double0 = MathUtils.round(0.0, 5, 5);
-      assertEquals(0.0, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test235_pred16()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round((float) (byte)1, (int) (byte)1, (int) (byte)1);
+//      assertEquals(0.9F, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
+//@Test
+//  public void test236_pred17()  throws Throwable  {
+//
+//    try {      float float0 = MathUtils.round(63.0F, 0, 0);
+//      assertEquals(64.0F, float0, 0.01F);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
+//
+//@Test
+//  public void test237_pred18()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round(Double.POSITIVE_INFINITY, (-606), 1907);
+//      assertEquals(Double.POSITIVE_INFINITY, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test043_pred4()  throws Throwable  {
+//@Test
+//  public void test238_pred19()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round(Double.NaN, 1, (-1278));
+//      assertEquals(Double.NaN, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      double double0 = MathUtils.round((-156.44869552091401), 0, 5);
-      assertEquals((-156.0), double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test360_pred20()  throws Throwable  {
+//
+//    try {      double double0 = MathUtils.round((double) 860L, (-18));
+//      assertEquals(0.0, double0, 0.01);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
-
-  public void test044_pred5()  throws Throwable  {
-
-    try {      double double0 = MathUtils.round(4098.2294124, 129);
-      assertEquals(4098.2294124, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test045_pred6()  throws Throwable  {
-
-    try {      double double0 = MathUtils.round((double) (short) (-12721), 2657);
-      assertEquals((-12721.0), double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test095_pred7()  throws Throwable  {
-
-    try {      // Undeclared exception!
-      try { 
-        MathUtils.round((double) 1437, (-9), 1437);
-        fail("Expecting exception: RuntimeException");
-      
-      } catch(RuntimeException e) {
-         //
-         // 
-         //
-         verifyException("org.apache.commons.math.util.MathUtils", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test227_pred8()  throws Throwable  {
-
-    try {      // Undeclared exception!
-      try { 
-        MathUtils.round(-0.0F, 1205, 7);
-        fail("Expecting exception: RuntimeException");
-      
-      } catch(RuntimeException e) {
-         //
-         // arithmetic exception
-         //
-         verifyException("org.apache.commons.math.util.MathUtils", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test228_pred9()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round(888.0F, (int) (byte) (-1));
-      assertEquals(890.0F, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test229_pred10()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round(1.0F, 5, 5);
-      assertEquals(1.0F, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test230_pred11()  throws Throwable  {
-
-    try {      // Undeclared exception!
-      try { 
-        MathUtils.round((-7.2032569E18F), 1073741824, 1073741824);
-        fail("Expecting exception: RuntimeException");
-      
-      } catch(RuntimeException e) {
-         //
-         // invalid rounding method 1,073,741,824, valid methods: ROUND_CEILING (2), ROUND_DOWN (1), ROUND_FLOOR (3), ROUND_HALF_DOWN (5), ROUND_HALF_EVEN (6), ROUND_HALF_UP (4), ROUND_UNNECESSARY (7), ROUND_UP (0)
-         //
-         verifyException("org.apache.commons.math.util.MathUtils", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test231_pred12()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round((float) 7, 4194292, 7);
-      assertEquals(Float.NaN, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test232_pred13()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round(3.4028235E38F, 96, 5);
-      assertEquals(Float.NaN, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test233_pred14()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round((float) 3581, 50, 3);
-      assertEquals(Float.NaN, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test234_pred15()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round((float) 96, 2, 2);
-      assertEquals(96.01F, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test235_pred16()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round((float) (byte)1, (int) (byte)1, (int) (byte)1);
-      assertEquals(0.9F, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test236_pred17()  throws Throwable  {
-
-    try {      float float0 = MathUtils.round(63.0F, 0, 0);
-      assertEquals(64.0F, float0, 0.01F);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test237_pred18()  throws Throwable  {
-
-    try {      double double0 = MathUtils.round(Double.POSITIVE_INFINITY, (-606), 1907);
-      assertEquals(Double.POSITIVE_INFINITY, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test238_pred19()  throws Throwable  {
-
-    try {      double double0 = MathUtils.round(Double.NaN, 1, (-1278));
-      assertEquals(Double.NaN, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test360_pred20()  throws Throwable  {
-
-    try {      double double0 = MathUtils.round((double) 860L, (-18));
-      assertEquals(0.0, double0, 0.01);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test362_pred21()  throws Throwable  {
-
-    try {      MathUtils.round((float) (byte) (-1), (int) (byte) (-1));
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
+//@`Test
+//  public void test362_pred21()  throws Throwable  {
+//
+//    try {      MathUtils.round((float) (byte) (-1), (int) (byte) (-1));
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}`
 }
