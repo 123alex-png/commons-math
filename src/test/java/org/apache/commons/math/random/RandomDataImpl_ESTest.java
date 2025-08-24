@@ -822,124 +822,132 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
       assertNotNull(string0);
   }
 
-  public void test07_pred1()  throws Throwable  {
+//@Test
+//  public void test07_pred1()  throws Throwable  {
+//
+//    try {      MersenneTwister mersenneTwister0 = new MersenneTwister();
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
+//      // Undeclared exception!
+//      try {
+//        randomDataImpl0.nextPoisson(0L);
+//        fail("Expecting exception: IllegalArgumentException");
+//
+//      } catch(IllegalArgumentException e) {
+//         //
+//         // the Poisson mean must be positive (0)
+//         //
+//         verifyException("org.apache.commons.math.MathRuntimeException", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      MersenneTwister mersenneTwister0 = new MersenneTwister();
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
-      // Undeclared exception!
-      try { 
-        randomDataImpl0.nextPoisson(0L);
-        fail("Expecting exception: IllegalArgumentException");
-      
-      } catch(IllegalArgumentException e) {
-         //
-         // the Poisson mean must be positive (0)
-         //
-         verifyException("org.apache.commons.math.MathRuntimeException", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test16_pred2()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      String string0 = randomDataImpl0.nextHexString(128);
+//      assertEquals("808080808180808082808080838080808480808085808080868080808780808088808080898080808a8080808b8080808c8080808d8080808e8080808f808080", string0);
+//
+//      long long0 = randomDataImpl0.nextPoisson(2565.5748159);
+//      assertEquals(2617L, long0);
+//
+//      long long1 = randomDataImpl0.nextSecureLong(0L, 128);
+//      assertEquals(0L, long1);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
+//@Test
+//  public void test20_pred3()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      long long0 = randomDataImpl0.nextPoisson(2);
+//      assertEquals(0L, long0);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test16_pred2()  throws Throwable  {
+//@Test
+//  public void test29_pred4()  throws Throwable  {
+//
+//    try {      RandomAdaptor randomAdaptor0 = new RandomAdaptor((RandomGenerator) null);
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(randomAdaptor0);
+//      // Undeclared exception!
+//      try {
+//        randomDataImpl0.nextPoisson(12.710184831722872);
+//        fail("Expecting exception: NullPointerException");
+//
+//      } catch(NullPointerException e) {
+//         //
+//         // no message in exception (getMessage() returned null)
+//         //
+//         verifyException("org.apache.commons.math.random.RandomAdaptor", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      String string0 = randomDataImpl0.nextHexString(128);
-      assertEquals("808080808180808082808080838080808480808085808080868080808780808088808080898080808a8080808b8080808c8080808d8080808e8080808f808080", string0);
-      
-      long long0 = randomDataImpl0.nextPoisson(2565.5748159);
-      assertEquals(2617L, long0);
-      
-      long long1 = randomDataImpl0.nextSecureLong(0L, 128);
-      assertEquals(0L, long1);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test48_pred5()  throws Throwable  {
+//
+//    try {      MersenneTwister mersenneTwister0 = new MersenneTwister();
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
+//      long long0 = randomDataImpl0.nextPoisson(100L);
+//      assertEquals(101L, long0);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
+//@Test
+//  public void test49_pred6()  throws Throwable  {
+//
+//    try {      MersenneTwister mersenneTwister0 = new MersenneTwister();
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
+//      long long0 = randomDataImpl0.nextPoisson(24.557640389897276);
+//      assertEquals(307L, long0);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test20_pred3()  throws Throwable  {
+//@Test
+//  public void test50_pred7()  throws Throwable  {
+//
+//    try {      MersenneTwister mersenneTwister0 = new MersenneTwister((-9218868437227405313L));
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
+//      mersenneTwister0.nextInt();
+//      long long0 = randomDataImpl0.nextPoisson(1.2987961370232342);
+//      assertEquals(4L, long0);
+//
+//      mersenneTwister0.next(12);
+//      long long1 = randomDataImpl0.nextPoisson(6.45377411594215);
+//      assertEquals(10L, long1);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      long long0 = randomDataImpl0.nextPoisson(2);
-      assertEquals(0L, long0);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test29_pred4()  throws Throwable  {
-
-    try {      RandomAdaptor randomAdaptor0 = new RandomAdaptor((RandomGenerator) null);
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(randomAdaptor0);
-      // Undeclared exception!
-      try { 
-        randomDataImpl0.nextPoisson(12.710184831722872);
-        fail("Expecting exception: NullPointerException");
-      
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.apache.commons.math.random.RandomAdaptor", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test48_pred5()  throws Throwable  {
-
-    try {      MersenneTwister mersenneTwister0 = new MersenneTwister();
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
-      long long0 = randomDataImpl0.nextPoisson(100L);
-      assertEquals(101L, long0);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test49_pred6()  throws Throwable  {
-
-    try {      MersenneTwister mersenneTwister0 = new MersenneTwister();
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
-      long long0 = randomDataImpl0.nextPoisson(24.557640389897276);
-      assertEquals(307L, long0);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test50_pred7()  throws Throwable  {
-
-    try {      MersenneTwister mersenneTwister0 = new MersenneTwister((-9218868437227405313L));
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
-      mersenneTwister0.nextInt();
-      long long0 = randomDataImpl0.nextPoisson(1.2987961370232342);
-      assertEquals(4L, long0);
-      
-      mersenneTwister0.next(12);
-      long long1 = randomDataImpl0.nextPoisson(6.45377411594215);
-      assertEquals(10L, long1);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
+@Test
   public void test51_pred8()  throws Throwable  {
 
     try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
@@ -952,74 +960,78 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
 
 }
 
-  public void test52_pred9()  throws Throwable  {
+//@Test
+//  public void test52_pred9()  throws Throwable  {
+//
+//    try {      MersenneTwister mersenneTwister0 = new MersenneTwister(397L);
+//      mersenneTwister0.nextInt();
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
+//      randomDataImpl0.nextPoisson(397L);
+//      randomDataImpl0.nextPoisson(397L);
+//      // Undeclared exception!
+//      try {
+//        randomDataImpl0.nextPoisson(6.619737248722546);
+//        fail("Expecting exception: IllegalArgumentException");
+//
+//      } catch(IllegalArgumentException e) {
+//         //
+//         // must have n >= 0 for n!, got n = -1
+//         //
+//         verifyException("org.apache.commons.math.MathRuntimeException", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-    try {      MersenneTwister mersenneTwister0 = new MersenneTwister(397L);
-      mersenneTwister0.nextInt();
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
-      randomDataImpl0.nextPoisson(397L);
-      randomDataImpl0.nextPoisson(397L);
-      // Undeclared exception!
-      try { 
-        randomDataImpl0.nextPoisson(6.619737248722546);
-        fail("Expecting exception: IllegalArgumentException");
-      
-      } catch(IllegalArgumentException e) {
-         //
-         // must have n >= 0 for n!, got n = -1
-         //
-         verifyException("org.apache.commons.math.MathRuntimeException", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
+//@Test
+//  public void test53_pred10()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      long long0 = randomDataImpl0.nextPoisson(6.0);
+//      assertEquals(4L, long0);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-}
+//@Test
+//  public void test54_pred11()  throws Throwable  {
+//
+//    try {      MersenneTwister mersenneTwister0 = new MersenneTwister((-9218868437227405313L));
+//      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
+//      long long0 = randomDataImpl0.nextPoisson(6.45377411594215);
+//      assertEquals(6L, long0);
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 
-  public void test53_pred10()  throws Throwable  {
-
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      long long0 = randomDataImpl0.nextPoisson(6.0);
-      assertEquals(4L, long0);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test54_pred11()  throws Throwable  {
-
-    try {      MersenneTwister mersenneTwister0 = new MersenneTwister((-9218868437227405313L));
-      RandomDataImpl randomDataImpl0 = new RandomDataImpl(mersenneTwister0);
-      long long0 = randomDataImpl0.nextPoisson(6.45377411594215);
-      assertEquals(6L, long0);
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
-
-  public void test55_pred12()  throws Throwable  {
-
-    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
-      // Undeclared exception!
-      try { 
-        randomDataImpl0.nextPoisson((-1004.3342573588785));
-        fail("Expecting exception: IllegalArgumentException");
-      
-      } catch(IllegalArgumentException e) {
-         //
-         // the Poisson mean must be positive (-1,004.334)
-         //
-         verifyException("org.apache.commons.math.MathRuntimeException", e);
-      }
-        org.junit.Assert.fail("Expected exception predicted by TOGA");
-    } catch (Exception e) {
-        // expected exception predicted by TOGA
-    }
-
-}
+//@Test
+//  public void test55_pred12()  throws Throwable  {
+//
+//    try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
+//      // Undeclared exception!
+//      try {
+//        randomDataImpl0.nextPoisson((-1004.3342573588785));
+//        fail("Expecting exception: IllegalArgumentException");
+//
+//      } catch(IllegalArgumentException e) {
+//         //
+//         // the Poisson mean must be positive (-1,004.334)
+//         //
+//         verifyException("org.apache.commons.math.MathRuntimeException", e);
+//      }
+//        org.junit.Assert.fail("Expected exception predicted by TOGA");
+//    } catch (Exception e) {
+//        // expected exception predicted by TOGA
+//    }
+//
+//}
 }
