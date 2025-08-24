@@ -3045,22 +3045,24 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertEquals(0.0, double0, 0.01);
   }
 
-  public void test012_pred1()  throws Throwable  {
-      double[] doubleArray0 = new double[1];
-      doubleArray0[0] = (double) 3;
-      double[] doubleArray1 = MathUtils.normalizeArray(doubleArray0, (-45));
-      assertNotNull(doubleArray1);
-      assertEquals(1, doubleArray0.length);
-      assertEquals(1, doubleArray1.length);
-      assertNotSame(doubleArray0, doubleArray1);
-      assertNotSame(doubleArray1, doubleArray0);
-      assertArrayEquals(new double[] {3.0}, doubleArray0, 0.01);
-      assertArrayEquals(new double[] {(-45.0)}, doubleArray1, 0.01);
-      assertFalse(doubleArray1.equals((Object)doubleArray0));
+//@Test
+//  public void test012_pred1()  throws Throwable  {
+//      double[] doubleArray0 = new double[1];
+//      doubleArray0[0] = (double) 3;
+//      double[] doubleArray1 = MathUtils.normalizeArray(doubleArray0, (-45));
+//      assertNotNull(doubleArray1);
+//      assertEquals(1, doubleArray0.length);
+//      assertEquals(1, doubleArray1.length);
+//      assertNotSame(doubleArray0, doubleArray1);
+//      assertNotSame(doubleArray1, doubleArray0);
+//      assertArrayEquals(new double[] {3.0}, doubleArray0, 0.01);
+//      assertArrayEquals(new double[] {(-45.0)}, doubleArray1, 0.01);
+//      assertFalse(doubleArray1.equals((Object)doubleArray0));
+//    org.junit.Assert.assertTrue(doubleArray1);
+//
+//}
 
-
-}
-
+@Test
   public void test024_pred2()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double[] doubleArray1 = new double[9];
@@ -3078,6 +3080,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
+@Test
   public void test025_pred3()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double[] doubleArray1 = new double[3];
@@ -3095,139 +3098,146 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
-  public void test046_pred4()  throws Throwable  {
-      BigInteger bigInteger0 = BigInteger.TEN;
-      assertNotNull(bigInteger0);
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 5);
-      assertNotNull(bigInteger1);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      assertEquals((byte) (-96), bigInteger1.byteValue());
-      assertEquals((short) (-31072), bigInteger1.shortValue());
-      
-      BigInteger bigInteger2 = MathUtils.pow(bigInteger0, bigInteger1);
-      assertNotNull(bigInteger2);
-      assertNotSame(bigInteger0, bigInteger2);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertNotSame(bigInteger1, bigInteger2);
-      assertNotSame(bigInteger2, bigInteger0);
-      assertNotSame(bigInteger2, bigInteger1);
-      assertFalse(bigInteger0.equals((Object)bigInteger1));
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertFalse(bigInteger2.equals((Object)bigInteger0));
-      assertFalse(bigInteger2.equals((Object)bigInteger1));
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      assertEquals((byte) (-96), bigInteger1.byteValue());
-      assertEquals((short) (-31072), bigInteger1.shortValue());
-      assertEquals((short)0, bigInteger2.shortValue());
-      assertEquals((byte)0, bigInteger2.byteValue());
+//@Test
+//  public void test046_pred4()  throws Throwable  {
+//      BigInteger bigInteger0 = BigInteger.TEN;
+//      assertNotNull(bigInteger0);
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 5);
+//      assertNotNull(bigInteger1);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//      assertEquals((byte) (-96), bigInteger1.byteValue());
+//      assertEquals((short) (-31072), bigInteger1.shortValue());
+//
+//      BigInteger bigInteger2 = MathUtils.pow(bigInteger0, bigInteger1);
+//      assertNotNull(bigInteger2);
+//      assertNotSame(bigInteger0, bigInteger2);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertNotSame(bigInteger1, bigInteger2);
+//      assertNotSame(bigInteger2, bigInteger0);
+//      assertNotSame(bigInteger2, bigInteger1);
+//      assertFalse(bigInteger0.equals((Object)bigInteger1));
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertFalse(bigInteger2.equals((Object)bigInteger0));
+//      assertFalse(bigInteger2.equals((Object)bigInteger1));
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//      assertEquals((byte) (-96), bigInteger1.byteValue());
+//      assertEquals((short) (-31072), bigInteger1.shortValue());
+//      assertEquals((short)0, bigInteger2.shortValue());
+//      assertEquals((byte)0, bigInteger2.byteValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
+//@Test
+//  public void test047_pred5()  throws Throwable  {
+//      byte[] byteArray0 = new byte[3];
+//      byteArray0[2] = (byte) (-91);
+//      BigInteger bigInteger0 = new BigInteger(byteArray0);
+//      assertNotNull(bigInteger0);
+//      assertEquals(3, byteArray0.length);
+//      assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte) (-91)}, byteArray0);
+//      assertEquals((short)165, bigInteger0.shortValue());
+//      assertEquals((byte) (-91), bigInteger0.byteValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, (long) (byte)3);
+//      assertNotNull(bigInteger1);
+//      assertEquals(3, byteArray0.length);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte) (-91)}, byteArray0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((short)165, bigInteger0.shortValue());
+//      assertEquals((byte) (-91), bigInteger0.byteValue());
+//      assertEquals((short) (-29859), bigInteger1.shortValue());
+//      assertEquals((byte)93, bigInteger1.byteValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
-}
+//@Test
+//  public void test049_pred6()  throws Throwable  {
+//      BigInteger bigInteger0 = BigInteger.valueOf((-2644281811660520851L));
+//      assertNotNull(bigInteger0);
+//      assertEquals((short) (-15763), bigInteger0.shortValue());
+//      assertEquals((byte)109, bigInteger0.byteValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 1);
+//      assertNotNull(bigInteger1);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertTrue(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((short) (-15763), bigInteger0.shortValue());
+//      assertEquals((byte)109, bigInteger0.byteValue());
+//      assertEquals((byte)109, bigInteger1.byteValue());
+//      assertEquals((short) (-15763), bigInteger1.shortValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
+//
+//@Test
+//  public void test050_pred7()  throws Throwable  {
+//      BigInteger bigInteger0 = BigInteger.valueOf(2L);
+//      assertNotNull(bigInteger0);
+//      assertEquals((byte)2, bigInteger0.byteValue());
+//      assertEquals((short)2, bigInteger0.shortValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 80);
+//      assertNotNull(bigInteger1);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((byte)2, bigInteger0.byteValue());
+//      assertEquals((short)2, bigInteger0.shortValue());
+//      assertEquals((byte)0, bigInteger1.byteValue());
+//      assertEquals((short)0, bigInteger1.shortValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
-  public void test047_pred5()  throws Throwable  {
-      byte[] byteArray0 = new byte[3];
-      byteArray0[2] = (byte) (-91);
-      BigInteger bigInteger0 = new BigInteger(byteArray0);
-      assertNotNull(bigInteger0);
-      assertEquals(3, byteArray0.length);
-      assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte) (-91)}, byteArray0);
-      assertEquals((short)165, bigInteger0.shortValue());
-      assertEquals((byte) (-91), bigInteger0.byteValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, (long) (byte)3);
-      assertNotNull(bigInteger1);
-      assertEquals(3, byteArray0.length);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte) (-91)}, byteArray0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((short)165, bigInteger0.shortValue());
-      assertEquals((byte) (-91), bigInteger0.byteValue());
-      assertEquals((short) (-29859), bigInteger1.shortValue());
-      assertEquals((byte)93, bigInteger1.byteValue());
+//@Test
+//  public void test051_pred8()  throws Throwable  {
+//      byte[] byteArray0 = new byte[2];
+//      byteArray0[1] = (byte)5;
+//      BigInteger bigInteger0 = new BigInteger(byteArray0);
+//      assertNotNull(bigInteger0);
+//      assertEquals(2, byteArray0.length);
+//      assertArrayEquals(new byte[] {(byte)0, (byte)5}, byteArray0);
+//      assertEquals((short)5, bigInteger0.shortValue());
+//      assertEquals((byte)5, bigInteger0.byteValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 279);
+//      assertNotNull(bigInteger1);
+//      assertEquals(2, byteArray0.length);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertArrayEquals(new byte[] {(byte)0, (byte)5}, byteArray0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((short)5, bigInteger0.shortValue());
+//      assertEquals((byte)5, bigInteger0.byteValue());
+//      assertEquals((byte) (-19), bigInteger1.byteValue());
+//      assertEquals((short)25069, bigInteger1.shortValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
+//@Test
+//  public void test071_pred9()  throws Throwable  {
+//      boolean boolean0 = MathUtils.equals((-1525.46185), (-1.0));
+//      assertFalse(boolean0);
+//    org.junit.Assert.assertTrue(boolean0);
+//
+//}
 
-}
-
-  public void test049_pred6()  throws Throwable  {
-      BigInteger bigInteger0 = BigInteger.valueOf((-2644281811660520851L));
-      assertNotNull(bigInteger0);
-      assertEquals((short) (-15763), bigInteger0.shortValue());
-      assertEquals((byte)109, bigInteger0.byteValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 1);
-      assertNotNull(bigInteger1);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertTrue(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((short) (-15763), bigInteger0.shortValue());
-      assertEquals((byte)109, bigInteger0.byteValue());
-      assertEquals((byte)109, bigInteger1.byteValue());
-      assertEquals((short) (-15763), bigInteger1.shortValue());
-
-
-}
-
-  public void test050_pred7()  throws Throwable  {
-      BigInteger bigInteger0 = BigInteger.valueOf(2L);
-      assertNotNull(bigInteger0);
-      assertEquals((byte)2, bigInteger0.byteValue());
-      assertEquals((short)2, bigInteger0.shortValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 80);
-      assertNotNull(bigInteger1);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((byte)2, bigInteger0.byteValue());
-      assertEquals((short)2, bigInteger0.shortValue());
-      assertEquals((byte)0, bigInteger1.byteValue());
-      assertEquals((short)0, bigInteger1.shortValue());
-
-
-}
-
-  public void test051_pred8()  throws Throwable  {
-      byte[] byteArray0 = new byte[2];
-      byteArray0[1] = (byte)5;
-      BigInteger bigInteger0 = new BigInteger(byteArray0);
-      assertNotNull(bigInteger0);
-      assertEquals(2, byteArray0.length);
-      assertArrayEquals(new byte[] {(byte)0, (byte)5}, byteArray0);
-      assertEquals((short)5, bigInteger0.shortValue());
-      assertEquals((byte)5, bigInteger0.byteValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 279);
-      assertNotNull(bigInteger1);
-      assertEquals(2, byteArray0.length);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertArrayEquals(new byte[] {(byte)0, (byte)5}, byteArray0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((short)5, bigInteger0.shortValue());
-      assertEquals((byte)5, bigInteger0.byteValue());
-      assertEquals((byte) (-19), bigInteger1.byteValue());
-      assertEquals((short)25069, bigInteger1.shortValue());
-
-
-}
-
-  public void test071_pred9()  throws Throwable  {
-      boolean boolean0 = MathUtils.equals((-1525.46185), (-1.0));
-      assertFalse(boolean0);
-    org.junit.Assert.assertTrue(boolean0);
-
-}
-
+@Test
   public void test072_pred10()  throws Throwable  {
       int[] intArray0 = new int[2];
       intArray0[0] = (-2535);
@@ -3246,6 +3256,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(intArray1.equals((Object)intArray0));
 }
 
+@Test
   public void test073_pred11()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double[] doubleArray1 = new double[9];
@@ -3264,6 +3275,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
+@Test
   public void test074_pred12()  throws Throwable  {
       int[] intArray0 = new int[7];
       intArray0[0] = 1;
@@ -3282,6 +3294,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(intArray1.equals((Object)intArray0));
 }
 
+@Test
   public void test075_pred13()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       doubleArray0[0] = (-1108.331755);
@@ -3300,6 +3313,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
+@Test
   public void test076_pred14()  throws Throwable  {
       int[] intArray0 = new int[2];
       intArray0[0] = 2239;
@@ -3318,6 +3332,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(intArray1.equals((Object)intArray0));
 }
 
+@Test
   public void test077_pred15()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       doubleArray0[0] = (-778.53708779);
@@ -3336,6 +3351,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
+@Test
   public void test096_pred16()  throws Throwable  {
       int[] intArray0 = new int[7];
       int[] intArray1 = new int[5];
@@ -3354,6 +3370,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test098_pred17()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double[] doubleArray1 = new double[0];
@@ -3372,6 +3389,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test100_pred18()  throws Throwable  {
       int[] intArray0 = new int[5];
       int[] intArray1 = new int[3];
@@ -3390,6 +3408,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test102_pred19()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double[] doubleArray1 = new double[0];
@@ -3408,13 +3427,15 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       }
 }
 
-  public void test139_pred20()  throws Throwable  {
-      boolean boolean0 = MathUtils.equals(0.7937005259840998, 0.15, 179);
-      assertFalse(boolean0);
-    org.junit.Assert.assertTrue(boolean0);
+//@Test
+//  public void test139_pred20()  throws Throwable  {
+//      boolean boolean0 = MathUtils.equals(0.7937005259840998, 0.15, 179);
+//      assertFalse(boolean0);
+//    org.junit.Assert.assertTrue(boolean0);
+//
+//}
 
-}
-
+@Test
   public void test140_pred21()  throws Throwable  {
       boolean boolean0 = MathUtils.equals((-0.2499999701976776), (-0.2499999701976776), 106);
       assertTrue(boolean0);
@@ -3422,13 +3443,15 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
 
 }
 
-  public void test141_pred22()  throws Throwable  {
-      boolean boolean0 = MathUtils.equals((-0.010714690733195933), 1.0, 1.0);
-      assertFalse(boolean0);
-    org.junit.Assert.assertTrue(boolean0);
+//@Test
+//  public void test141_pred22()  throws Throwable  {
+//      boolean boolean0 = MathUtils.equals((-0.010714690733195933), 1.0, 1.0);
+//      assertFalse(boolean0);
+//    org.junit.Assert.assertTrue(boolean0);
+//
+//}
 
-}
-
+@Test
   public void test142_pred23()  throws Throwable  {
       boolean boolean0 = MathUtils.equals(2303.0, 2303.0, (-0.2499999997677497));
       assertTrue(boolean0);
@@ -3436,6 +3459,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
 
 }
 
+@Test
   public void test145_pred24()  throws Throwable  {
       boolean boolean0 = MathUtils.equals(0.0, -0.0);
       assertTrue(boolean0);
@@ -3443,63 +3467,67 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
 
 }
 
-  public void test166_pred25()  throws Throwable  {
-      BigInteger bigInteger0 = BigInteger.TEN;
-      assertNotNull(bigInteger0);
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, bigInteger0);
-      assertNotNull(bigInteger1);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      assertEquals((short) (-7168), bigInteger1.shortValue());
-      assertEquals((byte)0, bigInteger1.byteValue());
+//@Test
+//  public void test166_pred25()  throws Throwable  {
+//      BigInteger bigInteger0 = BigInteger.TEN;
+//      assertNotNull(bigInteger0);
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, bigInteger0);
+//      assertNotNull(bigInteger1);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//      assertEquals((short) (-7168), bigInteger1.shortValue());
+//      assertEquals((byte)0, bigInteger1.byteValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
+//@Test
+//  public void test167_pred26()  throws Throwable  {
+//      BigInteger bigInteger0 = BigInteger.ZERO;
+//      assertNotNull(bigInteger0);
+//      assertEquals((byte)0, bigInteger0.byteValue());
+//      assertEquals((short)0, bigInteger0.shortValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, bigInteger0);
+//      assertNotNull(bigInteger1);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((byte)0, bigInteger0.byteValue());
+//      assertEquals((short)0, bigInteger0.shortValue());
+//      assertEquals((byte)1, bigInteger1.byteValue());
+//      assertEquals((short)1, bigInteger1.shortValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
-}
+//@Test
+//  public void test169_pred27()  throws Throwable  {
+//      BigInteger bigInteger0 = BigInteger.TEN;
+//      assertNotNull(bigInteger0);
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//
+//      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 2038L);
+//      assertNotNull(bigInteger1);
+//      assertNotSame(bigInteger0, bigInteger1);
+//      assertNotSame(bigInteger1, bigInteger0);
+//      assertFalse(bigInteger1.equals((Object)bigInteger0));
+//      assertEquals((byte)10, bigInteger0.byteValue());
+//      assertEquals((short)10, bigInteger0.shortValue());
+//      assertEquals((short)0, bigInteger1.shortValue());
+//      assertEquals((byte)0, bigInteger1.byteValue());
+//    org.junit.Assert.assertTrue(bigInteger0);
+//
+//}
 
-  public void test167_pred26()  throws Throwable  {
-      BigInteger bigInteger0 = BigInteger.ZERO;
-      assertNotNull(bigInteger0);
-      assertEquals((byte)0, bigInteger0.byteValue());
-      assertEquals((short)0, bigInteger0.shortValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, bigInteger0);
-      assertNotNull(bigInteger1);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((byte)0, bigInteger0.byteValue());
-      assertEquals((short)0, bigInteger0.shortValue());
-      assertEquals((byte)1, bigInteger1.byteValue());
-      assertEquals((short)1, bigInteger1.shortValue());
-
-
-}
-
-  public void test169_pred27()  throws Throwable  {
-      BigInteger bigInteger0 = BigInteger.TEN;
-      assertNotNull(bigInteger0);
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      
-      BigInteger bigInteger1 = MathUtils.pow(bigInteger0, 2038L);
-      assertNotNull(bigInteger1);
-      assertNotSame(bigInteger0, bigInteger1);
-      assertNotSame(bigInteger1, bigInteger0);
-      assertFalse(bigInteger1.equals((Object)bigInteger0));
-      assertEquals((byte)10, bigInteger0.byteValue());
-      assertEquals((short)10, bigInteger0.shortValue());
-      assertEquals((short)0, bigInteger1.shortValue());
-      assertEquals((byte)0, bigInteger1.byteValue());
-
-
-}
-
+@Test
   public void test207_pred28()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       doubleArray0[0] = Double.NaN;
@@ -3515,33 +3543,35 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
-  public void test251_pred29()  throws Throwable  {
-      double[] doubleArray0 = new double[2];
-      doubleArray0[1] = (-930.8);
-      double[] doubleArray1 = MathUtils.normalizeArray(doubleArray0, 2);
-      assertNotNull(doubleArray1);
-      assertEquals(2, doubleArray0.length);
-      assertEquals(2, doubleArray1.length);
-      assertNotSame(doubleArray0, doubleArray1);
-      assertNotSame(doubleArray1, doubleArray0);
-      assertArrayEquals(new double[] {0.0, (-930.8)}, doubleArray0, 0.01);
-      assertArrayEquals(new double[] {-0.0, 2.0}, doubleArray1, 0.01);
-      assertFalse(doubleArray1.equals((Object)doubleArray0));
-      
-      boolean boolean0 = MathUtils.equalsIncludingNaN(doubleArray1, doubleArray0);
-      assertEquals(2, doubleArray0.length);
-      assertEquals(2, doubleArray1.length);
-      assertNotSame(doubleArray0, doubleArray1);
-      assertNotSame(doubleArray1, doubleArray0);
-      assertFalse(boolean0);
-      assertArrayEquals(new double[] {0.0, (-930.8)}, doubleArray0, 0.01);
-      assertArrayEquals(new double[] {-0.0, 2.0}, doubleArray1, 0.01);
-      assertFalse(doubleArray0.equals((Object)doubleArray1));
-      assertFalse(doubleArray1.equals((Object)doubleArray0));
+//@Test
+//  public void test251_pred29()  throws Throwable  {
+//      double[] doubleArray0 = new double[2];
+//      doubleArray0[1] = (-930.8);
+//      double[] doubleArray1 = MathUtils.normalizeArray(doubleArray0, 2);
+//      assertNotNull(doubleArray1);
+//      assertEquals(2, doubleArray0.length);
+//      assertEquals(2, doubleArray1.length);
+//      assertNotSame(doubleArray0, doubleArray1);
+//      assertNotSame(doubleArray1, doubleArray0);
+//      assertArrayEquals(new double[] {0.0, (-930.8)}, doubleArray0, 0.01);
+//      assertArrayEquals(new double[] {-0.0, 2.0}, doubleArray1, 0.01);
+//      assertFalse(doubleArray1.equals((Object)doubleArray0));
+//
+//      boolean boolean0 = MathUtils.equalsIncludingNaN(doubleArray1, doubleArray0);
+//      assertEquals(2, doubleArray0.length);
+//      assertEquals(2, doubleArray1.length);
+//      assertNotSame(doubleArray0, doubleArray1);
+//      assertNotSame(doubleArray1, doubleArray0);
+//      assertFalse(boolean0);
+//      assertArrayEquals(new double[] {0.0, (-930.8)}, doubleArray0, 0.01);
+//      assertArrayEquals(new double[] {-0.0, 2.0}, doubleArray1, 0.01);
+//      assertFalse(doubleArray0.equals((Object)doubleArray1));
+//      assertFalse(doubleArray1.equals((Object)doubleArray0));
+//    org.junit.Assert.assertTrue(doubleArray1);
+//
+//}
 
-
-}
-
+@Test
   public void test252_pred30()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double[] doubleArray1 = new double[0];
@@ -3559,6 +3589,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
+@Test
   public void test256_pred31()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       double[] doubleArray1 = new double[4];
@@ -3576,6 +3607,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
 }
 
+@Test
   public void test257_pred32()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       boolean boolean0 = MathUtils.equals((double[]) null, doubleArray0);
@@ -3584,6 +3616,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
 }
 
+@Test
   public void test258_pred33()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       boolean boolean0 = MathUtils.equals(doubleArray0, (double[]) null);
@@ -3592,6 +3625,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
 }
 
+@Test
   public void test259_pred34()  throws Throwable  {
       boolean boolean0 = MathUtils.equals((double[]) null, (double[]) null);
       assertTrue(boolean0);
@@ -3599,6 +3633,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
 
 }
 
+@Test
   public void test262_pred35()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       doubleArray0[1] = Double.NaN;
@@ -3608,6 +3643,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       assertArrayEquals(new double[] {0.0, Double.NaN, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
 }
 
+@Test
   public void test263_pred36()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -3621,6 +3657,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test264_pred37()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -3634,6 +3671,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test268_pred38()  throws Throwable  {
       boolean boolean0 = MathUtils.equals((double) 2068L, (double) (-2809L), Double.POSITIVE_INFINITY);
       assertTrue(boolean0);
@@ -3641,6 +3679,7 @@ public class MathUtils_ESTest extends MathUtils_ESTest_scaffolding {
 
 }
 
+@Test
   public void test301_pred39()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       boolean boolean0 = MathUtils.equals(doubleArray0, doubleArray0);
