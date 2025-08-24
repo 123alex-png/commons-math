@@ -1411,12 +1411,14 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       assertEquals(0.0, double0, 0.01);
   }
 
+@Test
   public void test024_pred1()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = StatUtils.sum(doubleArray0, 2, 1);
       assertEquals(0.0, double0, 0.01);
 }
 
+@Test
   public void test025_pred2()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       doubleArray0[1] = 732.262222191969;
@@ -1424,6 +1426,7 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       assertEquals(732.262222191969, double0, 0.01);
 }
 
+@Test
   public void test026_pred3()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       doubleArray0[2] = (-7.800414592973399E-9);
@@ -1431,6 +1434,7 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       assertEquals((-7.800414592973399E-9), double0, 0.01);
 }
 
+@Test
   public void test027_pred4()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       doubleArray0[0] = 348.0225253;
@@ -1438,6 +1442,7 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       assertEquals(348.0225253, double0, 0.01);
 }
 
+@Test
   public void test028_pred5()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       doubleArray0[0] = (-31.91648019814);
@@ -1445,6 +1450,7 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       assertEquals((-31.91648019814), double0, 0.01);
 }
 
+@Test
   public void test075_pred6()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       // Undeclared exception!
@@ -1460,6 +1466,7 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test076_pred7()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -1474,6 +1481,7 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test077_pred8()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -1488,12 +1496,14 @@ public class StatUtils_ESTest extends StatUtils_ESTest_scaffolding {
       }
 }
 
+@Test
   public void test102_pred9()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = StatUtils.sum(doubleArray0);
       assertEquals(0.0, double0, 0.01);
 }
 
+@Test
   public void test109_pred10()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       // Undeclared exception!
