@@ -802,6 +802,7 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
       }
   }
 
+@Test
   public void test22_pred1()  throws Throwable  {
 
     try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
@@ -814,6 +815,7 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
 
 }
 
+@Test
   public void test23_pred2()  throws Throwable  {
       RandomDataImpl randomDataImpl0 = new RandomDataImpl();
       try { 
@@ -824,7 +826,7 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
       }
   }
 
-
+@Test
   public void test30_pred3()  throws Throwable  {
 
     try {      RandomAdaptor randomAdaptor0 = new RandomAdaptor((RandomGenerator) null);
@@ -847,6 +849,7 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
 
 }
 
+@Test
   public void test45_pred4()  throws Throwable  {
 
     try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
@@ -859,6 +862,7 @@ public class RandomDataImpl_ESTest extends RandomDataImpl_ESTest_scaffolding {
 
 }
 
+@Test
   public void test46_pred5()  throws Throwable  {
 
     try {      RandomDataImpl randomDataImpl0 = new RandomDataImpl();
