@@ -20,7 +20,7 @@ public class SimplexSolver_ESTest_scaffolding {
   @org.junit.Rule
   public org.evosuite.runtime.vnet.NonFunctionalRequirementRule nfr = new org.evosuite.runtime.vnet.NonFunctionalRequirementRule();
 
-  private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+  private static final java.util.Properties defaultProperties = (java.util.Properties) System.getProperties().clone();
 
   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
 
@@ -43,7 +43,7 @@ public class SimplexSolver_ESTest_scaffolding {
   @AfterClass
   public static void clearEvoSuiteFramework(){ 
     Sandbox.resetDefaultSecurityManager(); 
-    java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+    System.setProperties((java.util.Properties) defaultProperties.clone());
   } 
 
   @Before
@@ -71,9 +71,9 @@ public class SimplexSolver_ESTest_scaffolding {
 
   public static void setSystemProperties() {
  
-    java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
-    java.lang.System.setProperty("user.dir", "/home/icse2022_artifact/bugs-dot-jar/commons-math"); 
-    java.lang.System.setProperty("java.io.tmpdir", "/tmp"); 
+    System.setProperties((java.util.Properties) defaultProperties.clone());
+    System.setProperty("user.dir", "/home/icse2022_artifact/bugs-dot-jar/commons-math");
+    System.setProperty("java.io.tmpdir", "/tmp");
   }
 
   private static void initializeClasses() {
