@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1731852c-a628-45ea-a172-d7a2bda5ee3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randoop-tests/randoop/tests/ErrorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randoop-tests/randoop/tests/ErrorTest0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randoop-tests/randoop/tests/RegressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randoop-tests/randoop/tests/RegressionTest0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randoop-tests/randoop/tests/RegressionTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randoop-tests/randoop/tests/RegressionTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/commons/math3/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/commons/math3/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/commons/math3/test$SplitResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/math3/test$SplitResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/commons/math3/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/math3/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="1731852c-a628-45ea-a172-d7a2bda5ee3a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,6 +173,7 @@
       <workItem from="1757855541231" duration="421000" />
       <workItem from="1757858730248" duration="503000" />
       <workItem from="1757860396150" duration="337000" />
+      <workItem from="1757941237342" duration="309000" />
     </task>
     <servers />
   </component>
