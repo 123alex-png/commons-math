@@ -7,21 +7,13 @@ import java.util.stream.IntStream;
 
 public class test {
 
-//    public static void main(String[] args) {
-//        try {
-//            double[] samples = {10.0, 20.0, 30.0};
-//            double[] probs = {0.2, 0.5, 0.3};
-//            double[] ps = {0.3, 0.65, 0.9};
-//            double scaleFactor = 2.0;
-//
-//            testAdditivePerturbationEffect(samples, probs, ps, scaleFactor);
-//            System.out.println("Test passed.");
-//        } catch (AssertionError e) {
-//            System.err.println("Test failed: " + e.getMessage());
-//            e.printStackTrace();
-//            System.exit(1);
-//        }
-//    }
+    public static void main(String[] args) {
+        double[] doubleArray2 = new double[] { 1, 10.0f };
+        double[] doubleArray5 = new double[] { 0.70710678d, 1.0E-6d };
+        // during test generation this statement threw an exception of type org.apache.commons.math3.exception.NoBracketingException in error
+        org.apache.commons.math3.test.testAdditivePerturbationEffect(doubleArray2, doubleArray5, doubleArray5, 0.3333333d);
+
+    }
     /**
      * 核心测试方法：对原始样本和概率进行缩放扰动后，验证逆累积分布行为是否一致。
      * 如果输出不一致，则抛出 AssertionError。
