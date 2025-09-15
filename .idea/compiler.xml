@@ -9,5 +9,8 @@
         <module name="commons-math3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons-math4" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

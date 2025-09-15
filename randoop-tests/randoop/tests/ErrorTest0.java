@@ -25,22 +25,6 @@ public class ErrorTest0 {
         if (debug)
             System.out.format("%n%s%n", "ErrorTest0.test1");
         // during test generation this statement threw an exception of type java.lang.AssertionError in error
-        org.apache.commons.math3.test.testShiftedArcConsistency(0.5d, (double) 1, 1.0d, 2.0d);
-    }
-
-    @Test
-    public void test2() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test2");
-        // during test generation this statement threw an exception of type java.lang.AssertionError in error
-        org.apache.commons.math3.test.testShiftedArcConsistency((-0.0d), 1.0E-4d, 0.0d, 1.0E-8d);
-    }
-
-    @Test
-    public void test3() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "ErrorTest0.test3");
-        // during test generation this statement threw an exception of type java.lang.AssertionError in error
-        org.apache.commons.math3.test.testShiftedArcConsistency(1.0E-10d, (double) 1.0f, 1.0d, 2.0d);
+        org.apache.commons.math3.test.testShiftedArcConsistency(0.0d, (double) 1, (double) 0, (double) (short) 1);
     }
 }
